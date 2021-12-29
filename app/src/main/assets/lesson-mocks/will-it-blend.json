@@ -1,0 +1,251 @@
+{
+  "lesson": {
+    "id": "lesson",
+    "trainers": [
+      {
+        "type":"listening",
+        "interaction":"choose",
+        "puzzle_helper":false,
+        "dictate":false,
+        "translation_visibility":"full",
+        "title":"Listen and pick the correct item",
+        "image":null,
+        "item_groups":[
+          {
+            "title":null,
+            "image":null,
+            "items":[
+
+              {
+                "id": "f00f22e87de63f7c94ccc4685db0e3d3",
+                "display_language_text": "to board",
+                "learn_language_text": "((*an Bord gehen))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "c7d3cabd64e1530863a1698f2fcb1042"
+                },
+                "sound": {
+                  "id": "767362a24cfa30a0eaee07b3de96aa4c"
+                }
+              },
+              {
+                "id": "c662120e01bc7654f69d874da7df33c5",
+                "display_language_text": "the plane",
+                "learn_language_text": "das ((*Flugzeug))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "69f0fba676380e3d5d23cafa49f21f52"
+                },
+                "sound": {
+                  "id": "5fd0d60e16771aa617e3700bdaf8db13"
+                }
+              },
+              {
+                "id": "1eeaeadeeff166b4229360525957a829",
+                "display_language_text": "Which films are they showing at the cinema today?",
+                "learn_language_text": "((*Welche)) ((*Filme)) ((*laufen)) ((*heute im)) ((*Kino?))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "491e61a109af5fcc282d78518ff423ed"
+                },
+                "sound": {
+                  "id": "a8b880f003d0c09badcadf474f304d92"
+                }
+              },
+              {
+                "id": "ed68074bf553e9056f0014cace0e82c5",
+                "display_language_text": "the fossil fuel",
+                "learn_language_text": "der ((*fossile Brennstoff))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "78ad92b474d5f110b8ffe813417f424c"
+                },
+                "sound": {
+                  "id": "5fa421448632f7285747b9113dfef55e"
+                }
+              },
+              {
+                "id": "049471ef849373604428c498aaae91d4",
+                "display_language_text": "the flight attendant (masc.)",
+                "learn_language_text": "der ((*Flugbegleiter))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "13f0513dd5ddeb6f110d9513da63493e"
+                },
+                "sound": {
+                  "id": "82d8119ed95a34cba9a4b0eb37a9805b"
+                }
+              },
+              {
+                "id": "d15590f551fdcc543d56e3d30f18495f",
+                "display_language_text": "the game",
+                "learn_language_text": "das ((*Spiel))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "530118d7aebb7aaef03064c68c843adf"
+                },
+                "sound": {
+                  "id": "bc5bea7317de589c09bbdeaa5cd33bd8"
+                }
+              },
+              {
+                "id": "c51d8fbbd425e6ec06d8374394b01e0a",
+                "display_language_text": "the room service",
+                "learn_language_text": "der ((*Zimmerservice))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "804fcde3a8f8f1ffa788dd3b59423eee"
+                },
+                "sound": {
+                  "id": "9193a39b0df9dfc6f76943ffc3051501"
+                }
+              },
+              {
+                "id": "f0a1a4d607f22374b1b1559cfb646199",
+                "display_language_text": "Do you like sauerkraut?",
+                "learn_language_text": "Magst du ((*Sauerkraut))?",
+                "info_text": "",
+                "speaker_role": "m1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "f622e19a06a23a192fe53817a6ab5cee"
+                },
+                "sound": {
+                  "id": "953d94bdf052611bacd18c05fffd5bac"
+                }
+              },
+              {
+                "id": "83b29474dec07be85fd698100a241a76",
+                "display_language_text": "The yogurt is a bit flavorless.",
+                "learn_language_text": "((*Der)) ((*Joghurt)) ((*ist)) ((*ein)) ((*bisschen)) ((*fade.))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "51b73c18431d9f087fdde5b090793ae2"
+                },
+                "sound": {
+                  "id": "5fc38d460719ed7572f4ce58926c8b38"
+                }
+              },
+              {
+                "id": "7596d3c3ad40e2166234a1afa2e57f09",
+                "display_language_text": "to run",
+                "learn_language_text": "((*laufen))",
+                "info_text": "",
+                "speaker_role": "n1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {
+                  "id": "e5f6e92f8bae393901cbe33fdb1f9517"
+                },
+                "sound": {
+                  "id": "85c8b2ba03014a3884f8aa1a77864594"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Lina und Luis treffen sich zum ersten Mal seit Monaten.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "61004e92d29865a26ac1b658fd6e4fdd",
+                "type": "phrase",
+                "display_language_text": "Hello Lina! Lovely to see you!",
+                "learn_language_text": "Hallo Lina! ((*Schön|Komisch|Echt kacke)), dich zu sehen!",
+                "info_text": "Das sagt man doch recht häufig.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8854774469235f1114461eb4d45264",
+                "type": "task",
+                "display_language_text": "This is a task without popup, it gives context about the dialog. Tasks don't have a translation, they are display language items.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "56ef7c6f8a577a971114461eb4d45264",
+                "type": "phrase",
+                "display_language_text": "Hi Luis, yes, very nice! I'm quite tired today because I'm sick.",
+                "learn_language_text": "Hi Luis, ja, ich freue ((mir|mein|*mich)) auch! Ich bin heute sehr müde, weil ich ((*krank|frank|weh)) bin.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "cb16b36161e9f21d37f61281ef2be994",
+                "type": "phrase",
+                "display_language_text": "**What do** \"you\" 'have'?",
+                "learn_language_text": "((*Was|*Click here|Welche|Womit)) **hast** \"du\" 'denn'?",
+                "info_text": "It's ok to ask about someone's illness, but don't be too inquisitive!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "6ab59104c5ec3034f3dda5556c6f224a",
+                "type": "phrase",
+                "display_language_text": "Ah, just a common cold, but I feel pretty bad this time.",
+                "learn_language_text": "Ah, nur eine normale Erkältung, aber es geht mir ziemlich dreckig diesmal.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

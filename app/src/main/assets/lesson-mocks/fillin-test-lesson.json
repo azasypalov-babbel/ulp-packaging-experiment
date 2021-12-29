@@ -1,0 +1,63 @@
+{
+  "lesson": {
+    "id": "8e4cbadf44cc45f1958d2c37b8233f3e",
+    "trainers": [
+      {
+        "type":"card",
+        "interaction":"write",
+        "puzzle_helper":false,
+        "dictate":false,
+        "translation_visibility":"partial",
+        "title":"Complete the missing ending",
+        "image":{
+          "id": "5d1146ccca2b4ad3a19d22454ad9ba70"
+        },
+        "item_groups":[
+          {
+            "title":null,
+            "image":null,
+            "items":[
+              {
+                "id": "92730e6629d749678b2ce2a294992db9",
+                "display_language_text": "I live",
+                "learn_language_text": "io abit((o))",
+                "info_text": "",
+                "speaker_role": "f1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {},
+                "sound": {
+                  "id": "93bf4b4175b340d7afbf60650025cebc"
+                }
+              },{
+                "id": "6cf69fb950f44e1496af34cfcfe97faa",
+                "display_language_text": "you live",
+                "learn_language_text": "tu abit((i))",
+                "info_text": "",
+                "speaker_role": "f1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {},
+                "sound": {
+                  "id": "a8ab3274c5b84b2587077a8f55f65ef0"
+                }
+              },{
+                "id": "60e7467a1c974f41b998acd8d738ab25",
+                "display_language_text": "he/she lives, you (formal) live",
+                "learn_language_text": "lui/lei/Lei abit((a))",
+                "info_text": "",
+                "speaker_role": "f1",
+                "type": "phrase",
+                "spoofed_texts": [],
+                "image": {},
+                "sound": {
+                  "id": "1fa89aa2137f49c3be08005d3189d582"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

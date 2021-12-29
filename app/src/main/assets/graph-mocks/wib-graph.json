@@ -1,0 +1,46 @@
+{
+  "learn_language": {
+    "id": "DEU",
+    "name": "German",
+    "unlocked": true,
+    "course_overviews": [
+      {
+        "id": "course-overview",
+        "title": "Demo",
+        "description": "An overview of our demo lessons.",
+        "unlocked": true,
+        "courses": [
+          {
+            "id": "wib-course",
+            "title": "Will it blend?",
+            "description": "Will the Universal Lesson Player blend in Android Framework?",
+            "active": true,
+            "completed": false,
+            "lessons": [
+              {
+                "id": "will-it-blend",
+                "title": "will-it-blend",
+                "description": "",
+                "unlocked": true,
+                "completed": false,
+                "include": {
+                  "id": "will-it-blend"
+                }
+              },
+              {
+                "id": "fillin-test-lesson",
+                "title": "fillin-test-lesson",
+                "description": "",
+                "unlocked": true,
+                "completed": false,
+                "include": {
+                  "id": "fillin-test-lesson"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
