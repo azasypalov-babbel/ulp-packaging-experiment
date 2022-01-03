@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextReveal /> when NOT in Webview it renders 1`] = `
+.c1 {
+  font-family: Milliard-Medium,sans-serif;
+  color: #394149;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: center;
+}
+
+.c1 > strong,
+.c1 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c1 > em,
+.c1 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c1 > strong em,
+.c1 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #d1eefc;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  max-width: 20rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+<TextReveal>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.span
+        color="spaceGray"
+        fontFamily="fontMilliardMedium"
+        fontSize="large"
+        textAlign="center"
+      >
+        <span
+          className="c1"
+          color="spaceGray"
+          fontFamily="fontMilliardMedium"
+          fontSize="large"
+        >
+          ?
+        </span>
+      </styled.span>
+    </div>
+  </styled.div>
+</TextReveal>
+`;
+
+exports[`<TextReveal /> when in Webview it renders 1`] = `
+.c1 {
+  font-family: Milliard-Medium,sans-serif;
+  color: #394149;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c1 > strong,
+.c1 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c1 > em,
+.c1 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c1 > strong em,
+.c1 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #d1eefc;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  max-width: 20rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+<TextReveal>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.span
+        color="spaceGray"
+        fontFamily="fontMilliardMedium"
+        fontSize="large"
+        textAlign="center"
+      >
+        <span
+          className="c1"
+          color="spaceGray"
+          fontFamily="fontMilliardMedium"
+          fontSize="large"
+        >
+          ?
+        </span>
+      </styled.span>
+    </div>
+  </styled.div>
+</TextReveal>
+`;

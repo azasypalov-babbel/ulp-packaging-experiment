@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeakInteraction should render correctly 1`] = `
+<Fragment>
+  <styled.span
+    color="spaceGray"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<b>Kani:</b> Hi, du bist Nicole, oder?",
+      }
+    }
+  />
+</Fragment>
+`;

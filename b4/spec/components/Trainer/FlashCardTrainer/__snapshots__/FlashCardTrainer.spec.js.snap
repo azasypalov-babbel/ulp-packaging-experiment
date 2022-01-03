@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlashCardTrainer /> renders 1`] = `
+<styled.div>
+  <Title
+    as="h1"
+    color="spaceGray"
+    data-selector="flashcard-title"
+    fontFamily="fontMilliardSemi"
+    fontSize="big"
+    textAlign="center"
+  >
+    title
+  </Title>
+  <styled.div>
+    <SoundPlayer
+      audio={
+        Object {
+          "playSound": [MockFunction],
+          "playSoundWithState": [MockFunction],
+          "preload": [MockFunction],
+          "reset": [MockFunction],
+          "stop": [MockFunction],
+        }
+      }
+      render={[Function]}
+      url="http://localhost/d3572193477785b1bc030cdf61ec777c.mp3"
+    />
+  </styled.div>
+  <styled.div />
+  <Toolbar>
+    <WithKeypress(IconButton)
+      data-selector="reveal-shortcuts-button"
+      iconName="KeyboardIcon"
+      onClick={[MockFunction]}
+    />
+  </Toolbar>
+</styled.div>
+`;
+
+exports[`<FlashCardTrainer /> renders 2`] = `
+<Transition
+  animateOnMount={true}
+  enterAfterExit={false}
+  enterPose="enter"
+  exitPose="exit"
+  flipMove={false}
+  preEnterPose="preEnter"
+>
+  <Connect(WithShortcutHint(WithKeypress(WithAnimations(FlashCard))))
+    animationExitLeft={true}
+    imageChildren={false}
+    imageUrl="http://image.jpg"
+    key="549f9ecf012e7f3b636ec9e4ac5a0d10"
+    listenToKey="1"
+    onClick={[Function]}
+  >
+    <styled.div>
+      <styled.span
+        color="spaceGray"
+        data-selector="display-language-text"
+        textAlign="center"
+      >
+        Two
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <TextReveal
+        reveal={false}
+      >
+        <span
+          data-selector="learn-language-text"
+        >
+          One
+        </span>
+      </TextReveal>
+    </styled.div>
+  </Connect(WithShortcutHint(WithKeypress(WithAnimations(FlashCard))))>
+</Transition>
+`;

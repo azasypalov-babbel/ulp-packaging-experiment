@@ -1,0 +1,1 @@
+wti pull lang/lesson_player/*.* && sed -i '' -e '$a\' ./lang/lesson_player/*.*

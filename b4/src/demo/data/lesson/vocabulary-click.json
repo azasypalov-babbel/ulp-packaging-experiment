@@ -1,0 +1,141 @@
+{
+  "lesson": {
+    "id": "vocabulary-click",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "09437b83d2ab596d842bedbbad785e0f",
+                "type": "phrase",
+                "display_language_text": "the odd looking older man",
+                "learn_language_text": "((der schrullige aussehende ältere Mann))",
+                "info_text": null,
+                "image": {
+                  "id": "950bd6c7f77c58f83e180965068c876e"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f12de0956da816c96fa8d81047ce5068",
+                "type": "phrase",
+                "display_language_text": "the woman reading a book",
+                "learn_language_text": "((die ein Buch lesende Frau))",
+                "info_text": null,
+                "image": {
+                  "id": "7d1ec57581fd2afbcc5e7eb7f41665b7"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "3e5aa538ad872009f3741ebf0489a99c",
+                "type": "phrase",
+                "display_language_text": "the scandinavian style red house",
+                "learn_language_text": "((das im skandivischen Stil gebaute rote Haus))",
+                "info_text": null,
+                "image": {
+                  "id": "88913bfd5e26bce551811a4f2ad1a0ef"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "click",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "memory",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "7c4f7bae5e2ff79a8076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the electrical engineer",
+                "learn_language_text": "die Elektroingenieurin",
+                "info_text": null,
+                "image": {
+                  "id": "7ae9016df8ac195842d143f68faa5d79"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "1219079338373c868076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the astronaut",
+                "learn_language_text": "die Astronautin",
+                "info_text": null,
+                "image": {
+                  "id": "7ae9016df8ac195842d143f68faa5d79"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c26b99276363d47a4e2efa0dadd52610",
+                "type": "phrase",
+                "display_language_text": "the physicist",
+                "learn_language_text": "die Physikerin",
+                "info_text": null,
+                "image": {
+                  "id": "c773aa7885bb9b6e2a1a79f8e62c5b63"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "6e1d3142bbfc2e7da2d05ed554cca6d8",
+                "type": "phrase",
+                "display_language_text": "the doctor",
+                "learn_language_text": "die Ärztin",
+                "info_text": null,
+                "image": {
+                  "id": "ac8df600a83959c2eae6ca1287fff488"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

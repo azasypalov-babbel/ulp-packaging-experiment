@@ -1,0 +1,107 @@
+{
+  "lesson": {
+    "id": "dialog-speak",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "none",
+        "title": null,
+        "description": "Kani, die neue in der Firma, geht zu Nicole, die gerade ein Buch in der Hand hält..",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "54b0d60a168b9e9bdb979d5086e3c53f",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Kani:** ((Hi, du bist Nicole, oder?))",
+                "info_text": "1. Man kennt sich noch nicht.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8854774469235f1114461fa4d45264",
+                "type": "task",
+                "display_language_text": "This conversation shows how two people in the office meet for the first time.",
+                "learn_language_text": "Diese Unterhaltung zeigt, wie sich zwei Leute im Büro zum ersten Mal treffen.",
+                "info_text": "Even a task can have an info_text - at least in dialog show",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "bc5f79073fdfe12440cc35b1f5206c16",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Nicole:** Ja, genau! Und du bist... ??",
+                "info_text": "2. Jetzt lernt man sich kennen.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f2"
+              },
+              {
+                "id": "d84e14c70b75585d007f70c6cbfab585",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Kani:** ((Ich bin Kani, die neue Entwicklerin im Hodwer-Team.))",
+                "info_text": "3. Das Howder-Team ist sehr wichtig.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "4a950244f45c4cc1ba48903a9e315203",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Nicole:** Ah ok, schön, dich kennenzulernen! Soll ich dir ein wenig das Büro zeigen?",
+                "info_text": "4. Nicole möchte Kani das Büro zeigen.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f2"
+              },
+              {
+                "id": "d84e14c70b75585d007f70c61bfab585",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Kani:** ((Ja gerne! Bislang kenne ich eigentlich nur meinen Sitzplatz.))",
+                "info_text": "5. Man möchte auch gerne wissen, wo Toiletten sind, oder die Küche.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "4a950244f45c4cc1b548903a8e325204",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "**Nicole:** Na dann zeige ich dir jetzt mal unsere Kaffeeküche, und wir können einen Kaffee oder Tee trinken, wenn du magst.",
+                "info_text": "6. So lebten sie glücklich und zufrieden bis ans Ende ihrer Tage",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f2"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

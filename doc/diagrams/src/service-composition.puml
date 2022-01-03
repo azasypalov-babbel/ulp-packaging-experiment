@@ -1,0 +1,42 @@
+@startuml service-composition
+rectangle Build {
+
+  node "Platform Services" as services {
+    [A]
+    [B]
+    [C]
+  }
+
+  package "Platform Barrel" as platform {
+    [C] as platformC
+  }
+
+  node "Base Services" as base {
+    [A] as baseA
+    [B] as baseB
+    [C] as baseC
+  }
+}
+
+rectangle Runtime {
+
+  node "Runtime Services" as runtime {
+    [A] as runtimeA
+    [B] as runtimeB
+    [C] as runtimeC
+  }
+
+  package "Feature Barrel" as feature {
+    [A] as featureA
+  }
+}
+
+baseA --> A
+baseB --> B
+platformC --> C
+
+C --> runtimeC
+B --> runtimeB
+A .> runtimeA
+featureA .> runtimeA : enabled?
+@enduml

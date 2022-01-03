@@ -1,0 +1,61 @@
+{
+  "lesson": {
+    "id": "dictate-choicebuttons",
+    "trainers": [
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "13b0b14cdeb9b331c0553ce7b3733d3c",
+                "type": "phrase",
+                "display_language_text": "My neighbor Toroto is really big.",
+                "learn_language_text": "M((e|*ei|ie))n Nachbar Totoro ist wirklich ((\"klein\"|***groß**|*cl**i**ck here|**w\"inzi\"g**)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c4b90807c320dec9774f8fb38e3f13c2",
+                "type": "task",
+                "display_language_text": null,
+                "learn_language_text": "Salut!",
+                "info_text": "Salut!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "5981cdf85a28bed2325e4db63d84415a",
+                "type": "phrase",
+                "display_language_text": "You are important to us.",
+                "learn_language_text": "((*Ihr|Wir|Uns)) seid uns wichtig.",
+                "info_text": "Totoro ist auch wichtig",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

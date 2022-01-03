@@ -1,0 +1,16 @@
+@startuml trainer-state
+
+[*] --> READY : Trainer Mounted
+READY: Trainer is ready for user input. \n In this state the Interaction can be used.
+READY -left-> DONE : Complete item \n(Sound Playing)
+READY --> READY : Complete item \n(non-interactive / no sound)
+DONE --> READY : Complete item \n(Sound Finished)
+READY --> AWAITING_CONTINUE : Complete item \n(Last item)
+AWAITING_CONTINUE --> DONE : Continue
+
+AWAITING_CONTINUE: Waiting for the user to press \n the final continue button of the trainer. 
+
+DONE: No user interaction accepted.
+DONE --> [*] : Trainer unmounted \nby onFinish
+
+@enduml

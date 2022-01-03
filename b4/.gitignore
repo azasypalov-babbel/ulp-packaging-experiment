@@ -1,0 +1,11 @@
+# Node modules
+/node_modules
+npm-debug.log
+
+# React storybook
+/storybook-static
+
+# Local config
+.env
+
+/coverage

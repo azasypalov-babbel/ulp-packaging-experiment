@@ -1,0 +1,14 @@
+export const MATCHING_TRAINER_STATE = {
+  READY: 'READY',
+  PLAYING_AUDIO: 'PLAYING_AUDIO',
+  AWAITING_CONTINUE: 'AWAITING_CONTINUE',
+  DONE: 'DONE',
+  FEEDBACK: 'FEEDBACK'
+};
+
+export const ITEM_FRAGMENT_TYPE = {
+  BASE: 'BASE',
+  OPTION: 'OPTION'
+};
+
+export const trainerMaxWidth = '56rem';

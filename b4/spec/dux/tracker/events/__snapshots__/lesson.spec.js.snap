@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lesson events lesson:(started|restarted) lesson:restarted renders expected event 1`] = `
+Object {
+  "event": "lesson:restarted",
+  "payload": Object {
+    "content_release_id": "mocked-content-release-id",
+    "content_uuid": "mocked-lesson-uuid",
+    "course_overview_title": "course overview title",
+    "course_overview_uuid": "b4aaa224fddb67950dd5e8a84ed3302e",
+    "course_title": "Beginner I - Course 1",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "number_of_lessons_in_course": 2,
+    "position_in_course": 0,
+  },
+  "version": 11,
+}
+`;
+
+exports[`lesson events lesson:(started|restarted) lesson:started renders expected event 1`] = `
+Object {
+  "event": "lesson:started",
+  "payload": Object {
+    "content_release_id": "mocked-content-release-id",
+    "content_uuid": "mocked-lesson-uuid",
+    "course_overview_title": "course overview title",
+    "course_overview_uuid": "b4aaa224fddb67950dd5e8a84ed3302e",
+    "course_title": "Beginner I - Course 1",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "number_of_lessons_in_course": 2,
+    "position_in_course": 0,
+  },
+  "version": 11,
+}
+`;
+
+exports[`lesson events lesson:trainer_item:* lesson:trainer_item:attempted 1`] = `
+Object {
+  "event": "lesson:trainer_item:attempted",
+  "payload": Object {
+    "attempt_number": null,
+    "attempt_result": null,
+    "attempt_text": null,
+    "content_release_id": "mocked-content-release-id",
+    "content_uuid": "mocked-lesson-uuid",
+    "dictate": false,
+    "interaction": "choose",
+    "item_position_in_trainer": null,
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "mocked-learning-activity-id",
+    "locale": "en",
+    "number_of_items_in_trainer": null,
+    "number_of_trainers_in_lesson": 1,
+    "puzzle_helper": false,
+    "session_loop": 1,
+    "target_text": null,
+    "trainer_item_type": null,
+    "trainer_item_uuid": null,
+    "trainer_position_in_lesson": 1,
+    "trainer_shown": "Card_Choicebuttons",
+    "trainer_type": "card",
+    "translation_visibility": "full",
+    "vocabulary_name": null,
+    "vocabulary_translation": null,
+  },
+  "version": 14,
+}
+`;

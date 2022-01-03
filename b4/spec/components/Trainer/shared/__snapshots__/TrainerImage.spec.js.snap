@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrainerImage /> when image does not exists it renders 1`] = `<Fragment />`;
+
+exports[`<TrainerImage /> when image exists it renders 1`] = `
+<Fragment>
+  <div>
+    <styled.img
+      src="mock-image-url.jpg"
+    />
+  </div>
+</Fragment>
+`;

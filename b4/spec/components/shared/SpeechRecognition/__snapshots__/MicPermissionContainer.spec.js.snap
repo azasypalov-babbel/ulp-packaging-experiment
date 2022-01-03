@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MicPermissionContainer /> #startMicOnboarding tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "mic_permission_screen",
+    "gui_element": "continue_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicPermissionContainer /> on mount tracks gui:shown 1`] = `
+Object {
+  "event": "gui:shown",
+  "payload": Object {
+    "gui_container": "mic_permission_screen",
+    "gui_element": "continue_button",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicPermissionContainer /> when mic permission are granted renders MicPermission component 1`] = `
+<WithServices(WithTranslations(MicPermission))
+  continueEnabled={true}
+  dataSelector="mic-onboarding-with-mic-enabled"
+  isReview={false}
+  onClick={[Function]}
+/>
+`;
+
+exports[`<MicPermissionContainer /> when mic permission are not granted renders MicPermission component 1`] = `
+<WithServices(WithTranslations(MicPermission))
+  continueEnabled={false}
+  dataSelector="mic-onboarding-with-mic-disabled"
+  isReview={false}
+  onClick={[Function]}
+/>
+`;

@@ -1,0 +1,71 @@
+{
+  "lesson": {
+    "id": "dialog-dictatechoice",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Thomas und Bodil sind am Frühstücken.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "141e2425eab6b19029c61fea28806875",
+                "type": "phrase",
+                "display_language_text": "Good morning Bodil, would you like a coffee? There are also rolls!",
+                "learn_language_text": "((*Guten **Morgen**|Guten \"Mittag\"|Guten **\"Abend\"**)) Bodil, möchtest du einen Kaffee? Es gibt auch Bröchen!",
+                "info_text": "Bei einem größeren Frühstück mit Freunden gibt es fast immer Brötchen.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "05170e9b0c1b63f0f5e7c6227a840b7d",
+                "type": "phrase",
+                "display_language_text": "Yes, please, a black coffee. And which type of rolls are there?",
+                "learn_language_text": "Ja gerne, ((eine|ein|*einen)) schwarzen Kaffee. Und was ((*für|zu|in)) Brötchen gibt es denn?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "89894607e68c6d4395e7c6227a840b7d",
+                "type": "task",
+                "display_language_text": "Thomas holt die Brötchen raus. Es gibt sehr viele verschiedene Sorten.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "7d1e26bd0be0421ec2afc49c71362cb0",
+                "type": "phrase",
+                "display_language_text": "I'd like to have a sunflower seed roll and a dark potato dough roll",
+                "learn_language_text": "Ich hätte ((*gerne|*totally|seife)) ein Sonnenblumenkernbrötchen und ein dunkles Kartoffelbrötchen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+export type { ApiContentSharedModelsItemGroupYmlPropertiesItemGroup } from './models/ApiContentSharedModelsItemGroupYmlPropertiesItemGroup';
+export { ApiContentSharedModelsItemYmlPropertiesItem } from './models/ApiContentSharedModelsItemYmlPropertiesItem';
+export type { ApiContentSharedModelsLessonYmlPropertiesLesson } from './models/ApiContentSharedModelsLessonYmlPropertiesLesson';
+export type { ApiContentSharedModelsV01RemoteLessonYml } from './models/ApiContentSharedModelsV01RemoteLessonYml';
+export { ApiContentSharedModelsV01TrainerYmlPropertiesTrainer } from './models/ApiContentSharedModelsV01TrainerYmlPropertiesTrainer';
+export type { ApiContentSharedModelsV1RemoteLessonYml } from './models/ApiContentSharedModelsV1RemoteLessonYml';
+export { ApiContentSharedModelsV1TrainerYmlPropertiesTrainer } from './models/ApiContentSharedModelsV1TrainerYmlPropertiesTrainer';
+export type { ApiContentSharedModelsV2RemoteLessonYml } from './models/ApiContentSharedModelsV2RemoteLessonYml';
+export { ApiContentSharedModelsV2TrainerYmlPropertiesTrainer } from './models/ApiContentSharedModelsV2TrainerYmlPropertiesTrainer';
+export type { ApiContentSharedModelsV3RemoteLessonYml } from './models/ApiContentSharedModelsV3RemoteLessonYml';
+export { ApiContentSharedModelsV3TrainerYmlPropertiesTrainer } from './models/ApiContentSharedModelsV3TrainerYmlPropertiesTrainer';

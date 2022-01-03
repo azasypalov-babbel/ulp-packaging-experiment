@@ -1,0 +1,61 @@
+{
+  "lesson": {
+    "id": "dictate-fillin",
+    "trainers": [
+      {
+        "type": "dictate",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "19daa5ecf0cbce6b9e8b6c7de2af1a46",
+                "type": "phrase",
+                "display_language_text": "It's eight o'clock",
+                "learn_language_text": "((*Es ist 8 Uhr|*Es ist acht Uhr)).",
+                "info_text": "morgens oder abends?",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "a4c5abc767f1fcb6c4c7db5eb48377c3",
+                "type": "phrase",
+                "display_language_text": "Are you going to leave tomorrow?",
+                "learn_language_text": "((Wirst du)) morgen abreisen?",
+                "info_text": "Ich träume davon, mit dir zu verreisen!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f76abe68f3ae50a006d21db0f592f945",
+                "type": "phrase",
+                "display_language_text": "Type äää and then üüü.",
+                "learn_language_text": "Tippe ((äää)) und dann ((üüü)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

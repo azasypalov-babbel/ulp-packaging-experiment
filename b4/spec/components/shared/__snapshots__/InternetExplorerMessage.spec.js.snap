@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InternetExplorerMessage /> "Show me how" button contains the correct link 1`] = `null`;
+
+exports[`<InternetExplorerMessage /> it renders 1`] = `
+<styled.div>
+  <styled.div>
+    <Styled(styled.div)>
+      <img
+        src="test-file-stub"
+      />
+      <Styled(styled.span)
+        color="spaceGray"
+        fontFamily="fontLeituraBold"
+        fontSize="big"
+      >
+        Please upgrade your web browser
+      </Styled(styled.span)>
+      <Styled(styled.span)
+        color="spaceGrayW15"
+        fontSize="base"
+      >
+        Your browser, Internet Explorer, doesn’t work well with Babbel’s latest features.
+      </Styled(styled.span)>
+      <div>
+        <WithKeypress(styled.button)
+          data-selector="remind-me-later-button"
+          onClick={[MockFunction]}
+        >
+          Remind me later
+        </WithKeypress(styled.button)>
+        <Styled(WithKeypress(styled.button))
+          href="https://support.babbel.com/hc/en-us/articles/205600268-What-are-the-system-requirements-needed-to-use-Babbel-"
+          primary={true}
+        >
+          Show me how
+        </Styled(WithKeypress(styled.button))>
+      </div>
+    </Styled(styled.div)>
+  </styled.div>
+</styled.div>
+`;

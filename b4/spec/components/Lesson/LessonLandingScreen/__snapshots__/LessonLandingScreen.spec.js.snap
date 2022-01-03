@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LessonLandingScreen /> Rendering it renders correctly 1`] = `
+<styled.div>
+  <styled.div
+    src="https://images.babbel.com/v1.0.0/images/mocklessonimageid/variations/landscape/resolutions/1024x768.jpg"
+  />
+  <styled.div>
+    <styled.div>
+      <Styled(styled.span)
+        as="h1"
+        color="spaceGrayW28"
+        fontSize="small"
+      >
+        mock course title
+      </Styled(styled.span)>
+      <Styled(styled.span)
+        color="spaceGray"
+        fontFamily="fontLeituraBold"
+        fontSize="large"
+      >
+        mock lesson title
+      </Styled(styled.span)>
+      <Styled(styled.span)
+        as="h1"
+      >
+        mock lesson description
+      </Styled(styled.span)>
+      <styled.div>
+        <Styled(styled.span)
+          as="p"
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<div>mock lesson description hmtl</div>",
+            }
+          }
+          fontSize="small"
+        />
+        <Styled(WithKeypress(styled.button))
+          onClick={[MockFunction]}
+          primary={true}
+        >
+          Start lesson
+        </Styled(WithKeypress(styled.button))>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

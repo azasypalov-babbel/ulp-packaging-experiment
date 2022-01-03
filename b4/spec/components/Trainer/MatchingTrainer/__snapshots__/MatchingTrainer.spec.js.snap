@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MatchGrid /> while not giving feedback should match snapshot 1`] = `
+<styled.div>
+  <PoseGroup
+    flipMove={true}
+  >
+    <WithAnimations(MatchingItem)
+      appearance="ACTIVE"
+      data-solution-id="162d2e047d4a2badc81e00aa574b15e0"
+      id="162d2e047d4a2badc81e00aa574b15e0"
+      isClickable={true}
+      isHidden={false}
+      isMatched={false}
+      isOption={false}
+      itemText="the fruit"
+      key="162d2e047d4a2badc81e00aa574b15e0BASE"
+      onOptionClick={[MockFunction]}
+      order={-1}
+      position="BASE"
+      showTranslation={true}
+      tooltipPosition="BOTTOM"
+      trainerActive={true}
+    />
+    <WithAnimations(MatchingItem)
+      appearance="DEFAULT"
+      data-solution-id="162d2e047d4a2badc81e00aa574b15e0"
+      id={0}
+      isClickable={true}
+      isMatched={false}
+      isOption={true}
+      itemText="das Obst"
+      key="0OPTION"
+      onOptionClick={[MockFunction]}
+      order={1}
+      position="OPTION"
+      showTranslation={true}
+      tooltipPosition="BOTTOM"
+      trainerActive={true}
+      translation="translation"
+    />
+    <WithAnimations(MatchingItem)
+      appearance="DEFAULT"
+      data-solution-id="33df6f3aa74afbe4d6f541825f6e758d"
+      id="33df6f3aa74afbe4d6f541825f6e758d"
+      isClickable={true}
+      isHidden={false}
+      isMatched={false}
+      isOption={false}
+      itemText="the cheese"
+      key="33df6f3aa74afbe4d6f541825f6e758dBASE"
+      onOptionClick={[MockFunction]}
+      order={1}
+      position="BASE"
+      showTranslation={true}
+      tooltipPosition="BOTTOM"
+      trainerActive={true}
+    />
+    <WithAnimations(MatchingItem)
+      appearance="DEFAULT"
+      data-solution-id="33df6f3aa74afbe4d6f541825f6e758d"
+      id={1}
+      isClickable={true}
+      isMatched={false}
+      isOption={true}
+      itemText="der Käse"
+      key="1OPTION"
+      onOptionClick={[MockFunction]}
+      order={1}
+      position="OPTION"
+      showTranslation={true}
+      tooltipPosition="BOTTOM"
+      trainerActive={true}
+      translation="translation cheese"
+    />
+    <WithAnimations(MatchingItem)
+      appearance="DEFAULT"
+      data-solution-id="b9cf73d37e1dd788faa5bf3cfaf3fd44"
+      id="b9cf73d37e1dd788faa5bf3cfaf3fd44"
+      isClickable={true}
+      isHidden={false}
+      isMatched={false}
+      isOption={false}
+      itemText="the rhino"
+      key="b9cf73d37e1dd788faa5bf3cfaf3fd44BASE"
+      onOptionClick={[MockFunction]}
+      order={1}
+      position="BASE"
+      showTranslation={true}
+      tooltipPosition="BOTTOM"
+      trainerActive={true}
+    />
+    <WithAnimations(MatchingItem)
+      appearance="DEFAULT"
+      data-solution-id="b9cf73d37e1dd788faa5bf3cfaf3fd44"
+      id={2}
+      isClickable={true}
+      isMatched={false}
+      isOption={true}
+      itemText="das Rhinozeros"
+      key="2OPTION"
+      onOptionClick={[MockFunction]}
+      order={1}
+      position="OPTION"
+      showTranslation={true}
+      tooltipPosition="TOP"
+      trainerActive={true}
+      translation="translation rhino"
+    />
+  </PoseGroup>
+  <styled.div />
+</styled.div>
+`;

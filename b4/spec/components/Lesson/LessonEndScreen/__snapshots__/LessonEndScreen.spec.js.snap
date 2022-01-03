@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LessonEndScreen /> Content Locked it renders 1`] = `
+<Fragment>
+  <styled.div>
+    <div
+      className="loy"
+    >
+      <div
+        className="loy-lesson-end-screen"
+        data-selector="lesson-end-screen-container"
+      >
+        <div
+          className="loy-lesson-end-screen__content"
+        >
+          <FeedbackMessage
+            displayName="Christian"
+            feedbackMessageText="feedbackMessageText"
+            grade="high"
+            learnLanguageAlpha3="FRA"
+          />
+          <AnswersCounter
+            correctAnswersText="correctAnswersText"
+            correctItemsCount={8}
+            onCounterEnd={[MockFunction]}
+            totalItemsCount={12}
+          />
+          <FeedbackActions
+            accessLessonContentButton="accessLessonContentButton"
+            accessLessonContentText="accessLessonContentText"
+            correctErrorsButton="correctErrorsButton"
+            isUnlocked={false}
+            onAccessContentButtonClick={[MockFunction]}
+            onCorrectErrorsButtonClick={[MockFunction]}
+            onReturnHomeButtonClick={[MockFunction]}
+            purgeableItemsCount={4}
+            returnHomeButton="returnHomeButton"
+          />
+        </div>
+      </div>
+    </div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<LessonEndScreen /> Content Unlocked it renders 1`] = `
+<Fragment>
+  <styled.div>
+    <div
+      className="loy"
+    >
+      <div
+        className="loy-lesson-end-screen"
+        data-selector="lesson-end-screen-container"
+      >
+        <div
+          className="loy-lesson-end-screen__content"
+        >
+          <FeedbackMessage
+            displayName="Christian"
+            feedbackMessageText="feedbackMessageText"
+            grade="high"
+            learnLanguageAlpha3="FRA"
+          />
+          <AnswersCounter
+            correctAnswersText="correctAnswersText"
+            correctItemsCount={8}
+            onCounterEnd={[MockFunction]}
+            totalItemsCount={12}
+          />
+          <FeedbackActions
+            accessLessonContentButton="accessLessonContentButton"
+            accessLessonContentText="accessLessonContentText"
+            correctErrorsButton="correctErrorsButton"
+            isUnlocked={true}
+            onAccessContentButtonClick={[MockFunction]}
+            onCorrectErrorsButtonClick={[MockFunction]}
+            onReturnHomeButtonClick={[MockFunction]}
+            purgeableItemsCount={4}
+            returnHomeButton="returnHomeButton"
+          />
+        </div>
+      </div>
+    </div>
+  </styled.div>
+</Fragment>
+`;

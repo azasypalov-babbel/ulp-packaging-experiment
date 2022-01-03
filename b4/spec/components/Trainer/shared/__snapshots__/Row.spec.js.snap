@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> phrase row it renders 1`] = `
+<PhraseRow
+  data-item-type="phrase"
+  delayIndex={0}
+  translation="Un dia frio en Los Angeles"
+>
+  <styled.span>
+    A cold day in L.A
+  </styled.span>
+</PhraseRow>
+`;
+
+exports[`<Row /> task row it renders 1`] = `
+<Styled(styled.div)
+  data-item-type="task"
+  delayIndex={0}
+  translation="Un dia frio en Los Angeles"
+>
+  <styled.span>
+    A cold day in L.A
+  </styled.span>
+</Styled(styled.div)>
+`;

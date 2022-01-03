@@ -1,0 +1,49 @@
+{
+  "lesson": {
+    "id": "dialog-choicebuttons-short",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Foo und Bar treffen sich schon wieder. Diesmal nach einem Meeting.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "b46cda52b3ad64766ac1b658fd6e4fdd",
+                "type": "phrase",
+                "display_language_text": "Hi Bar! I'm just returning from a meeting. It was so.. uhh.. productive.",
+                "learn_language_text": "Hallo Bar! Ich ((kam|*komme|käme)) gerade aus einem Meeting. Es ((*war|*yes|ist|wäre)) so.. ähh.. produktiv.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5f6fb670973075cf1114461eb4d45264",
+                "type": "phrase",
+                "display_language_text": "Hi Foo. Oh, it seems you need to read the meeting guidelines on confluence.",
+                "learn_language_text": "Hi Foo. Oh, dann musst ((*du|er)) wohl mal die Meeting-Regeln in Confluence lesen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

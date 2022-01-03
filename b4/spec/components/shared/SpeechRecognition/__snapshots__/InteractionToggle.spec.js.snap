@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InteractionToggle /> it tracks "gui:interacted" gui_variant: with_mic gui_container: dialogSpeak 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "dialogSpeak",
+    "gui_element": "mic_toggle",
+    "gui_variant": "without_mic",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 2,
+}
+`;
+
+exports[`<InteractionToggle /> it tracks "gui:interacted" gui_variant: with_mic gui_container: vocabularySpeak 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "vocabularySpeak",
+    "gui_element": "mic_toggle",
+    "gui_variant": "without_mic",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 2,
+}
+`;
+
+exports[`<InteractionToggle /> it tracks "gui:interacted" gui_variant: without_mic gui_container: dialogSpeak 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "dialogSpeak",
+    "gui_element": "mic_toggle",
+    "gui_variant": "with_mic",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 2,
+}
+`;
+
+exports[`<InteractionToggle /> it tracks "gui:interacted" gui_variant: without_mic gui_container: vocabularySpeak 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "vocabularySpeak",
+    "gui_element": "mic_toggle",
+    "gui_variant": "with_mic",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 2,
+}
+`;
+
+exports[`<InteractionToggle /> when mic is disabled it renders 1`] = `
+<IconButton
+  contentClassName="hide-for-small"
+  data-selector="mic-toggle"
+  iconName="MicIcon"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  I can speak now
+</IconButton>
+`;
+
+exports[`<InteractionToggle /> when mic is enabled it renders 1`] = `
+<IconButton
+  contentClassName="hide-for-small"
+  data-selector="mic-toggle"
+  iconName="MicOff"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  I can't speak now
+</IconButton>
+`;

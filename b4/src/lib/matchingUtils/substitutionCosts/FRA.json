@@ -1,0 +1,341 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "â",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "æ",
+      "cost": 0
+    },
+    {
+      "character": "a",
+      "replacement": "â",
+      "cost": 0
+    },
+    {
+      "character": "â",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "â",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "â",
+      "replacement": "æ",
+      "cost": 0
+    },
+    {
+      "character": "a",
+      "replacement": "æ",
+      "cost": 0
+    },
+    {
+      "character": "æ",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "æ",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "æ",
+      "replacement": "â",
+      "cost": 0
+    },
+    {
+      "character": "c",
+      "replacement": "ç",
+      "cost": 0
+    },
+    {
+      "character": "ç",
+      "replacement": "c",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "ê",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "ë",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "ê",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "ë",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "ê",
+      "cost": 0
+    },
+    {
+      "character": "ê",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "ê",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "ê",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "ê",
+      "replacement": "ë",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "ë",
+      "cost": 0
+    },
+    {
+      "character": "ë",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "ë",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "ë",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "ë",
+      "replacement": "ê",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "ï",
+      "cost": 0
+    },
+    {
+      "character": "ï",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "î",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "î",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ô",
+      "cost": 0
+    },
+    {
+      "character": "ô",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "ô",
+      "replacement": "œ",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "œ",
+      "cost": 0
+    },
+    {
+      "character": "œ",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "œ",
+      "replacement": "ô",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "ù",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "ù",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "û",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "û",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "ú",
+      "cost": 0
+    },
+    {
+      "character": "ú",
+      "replacement": "û",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "ù",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "û",
+      "cost": 0
+    },
+    {
+      "character": "y",
+      "replacement": "ÿ",
+      "cost": 0
+    },
+    {
+      "character": "ÿ",
+      "replacement": "y",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "á",
+      "cost": 0
+    },
+    {
+      "character": "á",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "ú",
+      "cost": 0
+    },
+    {
+      "character": "ú",
+      "replacement": "ù",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "à",
+    "â",
+    "æ",
+    "ç",
+    "é",
+    "è",
+    "ê",
+    "ë",
+    "ï",
+    "î",
+    "ô",
+    "œ",
+    "ù",
+    "ü",
+    "ÿ"
+  ]
+}

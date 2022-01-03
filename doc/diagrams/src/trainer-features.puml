@@ -1,0 +1,15 @@
+@startuml item-playback-sound
+start
+partition "Trainer (Item Playback Sound)" {
+  repeat :Next interactive item;
+    if (Trainer.dictate flag?) then (yes)
+      :Play item sound>
+      :Interaction|
+    else (no)
+      :Interaction|
+      :Play item sound>
+    endif
+  repeat while (Has more interactive items?)
+}
+stop
+@enduml

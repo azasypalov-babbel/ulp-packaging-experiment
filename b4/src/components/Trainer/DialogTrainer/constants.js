@@ -1,0 +1,1 @@
+export const TIMEOUT_AFTER_CONTEXTUAL_INFO = 2000;

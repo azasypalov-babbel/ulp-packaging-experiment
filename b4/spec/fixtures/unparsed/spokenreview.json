@@ -1,0 +1,40 @@
+{
+  "type": "spokenreview",
+  "interaction": "speak",
+  "puzzle_helper": false,
+  "dictate": false,
+  "translation_visibility": "full",
+  "title": "Speak the correct translation",
+  "image": null,
+  "item_groups": [{
+    "title": null,
+    "image": null,
+    "items": [{
+      "id": "09180d48f40f53722edb62eec7673df4",
+      "display_language_text": "the peace",
+      "learn_language_text": "der ((*Frieden))",
+      "info_text": "",
+      "speaker_role": "N1",
+      "type": "phrase",
+      "image": {
+        "id": "43912fcd48aef3ae530c26e5af28e3b1"
+      },
+      "sound": {
+        "id": "d9749af7c8fe60a7107b0326040f4344"
+      }
+    }, {
+      "id": "99590db9b4a91f91a2337eb95f33de3a",
+      "display_language_text": "the border",
+      "learn_language_text": "die ((*Grenze))",
+      "info_text": "",
+      "speaker_role": "N1",
+      "type": "phrase",
+      "image": {
+        "id": "6bf7a1aed8949d3185fb319c36dbab7d"
+      },
+      "sound": {
+        "id": "96172e7e94931bdf178906c651564d09"
+      }
+    }]
+  }]
+}

@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlayButton /> it renders 1`] = `
+<StyledPlayButton
+  data-selector="play-button"
+  data-sound="has-ended"
+  disabled={false}
+  onClick={[Function]}
+  size="regular"
+>
+  <styled.div>
+    <WithTheme(VolumeIcon)
+      color="currentColor"
+      size="regular"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(ProgressCircle)
+      duration={0}
+      size="regular"
+    />
+  </styled.div>
+</StyledPlayButton>
+`;
+
+exports[`<PlayButton /> with disabled prop it renders 1`] = `
+<StyledPlayButton
+  data-selector="play-button"
+  data-sound="has-ended"
+  disabled={true}
+  onClick={[Function]}
+  size="regular"
+>
+  <styled.div>
+    <WithTheme(VolumeIcon)
+      color="currentColor"
+      size="regular"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(ProgressCircle)
+      duration={0}
+      size="regular"
+    />
+  </styled.div>
+</StyledPlayButton>
+`;
+
+exports[`<PlayButton /> with isPlaying prop it renders 1`] = `
+<StyledPlayButton
+  data-selector="play-button"
+  data-sound="is-playing"
+  disabled={false}
+  isPlaying={true}
+  onClick={[Function]}
+  size="regular"
+>
+  <styled.div>
+    <WithTheme(VolumeIcon)
+      color="currentColor"
+      size="regular"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(ProgressCircle)
+      duration={0}
+      isPlaying={true}
+      size="regular"
+    />
+  </styled.div>
+</StyledPlayButton>
+`;
+
+exports[`<PlayButton /> with isSlowPlayback prop and !isPlaying renders 1`] = `
+<StyledPlayButton
+  data-selector="play-button"
+  data-sound="has-ended"
+  disabled={false}
+  isSlowPlayback={true}
+  onClick={[Function]}
+  size="regular"
+>
+  <styled.div>
+    <WithTheme(VolumeIcon)
+      color="currentColor"
+      size="regular"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(ProgressCircle)
+      duration={0}
+      size="regular"
+    />
+  </styled.div>
+</StyledPlayButton>
+`;
+
+exports[`<PlayButton /> with isSlowPlayback prop and isPlaying renders StyledPlayButton 1`] = `
+<StyledPlayButton
+  data-selector="play-button"
+  data-sound="is-playing"
+  disabled={false}
+  isPlaying={true}
+  isSlowPlayback={true}
+  onClick={[Function]}
+  size="regular"
+>
+  <styled.div>
+    <WithTheme(VolumeIcon)
+      color="currentColor"
+      size="regular"
+    />
+  </styled.div>
+  <styled.div>
+    <WithTheme(ProgressCircle)
+      duration={0}
+      isPlaying={true}
+      size="regular"
+    />
+  </styled.div>
+</StyledPlayButton>
+`;

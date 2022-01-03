@@ -1,0 +1,730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChoiceItem /> it renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+  color: #394149;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:active {
+  border: none;
+  padding: calc(1px + 0.625rem) calc(0.625rem + 1px);
+  box-shadow: inset 0 2px 0 0 transparentize(0.5,#284b7c), inset 0 0 2px 0 transparentize(0.8,#284b7c);
+  background-color: #738ce6;
+  color: #ffffff;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+@media (hover:hover) {
+  .c0:hover {
+    border: none;
+    padding: calc(1px + 0.625rem) calc(0.625rem + 1px);
+    box-shadow: inset 0 -2px 0 0 transparentize(0.7,#284b7c);
+    background-color: #d1eefc;
+  }
+}
+
+<ChoiceItem
+  onClick={[Function]}
+>
+  <styled.button
+    onClick={[Function]}
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;
+
+exports[`<ChoiceItem /> when choice item is pressed that is-active class is added 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none;
+  padding: calc(1px + 0.625rem) calc(0.625rem + 1px);
+  box-shadow: inset 0 2px 0 0 transparentize(0.5,#284b7c), inset 0 0 2px 0 transparentize(0.8,#284b7c);
+  background-color: #738ce6;
+  color: #ffffff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+<ChoiceItem
+  onClick={[Function]}
+  pressed={true}
+>
+  <styled.button
+    onClick={[Function]}
+    pressed={true}
+  >
+    <button
+      className="c0 is-active"
+      onClick={[Function]}
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;
+
+exports[`<ChoiceItem /> with correctFeedback it renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #394149;
+  background-color: #d0ede7;
+  border: 1px solid #44cdc8;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+<ChoiceItem
+  correctFeedback={true}
+  onClick={[Function]}
+>
+  <styled.button
+    correctFeedback={true}
+    onClick={[Function]}
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;
+
+exports[`<ChoiceItem /> with disabled it renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+  color: #394149;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+<ChoiceItem
+  disabled={true}
+  onClick={[Function]}
+>
+  <styled.button
+    disabled={true}
+    onClick={[Function]}
+  >
+    <button
+      className="c0"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;
+
+exports[`<ChoiceItem /> with keyboardHintComponent it renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+  color: #394149;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:active {
+  border: none;
+  padding: calc(1px + 0.625rem) calc(0.625rem + 1px);
+  box-shadow: inset 0 2px 0 0 transparentize(0.5,#284b7c), inset 0 0 2px 0 transparentize(0.8,#284b7c);
+  background-color: #738ce6;
+  color: #ffffff;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+@media (hover:hover) {
+  .c0:hover {
+    border: none;
+    padding: calc(1px + 0.625rem) calc(0.625rem + 1px);
+    box-shadow: inset 0 -2px 0 0 transparentize(0.7,#284b7c);
+    background-color: #d1eefc;
+  }
+}
+
+<ChoiceItem
+  keyboardHintComponent={
+    <span>
+      hint
+    </span>
+  }
+  onClick={[Function]}
+>
+  <styled.button
+    keyboardHintComponent={
+      <span>
+        hint
+      </span>
+    }
+    onClick={[Function]}
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+    >
+      <div>
+        <span>
+          hint
+        </span>
+      </div>
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;
+
+exports[`<ChoiceItem /> with mistakeFeedback it renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  box-sizing: border-box;
+  min-height: 3rem;
+  max-width: 24rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.625rem 0.625rem;
+  font-family: Milliard-Book,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border: 1px solid #becedd;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #394149;
+  background-color: #ffdcdc;
+  border: 1px solid #ff4d4d;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  margin: 0 0.5rem;
+}
+
+.c2 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+<ChoiceItem
+  mistakeFeedback={true}
+  onClick={[Function]}
+>
+  <styled.button
+    mistakeFeedback={true}
+    onClick={[Function]}
+  >
+    <button
+      className="c0"
+      onClick={[Function]}
+    >
+      <styled.div>
+        <div
+          className="c1"
+        >
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "click",
+              }
+            }
+          >
+            <span
+              className="c2"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "click",
+                }
+              }
+            />
+          </styled.span>
+        </div>
+      </styled.div>
+    </button>
+  </styled.button>
+</ChoiceItem>
+`;

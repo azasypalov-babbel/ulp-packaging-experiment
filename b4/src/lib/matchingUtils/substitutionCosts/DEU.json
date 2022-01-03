@@ -1,0 +1,400 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "ä",
+      "cost": 0
+    },
+    {
+      "character": "ä",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ö",
+      "cost": 0
+    },
+    {
+      "character": "ö",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "s",
+      "replacement": "ß",
+      "cost": 0
+    },
+    {
+      "character": "ß",
+      "replacement": "s",
+      "cost": 0
+    },
+    {
+      "character": "a",
+      "replacement": "A",
+      "cost": 0
+    },
+    {
+      "character": "A",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "b",
+      "replacement": "B",
+      "cost": 0
+    },
+    {
+      "character": "B",
+      "replacement": "b",
+      "cost": 0
+    },
+    {
+      "character": "c",
+      "replacement": "C",
+      "cost": 0
+    },
+    {
+      "character": "C",
+      "replacement": "c",
+      "cost": 0
+    },
+    {
+      "character": "d",
+      "replacement": "D",
+      "cost": 0
+    },
+    {
+      "character": "D",
+      "replacement": "d",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "E",
+      "cost": 0
+    },
+    {
+      "character": "E",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "f",
+      "replacement": "F",
+      "cost": 0
+    },
+    {
+      "character": "F",
+      "replacement": "f",
+      "cost": 0
+    },
+    {
+      "character": "g",
+      "replacement": "G",
+      "cost": 0
+    },
+    {
+      "character": "G",
+      "replacement": "g",
+      "cost": 0
+    },
+    {
+      "character": "h",
+      "replacement": "H",
+      "cost": 0
+    },
+    {
+      "character": "H",
+      "replacement": "h",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "I",
+      "cost": 0
+    },
+    {
+      "character": "I",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "j",
+      "replacement": "J",
+      "cost": 0
+    },
+    {
+      "character": "J",
+      "replacement": "j",
+      "cost": 0
+    },
+    {
+      "character": "k",
+      "replacement": "K",
+      "cost": 0
+    },
+    {
+      "character": "K",
+      "replacement": "k",
+      "cost": 0
+    },
+    {
+      "character": "l",
+      "replacement": "L",
+      "cost": 0
+    },
+    {
+      "character": "L",
+      "replacement": "l",
+      "cost": 0
+    },
+    {
+      "character": "m",
+      "replacement": "M",
+      "cost": 0
+    },
+    {
+      "character": "M",
+      "replacement": "m",
+      "cost": 0
+    },
+    {
+      "character": "n",
+      "replacement": "N",
+      "cost": 0
+    },
+    {
+      "character": "N",
+      "replacement": "n",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "O",
+      "cost": 0
+    },
+    {
+      "character": "O",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "p",
+      "replacement": "P",
+      "cost": 0
+    },
+    {
+      "character": "P",
+      "replacement": "p",
+      "cost": 0
+    },
+    {
+      "character": "q",
+      "replacement": "Q",
+      "cost": 0
+    },
+    {
+      "character": "Q",
+      "replacement": "q",
+      "cost": 0
+    },
+    {
+      "character": "r",
+      "replacement": "R",
+      "cost": 0
+    },
+    {
+      "character": "R",
+      "replacement": "r",
+      "cost": 0
+    },
+    {
+      "character": "s",
+      "replacement": "S",
+      "cost": 0
+    },
+    {
+      "character": "S",
+      "replacement": "s",
+      "cost": 0
+    },
+    {
+      "character": "t",
+      "replacement": "T",
+      "cost": 0
+    },
+    {
+      "character": "T",
+      "replacement": "t",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "U",
+      "cost": 0
+    },
+    {
+      "character": "U",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "v",
+      "replacement": "V",
+      "cost": 0
+    },
+    {
+      "character": "V",
+      "replacement": "v",
+      "cost": 0
+    },
+    {
+      "character": "w",
+      "replacement": "W",
+      "cost": 0
+    },
+    {
+      "character": "W",
+      "replacement": "w",
+      "cost": 0
+    },
+    {
+      "character": "x",
+      "replacement": "X",
+      "cost": 0
+    },
+    {
+      "character": "X",
+      "replacement": "x",
+      "cost": 0
+    },
+    {
+      "character": "y",
+      "replacement": "Y",
+      "cost": 0
+    },
+    {
+      "character": "Y",
+      "replacement": "y",
+      "cost": 0
+    },
+    {
+      "character": "z",
+      "replacement": "Z",
+      "cost": 0
+    },
+    {
+      "character": "Z",
+      "replacement": "z",
+      "cost": 0
+    },
+    {
+      "character": "ä",
+      "replacement": "Ä",
+      "cost": 0
+    },
+    {
+      "character": "Ä",
+      "replacement": "ä",
+      "cost": 0
+    },
+    {
+      "character": "ö",
+      "replacement": "Ö",
+      "cost": 0
+    },
+    {
+      "character": "Ö",
+      "replacement": "ö",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "Ü",
+      "cost": 0
+    },
+    {
+      "character": "Ü",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "Ä",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "ä",
+      "replacement": "A",
+      "cost": 0
+    },
+    {
+      "character": "a",
+      "replacement": "Ä",
+      "cost": 0
+    },
+    {
+      "character": "A",
+      "replacement": "ä",
+      "cost": 0
+    },
+    {
+      "character": "Ö",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "ö",
+      "replacement": "O",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "Ö",
+      "cost": 0
+    },
+    {
+      "character": "O",
+      "replacement": "ö",
+      "cost": 0
+    },
+    {
+      "character": "Ü",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "U",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "Ü",
+      "cost": 0
+    },
+    {
+      "character": "U",
+      "replacement": "ü",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "ä",
+    "ö",
+    "ü",
+    "ß"
+  ]
+}

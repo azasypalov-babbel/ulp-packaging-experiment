@@ -1,0 +1,46 @@
+{
+  "type": "memory",
+  "description": null,
+  "interaction": "choose",
+  "puzzle_helper": false,
+  "dictate": false,
+  "translation_visibility": "full",
+  "title": "look i am a title",
+  "image": null,
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "d89b09580f1ad4e9c6636d6437b45915",
+          "display_language_text": "Il fait soleil.",
+          "learn_language_text": "Es ist sonnig.",
+          "info_text": null,
+          "image": {
+            "id": "3ed3f9a59c8ccab98c7c3e50995ec2d0"
+          },
+          "sound": {
+            "id": "6d66f1e9abd87e27c760b96ea1ad2a04"
+          },
+          "speaker_role": "m1",
+          "type": "phrase"
+        },
+        {
+          "id": "81d40947cc469004e609ce9da9ba6790",
+          "display_language_text": "Il y a du vent.",
+          "learn_language_text": "Es ist windig.",
+          "info_text": null,
+          "image": {
+            "id": "62d2c41204a3a090b46c113da41d3c84"
+          },
+          "sound": {
+            "id": "1a0de1a16a3cd45df76229a12e7ae75b"
+          },
+          "speaker_role": "m1",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

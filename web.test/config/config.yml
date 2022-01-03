@@ -1,0 +1,69 @@
+drivers:
+  # -------------------------------------------------------------
+  ipad:
+    type: appium
+    command_timeout: 5
+    desired_capabilities:
+      platformName: IOS
+      automationName: XCUITest
+      newCommandTimeout: 600
+      bundleId: com.babbel.LessonPlayerWebWrapper
+  # -------------------------------------------------------------
+  firefox:
+    type: selenium
+    url: http://0.0.0.0:4444/wd/hub
+    desired_capabilities:
+      browserName: firefox
+  # -------------------------------------------------------------
+  chrome:
+    type: selenium
+    capabilities:
+      accept_insecure_certs: true
+      browser_name: chrome
+    args:
+      - 'disable-device-discovery-notifications'
+      - 'disable-infobars'
+      - 'disable-gpu'
+      - 'disable-renderer-backgrounding'
+      - 'disable-web-security'
+      - 'ignore-certificate-errors'
+      - 'incognito'
+      - 'use-fake-device-for-media-stream'
+      - 'use-fake-ui-for-media-stream'
+      - 'window-size=1024,768'
+  #--------------------------------------------------------------
+  chrome-headless:
+    type: selenium
+    capabilities:
+      accept_insecure_certs: true
+      browser_name: chrome
+    args:
+      - 'headless'
+      - 'disable-gui'
+      - 'disable-device-discovery-notifications'
+      - 'disable-infobars'
+      - 'disable-gpu'
+      - 'disable-renderer-backgrounding'
+      - 'disable-web-security'
+      - 'ignore-certificate-errors'
+      - 'incognito'
+      - 'use-fake-device-for-media-stream'
+      - 'use-fake-ui-for-media-stream'
+  #--------------------------------------------------------------
+  chrome-docker:
+    type: selenium-remote
+    url: <%= ENV['WEBDRIVER_URL'] %>
+    capabilities:
+      browser_name: chrome
+      accept_insecure_certs: true
+    args:
+      - 'disable-device-discovery-notifications'
+      - 'disable-infobars'
+      - 'disable-gpu'
+      - 'disable-renderer-backgrounding'
+      - 'disable-web-security'
+      - 'ignore-certificate-errors'
+      - 'incognito'
+      - 'use-fake-device-for-media-stream'
+      - 'use-fake-ui-for-media-stream'
+      - 'window-size=1024,768'

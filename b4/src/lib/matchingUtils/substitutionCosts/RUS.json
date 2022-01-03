@@ -1,0 +1,39 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "e",
+      "replacement": "ë",
+      "cost": 0
+    },
+    {
+      "character": "ë",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "й",
+      "replacement": "и",
+      "cost": 0
+    },
+    {
+      "character": "и",
+      "replacement": "й",
+      "cost": 0
+    },
+    {
+      "character": "Ь",
+      "replacement": "Ъ",
+      "cost": 0
+    },
+    {
+      "character": "Ъ",
+      "replacement": "Ь",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "ë",
+    "й",
+    "Ъ"
+  ]
+}

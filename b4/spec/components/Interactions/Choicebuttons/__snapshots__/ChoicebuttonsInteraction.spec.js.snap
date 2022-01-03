@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Choicebuttons Interaction renders html 1`] = `
+<div>
+  <ChoicebuttonsInteractionNode
+    interactionState="INPUT"
+    key="0"
+    learnLanguageAlpha3="DEU"
+    node={
+      Object {
+        "active": true,
+        "attempt": Object {
+          "feedbackType": null,
+          "mistaken": false,
+          "number": null,
+          "pending": false,
+          "selection": null,
+          "solved": false,
+          "text": null,
+        },
+        "isLastInteractiveNode": true,
+        "targetChoices": Array [
+          Object {
+            "correct": false,
+            "oddSolution": false,
+            "sentence": "die",
+          },
+          Object {
+            "correct": true,
+            "oddSolution": false,
+            "sentence": "der",
+          },
+          Object {
+            "correct": false,
+            "oddSolution": false,
+            "sentence": "das",
+          },
+          Object {
+            "correct": true,
+            "oddSolution": false,
+            "sentence": "yes",
+          },
+        ],
+        "text": null,
+        "type": "gap",
+      }
+    }
+    onAttempt={[Function]}
+    onProceed={[Function]}
+    onRetry={[Function]}
+  />
+</div>
+`;

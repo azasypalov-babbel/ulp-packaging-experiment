@@ -1,0 +1,3 @@
+const NAMESPACE = 'PROFILE';
+
+export const FETCH_PROFILE = `${NAMESPACE}/FETCH_PROFILE`;

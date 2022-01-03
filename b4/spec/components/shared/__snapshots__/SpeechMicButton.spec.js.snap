@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SpeechMicButton /> it renders resting 1`] = `
+<styled.div
+  data-appearance="RESTING"
+  data-selector="mic-button"
+  visible={true}
+>
+  <ToolTip
+    isInline={false}
+    position="TOP"
+    text="Press to speak"
+    visible={false}
+  >
+    <MicButton
+      disabled={false}
+      isListening={false}
+      isUserSpeaking={false}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+    />
+  </ToolTip>
+</styled.div>
+`;
+
+exports[`<SpeechMicButton /> it renders with a tooltip 1`] = `
+<styled.div
+  data-appearance="RESTING"
+  data-selector="mic-button"
+  visible={true}
+>
+  <ToolTip
+    isInline={false}
+    position="TOP"
+    text="Press to speak"
+    visible={true}
+  >
+    <MicButton
+      disabled={false}
+      isListening={false}
+      isUserSpeaking={false}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+    />
+  </ToolTip>
+</styled.div>
+`;

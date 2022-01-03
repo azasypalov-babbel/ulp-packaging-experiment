@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Choicebuttons should render correctly 1`] = `
+<Styled(Sheet)
+  onClick={[Function]}
+>
+  <Choicebutton
+    data-choice="k"
+    data-correct={false}
+    data-position={0}
+    key="0"
+    listenToKey="1"
+    onClick={[Function]}
+    sentence="k"
+    shortcutsVisible={true}
+  >
+    k
+  </Choicebutton>
+  <Choicebutton
+    data-choice="K"
+    data-correct={true}
+    data-position={1}
+    key="1"
+    listenToKey="2"
+    onClick={[Function]}
+    sentence="K"
+    shortcutsVisible={true}
+  >
+    K
+  </Choicebutton>
+</Styled(Sheet)>
+`;

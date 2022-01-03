@@ -1,0 +1,20 @@
+{
+  "interaction_types":[
+    {
+      "id":"flashcard",
+      "count":35
+    },
+    {
+      "id":"listen",
+      "count":35
+    },
+    {
+      "id":"speak",
+      "count":35
+    },
+    {
+      "id":"write",
+      "count":35
+    }
+  ]
+}

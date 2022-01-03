@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconButton /> <IconButton /> with keyboardHintComponent it renders 1`] = `
+<Styled(styled.button)
+  onClick={[Function]}
+  type="button"
+>
+  <styled.div>
+    <styled.div>
+      <KeyboardHintComponent />
+    </styled.div>
+  </styled.div>
+</Styled(styled.button)>
+`;
+
+exports[`<IconButton /> <IconButton iconName="KeyboardIcon" /> it renders 1`] = `
+<Styled(styled.button)
+  onClick={[Function]}
+  type="button"
+>
+  <styled.div>
+    <styled.div>
+      <WithTheme(KeyboardIcon)
+        fillColor="currentColor"
+        size="1.5rem"
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.button)>
+`;
+
+exports[`<IconButton /> <IconButton negative iconName="CrossIcon" /> it renders 1`] = `
+<Styled(styled.button)
+  negative={true}
+  onClick={[Function]}
+  type="button"
+>
+  <styled.div>
+    <styled.div>
+      <WithTheme(CrossIcon)
+        fillColor="currentColor"
+        size="1.5rem"
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.button)>
+`;
+
+exports[`<IconButton /> <IconButton positive iconName="CheckIcon" /> it renders 1`] = `
+<Styled(styled.button)
+  onClick={[Function]}
+  positive={true}
+  type="button"
+>
+  <styled.div>
+    <styled.div>
+      <WithTheme(CheckIcon)
+        fillColor="currentColor"
+        size="1.5rem"
+      />
+    </styled.div>
+  </styled.div>
+</Styled(styled.button)>
+`;

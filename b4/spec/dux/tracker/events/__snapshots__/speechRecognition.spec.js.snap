@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`speech_recognition events speech_recognition:attempt_evaluated matches snapshot 1`] = `
+Object {
+  "event": "speech_recognition:attempt_evaluated",
+  "payload": Object {
+    "confidence_score": 100,
+    "engine_name": "WebAPISpeechRecognition",
+    "learn_language_alpha3": "DEU",
+    "lesson_context": "review",
+    "locale": "en",
+    "result": "unsolved",
+    "target_text": "Dieser Mann hätte gerne Muskeln",
+    "trainer_item_uuid": "3b03615626e3fa1065e39cf3b954c3f5",
+    "transcript": "rechercher un hôtel à Aubervilliers",
+  },
+  "version": 1,
+}
+`;

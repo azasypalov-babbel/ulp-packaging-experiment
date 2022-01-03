@@ -1,0 +1,9 @@
+/* loy global reset before importing cascada */
+
+.loy {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 15px; /* Needed as base for all childs to work in em's */
+}

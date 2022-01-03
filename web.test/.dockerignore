@@ -1,0 +1,12 @@
+Dockerfile*
+docker*
+.dockerignore
+.git*
+
+*/config-local.yml
+*/chrome-user-prefs
+
+README.md
+LICENSE
+
+*.log

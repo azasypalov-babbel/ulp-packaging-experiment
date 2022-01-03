@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SpeakItem /> it renders 1`] = `
+<styled.div
+  data-item-state="default"
+  data-selector="speak-item"
+  state="default"
+>
+  <styled.div>
+    <SoundOnIcon
+      size="rem(24px)"
+    />
+  </styled.div>
+  <Styled(styled.span)
+    color="spaceGray"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<i>Y sho era</i> el <b>mejor</b>",
+      }
+    }
+    fontFamily="fontMilliardBook"
+    fontSize={
+      Object {
+        "desktop": "medium",
+        "mobile": "base",
+      }
+    }
+  />
+</styled.div>
+`;

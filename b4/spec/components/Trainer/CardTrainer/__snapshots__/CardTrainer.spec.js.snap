@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardTrainer /> renders with full props a list of items 1`] = `
+<Fragment>
+  <TranslationVisibilityToggle
+    onClick={[MockFunction]}
+    translationVisibility="full"
+  />
+  <styled.div>
+    <CardTrainerLayout
+      data-selector="card-fillin"
+      imageId="0"
+      titleText="Card Fillin Title"
+    >
+      <Row
+        active={true}
+        delayIndex={0}
+        key="a"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={true}
+            item={
+              Object {
+                "displayLanguageText": "\\"Good morning\\", **dear** cousin.",
+                "id": "a",
+                "infoText": "Testing 123",
+                "learnLanguageText": "((Schöner|*Guten)) \\"Morgen\\", lieber **Cousin**",
+                "sound": Object {
+                  "id": "aa",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>Good morning</i>, <b>dear</b> cousin.",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="b"
+        onClick={null}
+        type="task"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "Ein Tag, ((zwei Tage)), **drei** \\"Tage\\"",
+                "id": "b",
+                "infoText": "Useful Info",
+                "type": "task",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="c"
+        onClick={null}
+        type="phrase"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Argentina <i>became</i> <b>world champion</b>!",
+            }
+          }
+          data-selector="non-interactive"
+        />
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Argentina <i>salio</i> <b>campeon</b>",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="d"
+        onClick={null}
+        type="task"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>Y sho era</i> el <b>mejor</b>",
+            }
+          }
+          data-selector="non-interactive"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="e"
+        onClick={null}
+        type="phrase"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "But <i>I</i> actually don't <b>like</b> football",
+            }
+          }
+          data-selector="non-interactive"
+        />
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Pero en realidad no <i>me</i> <b>gusta</b> el fútbol",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="f"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "\\"One\\" week consists of seven days, **or not?**",
+                "id": "f",
+                "learnLanguageText": "\\"Eine\\" ((Woche)) besteht aus ((sieben Tagen)), **oder?**",
+                "sound": Object {
+                  "id": "ff",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>One</i> week consists of seven days, <b>or not?</b>",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="g"
+        onClick={null}
+        type="task"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "Vier Tage, **fünf** \\"Tage\\", ((sechs Tage))",
+                "id": "g",
+                "type": "task",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="h"
+        onClick={null}
+        type="phrase"
+      />
+    </CardTrainerLayout>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`<CardTrainer /> renders without an image 1`] = `
+<Fragment>
+  <TranslationVisibilityToggle
+    onClick={[MockFunction]}
+    translationVisibility="full"
+  />
+  <styled.div>
+    <CardTrainerLayout
+      data-selector="card-fillin"
+      titleText="Card Fillin Title"
+    >
+      <Row
+        active={true}
+        delayIndex={0}
+        key="a"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={true}
+            item={
+              Object {
+                "displayLanguageText": "\\"Good morning\\", **dear** cousin.",
+                "id": "a",
+                "infoText": "Testing 123",
+                "learnLanguageText": "((Schöner|*Guten)) \\"Morgen\\", lieber **Cousin**",
+                "sound": Object {
+                  "id": "aa",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>Good morning</i>, <b>dear</b> cousin.",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="b"
+        onClick={null}
+        type="task"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "Ein Tag, ((zwei Tage)), **drei** \\"Tage\\"",
+                "id": "b",
+                "infoText": "Useful Info",
+                "type": "task",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="c"
+        onClick={null}
+        type="phrase"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Argentina <i>became</i> <b>world champion</b>!",
+            }
+          }
+          data-selector="non-interactive"
+        />
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Argentina <i>salio</i> <b>campeon</b>",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="d"
+        onClick={null}
+        type="task"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>Y sho era</i> el <b>mejor</b>",
+            }
+          }
+          data-selector="non-interactive"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="e"
+        onClick={null}
+        type="phrase"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "But <i>I</i> actually don't <b>like</b> football",
+            }
+          }
+          data-selector="non-interactive"
+        />
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Pero en realidad no <i>me</i> <b>gusta</b> el fútbol",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="f"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "\\"One\\" week consists of seven days, **or not?**",
+                "id": "f",
+                "learnLanguageText": "\\"Eine\\" ((Woche)) besteht aus ((sieben Tagen)), **oder?**",
+                "sound": Object {
+                  "id": "ff",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+        <styled.span
+          color="spaceGrayW28"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<i>One</i> week consists of seven days, <b>or not?</b>",
+            }
+          }
+          data-selector="item-translation"
+          fontSize="small"
+        />
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="g"
+        onClick={null}
+        type="task"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "Vier Tage, **fünf** \\"Tage\\", ((sechs Tage))",
+                "id": "g",
+                "type": "task",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="h"
+        onClick={null}
+        type="phrase"
+      />
+    </CardTrainerLayout>
+  </styled.div>
+</Fragment>
+`;

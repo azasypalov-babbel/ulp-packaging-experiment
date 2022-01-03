@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonSequence #handleMicSetupFinish tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "mic_setting_screen",
+    "gui_element": "continue_button",
+    "gui_variant": "without_mic",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 2,
+}
+`;

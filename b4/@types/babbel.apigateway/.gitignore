@@ -1,0 +1,6 @@
+models/*
+
+!models/ApiContentSharedModelsLesson*
+!models/ApiContentSharedModelsItem*
+!models/ApiContentSharedModelsV*Trainer*
+!models/ApiContentSharedModelsV*RemoteLesson*

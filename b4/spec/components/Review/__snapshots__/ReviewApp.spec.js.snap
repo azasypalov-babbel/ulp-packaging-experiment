@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewApp /> #mapDispatchToProps 1`] = `
+Object {
+  "fetchAccount": [Function],
+  "fetchInteractionTypes": [Function],
+  "fetchTrainerItemsStatistics": [Function],
+  "initMicPermissions": [Function],
+  "track": [Function],
+}
+`;

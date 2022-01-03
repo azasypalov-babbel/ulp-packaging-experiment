@@ -1,0 +1,32 @@
+$learning-tip-screen-icon-size: rem(100px);
+$learning-tip-max-width: rem(1170px);
+
+.learning-tip-screen {
+  max-width: $learning-tip-max-width;
+  margin: 1rem;
+  text-align: center;
+
+  &__disable-selection {
+    user-select: none;
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  }
+
+
+  &__icon {
+    background: url(../../images/learningTipScreen/headphones.svg) no-repeat;
+    height: $learning-tip-screen-icon-size;
+    width: $learning-tip-screen-icon-size;
+    margin: 0 auto rem(40px) auto;
+  }
+
+  &__title {
+    @extend .headline;
+    color: $storm;
+    margin-bottom: rem(12px)
+  }
+
+  &__text {
+    @extend %trainer-page-text;
+  }
+}

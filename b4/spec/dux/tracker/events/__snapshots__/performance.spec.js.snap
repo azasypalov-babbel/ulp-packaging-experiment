@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`performance events performance:page_loaded performance:page_loaded 1`] = `
+Object {
+  "event": "performance:page_loaded",
+  "payload": Object {
+    "connect_end": 1559831288237,
+    "connect_start": 1559831288237,
+    "dom_complete": 1559831290414,
+    "dom_content_loaded_event_end": 1559831289480,
+    "dom_content_loaded_event_start": 1559831289323,
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "provider": "lesson_player",
+  },
+  "version": 1,
+}
+`;

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyboardTrainer /> renders with full props a list of items 1`] = `
+<Fragment>
+  <TranslationVisibilityToggle
+    onClick={[MockFunction]}
+    translationVisibility="partial"
+  />
+  <styled.div>
+    <CardTrainerLayout
+      data-selector="keyboard"
+      imageId="0"
+      titleText="This is the title"
+    >
+      <styled.span
+        as="p"
+        color="spaceGray"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "For the English letter combination 'sh' Russian uses a single letter: <b>ш</b>.",
+          }
+        }
+        data-selector="description"
+      />
+      <TransliterationInstructions
+        learnLanguageAlpha3="RUS"
+        targetCharacter=" ш"
+      />
+      <Row
+        active={true}
+        delayIndex={0}
+        key="a"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <FillinInteraction
+            active={true}
+            item={
+              Object {
+                "displayLanguageText": null,
+                "id": "a",
+                "learnLanguageText": "((ш))",
+                "sound": Object {
+                  "id": "aa",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="RUS"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="b"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <FillinInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "good",
+                "id": "b",
+                "learnLanguageText": "хоро((ш))о",
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="RUS"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="c"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <FillinInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "brother - to take",
+                "id": "c",
+                "infoText": "Did you hear the difference between the т in each word? The т in бра**ть** (with the soft sign) sounds softer.",
+                "learnLanguageText": "**т** - **ть**: брат - брат((ь))",
+                "sound": Object {
+                  "id": "bb7236b2093009f6657ed955ecd90a2a",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="RUS"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="d"
+        onClick={null}
+        type="phrase"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <FillinInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "shelf - Polish (fem.)",
+                "id": "d",
+                "learnLanguageText": "**л** - **ль**: полка - пол((ь))ка",
+                "sound": Object {
+                  "id": "2160626a6358c7b0ad1579a8b2728929",
+                },
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="RUS"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </Row>
+      <Row
+        active={false}
+        delayIndex={0}
+        key="e"
+        onClick={null}
+        type="phrase"
+      />
+    </CardTrainerLayout>
+  </styled.div>
+</Fragment>
+`;

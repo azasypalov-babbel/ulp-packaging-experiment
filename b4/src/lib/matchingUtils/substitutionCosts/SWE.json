@@ -1,0 +1,49 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "å",
+      "cost": 0
+    },
+    {
+      "character": "å",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "å",
+      "replacement": "ä",
+      "cost": 0
+    },
+    {
+      "character": "a",
+      "replacement": "ä",
+      "cost": 0
+    },
+    {
+      "character": "ä",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "ä",
+      "replacement": "å",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ö",
+      "cost": 0
+    },
+    {
+      "character": "ö",
+      "replacement": "o",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "å",
+    "ä",
+    "ö"
+  ]
+}

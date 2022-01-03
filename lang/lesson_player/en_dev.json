@@ -1,0 +1,397 @@
+{
+  "lesson_player": {
+    "b3": {
+      "button": {
+        "continue": "Continue"
+      },
+      "page_dialog": {
+        "title_dictatefillin": "Listen and complete the dialogue",
+        "title_speak_phase1": "Speak a part in the dialogue",
+        "title_speak_phase2": "Hear yourself in the dialogue",
+        "continue": "Continue",
+        "complete_the_dialogue": "Complete the dialogue",
+        "enable_mic": "You have not configured your microphone. Enable now?",
+        "complete_the_dialogue_choicebuttons": "Choose the correct answer",
+        "title_dictatechoice": "Listen and choose the correct answer"
+      },
+      "page_dialog_speak": {
+        "hint": "Play audio",
+        "your_turn": "Now it's your turn! Speak the sentences below.",
+        "recording": "Recording...",
+        "hint_playing": "Playing audio...",
+        "confirm_msg": "Satisfied with your recording?",
+        "start_record": "Click to record",
+        "replay": "Listen to the whole dialogue",
+        "skip": "Skip"
+      },
+      "page_matching": {
+        "match_up_the_correct_items": "Match the correct items"
+      },
+      "vocabulary_click": {
+        "click_on_the_correct_translation": "Choose the correct translation"
+      },
+      "text_box_puzzle_helper": {
+        "show_solution": "Show solution",
+        "help": "Help",
+        "solve": "Solve",
+        "done": "Done"
+      },
+      "cyrillic_transliteration_table": {
+        "show": "Show transliteration table",
+        "hide": "Hide transliteration table"
+      },
+      "page_vocabulary_gap": {
+        "type_the_missing_characters": "Write the translation",
+        "choice_title": "Choose the correct solution"
+      },
+      "pop_over": {
+        "odd_solution": "Your answer is grammatically correct and understandable, however, it would not be said this way by a native speaker.",
+        "enter_reminder_content": "Type your answer and hit ⏎.",
+        "infotext_continue": "OK",
+        "click_here_to_type": "click here and start typing"
+      },
+      "vocabulary_word_order": {
+        "click_on_the_parts_of_the_sentence_in_the_correct_order": "Sort the items into the correct order"
+      },
+      "menu": {
+        "special_characters": "Special characters",
+        "remove_special_characters": "Hide special characters"
+      },
+      "review_info": {
+        "title": "What happend here? Let us have a look!",
+        "description": "A due word or a phrase can move up a level or down a level after having been reviewed",
+        "one_mistake_title": "If only one mistake is made",
+        "one_mistake_1": "the word or phrase stays at the same level",
+        "one_mistake_2": "it becomes due again the following day",
+        "more_mistakes_title": "If more than one mistake is made",
+        "more_mistakes_1": "it moves down a level",
+        "more_mistakes_2": "it becomes due again immediately.",
+        "no_mistakes_title": "If no mistakes are made",
+        "no_mistakes_1": "it moves up a level",
+        "no_mistakes_2": "it receives a new due date (anything between 4 and 180 days, depending on the new level)"
+      },
+      "comprehension": {
+        "text_title": "Read and answer the questions",
+        "audio_title": "Listen and answer the questions"
+      },
+      "page_vocabulary": {
+        "speak_title": "Listen and repeat",
+        "click_title": "Choose the correct word",
+        "show_title": "Study the words",
+        "show_phrasebook_title": "phrasebook show title",
+        "click_phrasebook_title": "Choose the correct translation",
+        "fillin_title": "Write the translation",
+        "skip": "Skip",
+        "enable_mic": "You have not configured your microphone. Enable now?"
+      },
+      "text_dictate": {
+        "listen_again": "Replay"
+      },
+      "settings": {
+        "title": "Settings",
+        "disable_speak": "Without speech recognition",
+        "enable_speak": "With speech recognition (microphone required)"
+      },
+      "page_dictate": {
+        "title": "Listen and fill in the missing words",
+        "choice_title": "Listen and choose the correct solution",
+        "word_order_title": "Listen and sort the items"
+      },
+      "mic_modal": {
+        "allow_title": "Allow access to your microphone",
+        "chrome": "Using Google Chrome as your browser? Click \"%{allow}\" at the top of your browser window.",
+        "without_mic": "Start lesson without microphone",
+        "instruction": "When you've selected which microphone to use and the checkmark appears, click \"Continue\".",
+        "no_mic": "It appears you don't have a microphone connected to your Computer. If you want Babbel to recognize your voice, attach a microphone and choose \"Done\".",
+        "instruction_permission_rejected": "Please check your browser settings or start the lesson without microphone.",
+        "title_permission_granted": "You have successfully enabled microphone access",
+        "title_permission_rejected": "You did not grant access to your microphone"
+      },
+      "speak_interface": {
+        "listen": "Listen",
+        "speak_now": "Speak now",
+        "recording": "Recording...",
+        "processing": "Processing",
+        "audio_settings": "Audio settings",
+        "help": "Help",
+        "help_instruction_1": "Speak the translation in your normal voice.",
+        "help_instruction_2": "When you speak you should see the microphone icon fill up.",
+        "help_instruction_3": "If the level is constantly below or above the microphone icon please go to \"settings\" and try to adjust the sensitivity of your microphone."
+      },
+      "record_flash_manager": {
+        "adjust_title": "Adjust microphone sensitivity",
+        "volume": "Volume: ",
+        "sensitivity": "Sensitivity: ",
+        "microphone": "Microphone: ",
+        "instructions_gain": "Please say a couple of words into your microphone (e. g.: \"I am testing my microphone!\"). The volume display should reach the green area. If it's too high or too low please adjust the microphone sensitivity using the bar below."
+      },
+      "vocabulary_speak": {
+        "title": "Listen and repeat",
+        "no_speak_title": "Listen",
+        "enable_mic": "You have not configured your microphone. Enable now?"
+      },
+      "page_card": {
+        "title_fillin": "Write the translation",
+        "title_choicebuttons": "Choose the correct solution",
+        "title_puzzle_helper": "Write the words"
+      },
+      "page_spoken_review": {
+        "speak_the_translation": "Speak the correct translation"
+      },
+      "learning_language": {
+        "fra": "French",
+        "deu": "German",
+        "eng": "English",
+        "spa": "Spanish",
+        "ita": "Italian",
+        "swe": "Swedish",
+        "por": "Portuguese",
+        "pol": "Polish",
+        "tur": "Turkish",
+        "nld": "Dutch",
+        "ind": "Indondesian",
+        "nor": "Norwegian",
+        "dan": "Danish",
+        "rus": "Russian",
+        "qms": "Spanish (Latin America)"
+      },
+      "page_keyboard": {
+        "title": "Learn a new character",
+        "transliteration_instruction": "To write this letter on Babbel, press %{transliteration} on your keyboard.",
+        "and": "and"
+      }
+    },
+    "navbar": {
+      "close": "Close",
+      "contact": "Feedback"
+    },
+    "review_end_screen": {
+      "purge_errors": "Purge errors (%{mistakes})",
+      "close": "Close",
+      "correct": "Correct",
+      "feedback_message": {
+        "high": "Great Job %{name}!",
+        "low": "You're getting closer!",
+        "medium": "Keep it up, %{name}!"
+      },
+      "incorrect": "Incorrect",
+      "more_info_link": "Get more info!",
+      "review_more": "Review More",
+      "subtitle_pluralized": {
+        "one": "You reviewed %{count} item.",
+        "other": "You reviewed %{count} items."
+      }
+    },
+    "flash_card_trainer": {
+      "title": "Do you remember these words in %{Italian}?",
+      "button_remember": "Yes",
+      "button_forgot": "No"
+    },
+    "button": {
+      "see_hint": "See hint",
+      "see_solution": "See solution",
+      "see_translation": "See translation",
+      "typing_tips": "Typing tips"
+    },
+    "comprehension": {
+      "press_play": "Press play!",
+      "question": "Question"
+    },
+    "feedback_sheet": {
+      "speech_recognition": {
+        "button_next": "Next",
+        "button_try_again": "Try again"
+      }
+    },
+    "generic_error_screen": {
+      "reload": {
+        "body": "Refreshing the page should help.",
+        "cta": "Try again",
+        "title": "There’s a problem loading your course"
+      },
+      "return": {
+        "body": "Please go back to the previous page and try again.",
+        "cta": "Go back",
+        "title": "Sorry, there was a glitch"
+      }
+    },
+    "infotext": {
+      "title": "Tip ✨"
+    },
+    "infotext_notification": {
+      "cta": "See all tips (%{number})"
+    },
+    "internet_explorer_message": {
+      "body": "Your browser, Internet Explorer, doesn’t work well with Babbel’s latest features. It’s easy (and free) to upgrade to a new browser.",
+      "cta_close": "Remind me later",
+      "cta_show_me": "Show me how",
+      "title": "Please upgrade your web browser"
+    },
+    "landing_screen": {
+      "start_lesson": "Start lesson"
+    },
+    "learning_tip": {
+      "action": "Got it!",
+      "tip": "Turn up the volume or use headphones.",
+      "title": "Learning Tip"
+    },
+    "lesson_settings": {
+      "body": "Speaking will help you improve your pronunciation.",
+      "show": "Practise speaking",
+      "speak": "No speaking",
+      "title": "Would you like to practise speaking?"
+    },
+    "listening_trainer": {
+      "button": {
+        "continue": "Continue",
+        "fix_mistakes": "Fix my mistakes",
+        "review_more": "Review more"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Keep working on it!",
+          "2": "You'll get there.",
+          "3": "No worries, keep going!",
+          "4": "It's great to challenge yourself.",
+          "5": "Challenges help us grow!"
+        },
+        "positive": {
+          "1": "Fantastic!",
+          "2": null,
+          "3": "You got it!",
+          "4": "Great!",
+          "5": "Nice one!",
+          "6": "Good work!"
+        }
+      },
+      "instruction": {
+        "listen": "Listen to the phrase"
+      }
+    },
+    "page_end": {
+      "button_correct_errors": "Correct your errors (%{purgable_items_count})",
+      "button_return_home": "Return to Home",
+      "button_start_new_lesson": "Start next lesson",
+      "content_locked": {
+        "button_access_content": "Access all %{Italian} content",
+        "text_access_content": "Continue learning %{Italian} with access to all lessons and topics."
+      },
+      "correct_answers": "Correct answers",
+      "feedback_message": {
+        "high": "Fantastique %{display_name}",
+        "low": "Encore un petit effort %{display_name}",
+        "medium": "Très bien %{display_name}"
+      }
+    },
+    "review": {
+      "end_screen": {
+        "body": "You got %{count} out of %{totalCount} items correct",
+        "button": "Continue",
+        "title": "Great work, %{username}!"
+      }
+    },
+    "review_menu": {
+      "review_type": {
+        "flashcards": "Flashcards",
+        "listen": "Listen",
+        "speak": "Speak",
+        "write": "Write"
+      },
+      "title": "How would you like to review?"
+    },
+    "smart_surfaces": {
+      "lesson_end": {
+        "raf_popup": {
+          "body": "    ",
+          "button_invite": "Invite your friends",
+          "title": "Give your friends a free month of Babbel and earn a reward!"
+        }
+      }
+    },
+    "speech_recognition": {
+      "error_generic_lesson": {
+        "body": "Please check your mic setup. Or continue without the microphone, and just listen.",
+        "cta": "Continue without speaking",
+        "title": "Sorry, we can’t hear you"
+      },
+      "error_generic_review": {
+        "body": "Please check your mic setup, or try a different review method.",
+        "cta": "Try other review method",
+        "title": "Sorry, we can’t hear you"
+      },
+      "error_mic_muted": {
+        "body": "Please unmute your mic in the sound settings on your computer.",
+        "cta": "No thanks, I can’t speak now",
+        "title": "Your mic is muted!"
+      },
+      "error_mic_permission": {
+        "body": "Press the recorder icon [*] in the Chrome browser address bar to allow access to your microphone.",
+        "cta": "No thanks, I can’t speak now",
+        "title": "Try turning on the mic!"
+      },
+      "feedback": {
+        "negative": {
+          "1": "You're getting there!"
+        },
+        "positive": {
+          "1": "Sounds great!",
+          "2": "Great work",
+          "3": "Nice accent"
+        },
+        "recognition_error": {
+          "message": "Let's give it another try",
+          "title": "Sorry, we didn't catch that!"
+        }
+      },
+      "feeling_silly": {
+        "body": "Speaking is a great way to improve your pronunciation. It might feel strange at first, but you'll get there.",
+        "title": "Feeling silly? We've all been there."
+      },
+      "got_it": "Got it",
+      "interaction": {
+        "toggle_off": "I can’t speak now",
+        "toggle_on": "I can speak now"
+      },
+      "mic_button": {
+        "press_to_speak": "Press and start speaking",
+        "speak": "Speak now",
+        "tap_to_speak": "Press and hold while you speak"
+      },
+      "mic_permission": {
+        "body": "Click \"Allow\" in your browser so we can use your microphone.",
+        "cta": "Continue",
+        "title": "Get ready to speak"
+      },
+      "mic_permission_review": {
+        "body": "To practise speaking, please click \"Allow\" in Chrome so we can use your microphone.",
+        "cta": "Continue",
+        "title": "Turn on your mic"
+      },
+      "mic_test": {
+        "body": "Is this thing on?",
+        "error_feedback": {
+          "body": "Please adjust your microphone in your settings",
+          "title": "Sorry, we didn't catch that!"
+        },
+        "no_transcript": "Not understood",
+        "positive_feedback": {
+          "body": "Let's start speaking",
+          "title": "All set!"
+        },
+        "title": "Say a few words:"
+      },
+      "tooltip": {
+        "message": "Press and start speaking in your best accent"
+      },
+      "trainer_item": {
+        "title": "Listen, then say it out loud"
+      }
+    },
+    "writing": {
+      "feedback": {
+        "negative": "Let's give it another try",
+        "typos": "Small typo? No problem 😉"
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListeningTrainer /> renders 1`] = `
+<div>
+  <TrainerLayout
+    bottom={
+      <ChoiceList
+        correctText="One"
+        items={
+          Array [
+            "Two",
+            "Three",
+          ]
+        }
+        onClick={[Function]}
+        showChoiceItems={false}
+      />
+    }
+    top={
+      <React.Fragment>
+        <Title
+          as="h1"
+          color="spaceGray"
+          data-selector="listening-title"
+          fontFamily="fontMilliardSemi"
+          fontSize="big"
+          textAlign="center"
+        >
+          Listen to the phrase
+        </Title>
+        <SoundPlayer
+          audio={
+            Object {
+              "playSound": [MockFunction],
+              "playSoundWithState": [MockFunction],
+              "preload": [MockFunction],
+              "reset": [MockFunction],
+              "stop": [MockFunction],
+            }
+          }
+          onEnded={[Function]}
+          onError={[Function]}
+          playOnMount={true}
+          url="http://localhost/d3572193477785b1bc030cdf61ec777c.mp3"
+        />
+      </React.Fragment>
+    }
+  />
+  <Toolbar>
+    <WithKeypress(IconButton)
+      data-selector="reveal-shortcuts-button"
+      iconName="KeyboardIcon"
+      onClick={[MockFunction]}
+    />
+  </Toolbar>
+</div>
+`;
+
+exports[`<ListeningTrainer /> renders in attempted state 1`] = `
+<div>
+  <TrainerLayout
+    bottom={
+      <ChoiceList
+        attemptedText="One"
+        correctText="One"
+        items={
+          Array [
+            "Two",
+            "Three",
+          ]
+        }
+        onClick={[Function]}
+        showChoiceItems={false}
+      />
+    }
+    top={
+      <React.Fragment>
+        <Title
+          as="h1"
+          color="spaceGray"
+          data-selector="listening-title"
+          fontFamily="fontMilliardSemi"
+          fontSize="big"
+          textAlign="center"
+        >
+          Listen to the phrase
+        </Title>
+        <SoundPlayer
+          audio={
+            Object {
+              "playSound": [MockFunction],
+              "playSoundWithState": [MockFunction],
+              "preload": [MockFunction],
+              "reset": [MockFunction],
+              "stop": [MockFunction],
+            }
+          }
+          onEnded={[Function]}
+          onError={[Function]}
+          playOnMount={true}
+          url="http://localhost/d3572193477785b1bc030cdf61ec777c.mp3"
+        />
+      </React.Fragment>
+    }
+  />
+  <FeedbackSheet
+    data-gap-feedback={true}
+    data-mistaken={false}
+    data-solved={true}
+    feedbackDetail={
+      <div
+        data-selector="learn-language-text"
+      >
+        <HighlightedText
+          appearance="POSITIVE"
+        >
+          Uno
+        </HighlightedText>
+      </div>
+    }
+    feedbackMessage="good"
+    key="feedback-sheet"
+    onContinueClick={[Function]}
+  />
+</div>
+`;

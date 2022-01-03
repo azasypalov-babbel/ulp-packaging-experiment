@@ -1,0 +1,42 @@
+{
+  "type": "matching",
+  "description": null,
+  "interaction": "choose",
+  "puzzle_helper": false,
+  "dictate": false,
+  "translation_visibility": "partial",
+  "title": "i am the title",
+  "image": null,
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "6dd169daf1226ead633434a339c2cfc5",
+          "display_language_text": "je",
+          "learn_language_text": "Allah'a_ısmarladık.",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "b346df6f24ca51b2feb9a8c571105ac4"
+          },
+          "speaker_role": "m1",
+          "type": "phrase"
+        },
+        {
+          "id": "6dd169daf2526ead633434a339c2cfc5",
+          "display_language_text": "fooe",
+          "learn_language_text": "bar",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "1206df6f24ca51b2feb9a8c571105ac4"
+          },
+          "speaker_role": "m1",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

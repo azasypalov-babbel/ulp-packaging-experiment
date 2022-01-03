@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> it renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: rem(4px);
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 rem(2px) rem(20px) 0 transparentize(0.9,#565d64);
+  outline: none;
+}
+
+<styled.div>
+  <div
+    className="c0"
+  />
+</styled.div>
+`;

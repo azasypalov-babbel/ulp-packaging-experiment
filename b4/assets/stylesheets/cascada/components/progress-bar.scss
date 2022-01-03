@@ -1,0 +1,33 @@
+$progressbar-container-height: rem(40px);
+$progressbar-height: rem(8px);
+$progressbar-border-radius: 2px;
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: $progressbar-container-height;
+
+  @include media(medium) {
+    width: 100%;
+  }
+
+  &__base {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: $progressbar-height;
+    border-radius: $progressbar-border-radius;
+    overflow: hidden;
+    background-color: $pastel-electric;
+  }
+
+  &__item {
+    @include transition(width);
+    display: block;
+    position: relative;
+    height: $progressbar-height;
+    background-color: $brand-orange;
+  }
+}

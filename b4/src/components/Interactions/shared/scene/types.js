@@ -1,0 +1,6 @@
+const NAMESPACE = 'SCENE';
+
+export const REQUEST_PROMPT = `${NAMESPACE}/REQUEST_PROMPT`;
+export const RECEIVE_PROMPT = `${NAMESPACE}/RECEIVE_PROMPT`;
+
+export const PLAY = `${NAMESPACE}/PLAY`;

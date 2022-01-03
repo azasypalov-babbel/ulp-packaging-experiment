@@ -1,0 +1,111 @@
+{
+  "lesson": {
+    "id": "comprehension-audio",
+    "trainers": [
+      {
+        "type": "comprehension",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Sarah and her brother Elias are sitting at the window and looking into the dark grey sky. It's pouring outside.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "67aa400f7bbb4b5ba76a437e554ee906",
+                "type": "phrase",
+                "display_language_text": "some translation",
+                "learn_language_text": "Was für ein verregneter Sonntag! Mir ist so langweilig!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "51c64e54dbbee03755d26c3c2b187fb5",
+                "type": "phrase",
+                "display_language_text": "some translation",
+                "learn_language_text": "Mir auch! Hey, wie wär's, wenn wir etwas spielen?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "81c64e54dbbee03755d26c3c2b187fb5",
+                "type": "phrase",
+                "display_language_text": "some translation",
+                "learn_language_text": "Ja, lass uns doch ein Kartenspiel spielen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "71c64e54dbbee03755d26c3c2b187fb5",
+                "type": "phrase",
+                "display_language_text": "some translation",
+                "learn_language_text": "Nein, lieber 'Ich sehe was, was du nicht siehst'",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "61c64e54dbbee03755d26c3c2b187fb5",
+                "type": "phrase",
+                "display_language_text": "some translation",
+                "learn_language_text": "Na gut, wieso nicht, hab ich lange nicht mehr gespielt.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "ed436de5ee84f3afb22abd7e515d055c",
+                "type": "task",
+                "display_language_text": "What kind of problem do Sarah and Elias have? ((Their convertible is getting wet.|They need to buy some dice but don't want to go out into the rain.|*They are bored.|*They are super bored.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "1ef8bf3eeb1af44bb7f6006f0900f987",
+                "type": "task",
+                "display_language_text": "What kind of game do they play? ((a computer game|*a card game|a board game))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

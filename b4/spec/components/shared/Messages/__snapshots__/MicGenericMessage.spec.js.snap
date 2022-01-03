@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MicGenericMessage /> renders 1`] = `
+<ErrorOverlay
+  body="speech_recognition.error_generic_lesson.body"
+  dataSelector="error-overlay-generic-error"
+  icon={
+    <WithTheme(MicOff)
+      size="3.5rem"
+    />
+  }
+  key="generic-error"
+  title="speech_recognition.error_generic_lesson.title"
+>
+  <WithKeypress(styled.button)
+    data-selector="cta-button"
+    negativeSolid={true}
+    onClick={[Function]}
+  >
+    speech_recognition.error_generic_lesson.cta
+  </WithKeypress(styled.button)>
+</ErrorOverlay>
+`;
+
+exports[`<MicGenericMessage /> tracks gui:interacted on click 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "mic_error_generic",
+    "gui_element": "opt_out_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicGenericMessage /> tracks gui:shown 1`] = `
+Object {
+  "event": "gui:shown",
+  "payload": Object {
+    "gui_container": "mic_error_generic",
+    "gui_element": "opt_out_button",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser Vocabulary maps the data onto a different format 1`] = `
+Object {
+  "askOnlyFirstItem": undefined,
+  "component": "vocabulary",
+  "interaction": "speak",
+  "puzzleHelper": false,
+  "traineritems": Array [
+    Object {
+      "id": 0,
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "i am the title",
+      "l2_text": "",
+      "sound_id": null,
+      "speaker_role": null,
+      "type": "title",
+    },
+    Object {
+      "id": "2ab20c1ade5806ddfe215322dac25261",
+      "image_id": "892nf89nf9283n91823dn2983dn",
+      "info_text": "",
+      "l1_text": "thank you",
+      "l2_text": "merci",
+      "sound_id": "8192he2n398fdn2948fdn298fn984",
+      "speaker_role": "F1",
+      "type": "Phrase",
+    },
+    Object {
+      "id": "2ab20c1ade5806ddfe215322dac25261",
+      "image_id": "783fn94gnq9e8fm8043fq8m",
+      "info_text": "",
+      "l1_text": "thank you",
+      "l2_text": "merci",
+      "sound_id": "f92dn829fn9834nf9834fn9834",
+      "speaker_role": "F1",
+      "type": "Phrase",
+    },
+  ],
+  "translation": "Show",
+}
+`;

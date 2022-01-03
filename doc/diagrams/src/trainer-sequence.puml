@@ -1,0 +1,36 @@
+@startuml interface-sequencing
+actor Learner
+participant Interaction
+participant Trainer
+participant App
+
+Learner -> App: "I start a lesson"
+App -> Trainer: ""Initialise""
+activate Trainer
+App <-- Trainer: ""onStart()""
+loop While interactive items remain
+  Trainer -> Interaction: ""Initialise""
+  Trainer -> Interaction: ""Set active""
+  activate Interaction
+  Learner <- Interaction: Present interaction
+  loop While Interactive elements remain
+    Learner <- Interaction: Present element
+    loop While try again
+      Learner -> Interaction: "I make an attempt"
+      Trainer <-- Interaction: ""onAttempt()""
+      App <-- Trainer: ""attemptItem()""
+      Learner -> Interaction: "I want to try again"
+      else
+      Learner -> Interaction: "I want to move on"
+      else
+      Interaction -> Interaction: Auto proceed
+    end
+  end
+  Trainer <- Interaction: ""onFinish()""
+  Trainer -> Interaction: ""Set inactive""
+  deactivate Interaction
+  App <-- Trainer: ""completeItem()""
+end
+App <- Trainer: ""onFinish()""
+deactivate Trainer
+@enduml

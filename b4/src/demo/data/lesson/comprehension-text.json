@@ -1,0 +1,85 @@
+{
+  "lesson": {
+    "id": "comprehension-text",
+    "trainers": [
+      {
+        "type": "comprehension",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Sarah is writing an email to her friend Laura.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "fdcbc1a36004271a26a706613f040964",
+                "type": "phrase",
+                "display_language_text": "Hi Laura, how are you? I hope you had a nice Sunday",
+                "learn_language_text": "Hallo Laura, wie geht's? Ich hoffe, du hattest einen schönen Sonntag!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "25180c361b3511eb8ae73a472db1796d",
+                "type": "phrase",
+                "display_language_text": "Yesterday, I taught Elias the card game \"Jungle Speed\". Do you know it?",
+                "learn_language_text": "Ich habe Elias gestern das Kartenspiel \"Jungle Speed\" beigebracht. Kennst du das?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "df6892278697e8b7202b495be93be337",
+                "type": "task",
+                "display_language_text": "What should you give Jana as a present? ((A glass of wine.|A can of beer.|*A bottle of champagne.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "34f205cf66359e4e2242c150cdd98339",
+                "type": "task",
+                "display_language_text": "Which country does Alex come from? ((Spain.|*Ireland.|Kongo.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "e05a569993201a99c73baf4de0eb85fa",
+                "type": "task",
+                "display_language_text": "Secretly, Alex is ((a Russian spy.|*an Irish spy.|*a Leprechaun.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@spec/*": ["spec/*"],
+      "@src/*": ["src/*"],
+      "@stories/*": ["stories/*"],
+      "@vendor/*": ["vendor/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

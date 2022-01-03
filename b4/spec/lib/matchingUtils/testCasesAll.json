@@ -1,0 +1,883 @@
+{
+ "testCases": [
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "Tisch",
+   "attempt": "tisch",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "drücken",
+   "attempt": "drucken",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "drücken",
+   "attempt": "druecken",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "fallen",
+   "attempt": "falen",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "laufen",
+   "attempt": "laudfen",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "schön",
+   "attempt": "schöm",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "an",
+   "attempt": "am",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "dich",
+   "attempt": "divn",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "schlafen",
+   "attempt": "shlaefn",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d",
+    "t"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DEU",
+   "target": "Gruß",
+   "attempt": "gruss",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "English",
+   "attempt": "english",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "nappies",
+   "attempt": "napies",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "walk",
+   "attempt": "wallk",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "train",
+   "attempt": "trein",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "I",
+   "attempt": "y",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "an",
+   "attempt": "am",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "you",
+   "attempt": "too",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ENG",
+   "target": "suspicious",
+   "attempt": "suspciuos",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d",
+    "t"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "François",
+   "attempt": "françois",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "François",
+   "attempt": "Francois",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "aimé",
+   "attempt": "aime",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "sommes",
+   "attempt": "somes",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "habites",
+   "attempt": "habbites",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "comment",
+   "attempt": "commant",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "où",
+   "attempt": "ou",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "à",
+   "attempt": "a",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "bonjour",
+   "attempt": "banjoor",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "FRA",
+   "target": "Au revoir",
+   "attempt": "Au rvior",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "d",
+    "t"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "Olle",
+   "attempt": "olle",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "tänka",
+   "attempt": "tanka",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "något",
+   "attempt": "nagot",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "kommer",
+   "attempt": "komer",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "talar",
+   "attempt": "tallar",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "lyssnare",
+   "attempt": "lissnare",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "är",
+   "attempt": "ar",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "på",
+   "attempt": "pa",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "Italien",
+   "attempt": "Ytalian",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SWE",
+   "target": "utomlands",
+   "attempt": "uomladns",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d",
+    "t"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "México",
+   "attempt": "méxico",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "México",
+   "attempt": "mexico",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "muchos",
+   "attempt": "muhos",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "viernes",
+   "attempt": "vierrnes",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "desierto",
+   "attempt": "daysierto",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "español",
+   "attempt": "sepagnol",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "t",
+    "i",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "dóndé",
+   "attempt": "donde",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "SPA",
+   "target": "cuánto",
+   "attempt": "cuanto",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "Roma",
+   "attempt": "roma",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "perché",
+   "attempt": "perche",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "otto",
+   "attempt": "oto",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "dieci",
+   "attempt": "diecie",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "della",
+   "attempt": "delar",
+   "classicResult": "unsolved",
+   "looseResult": "unsolved",
+   "operations": [
+    "d",
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "caffè",
+   "attempt": "caffe",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "ventredì",
+   "attempt": "ventredi",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "però",
+   "attempt": "pero",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "ITA",
+   "target": "virtù",
+   "attempt": "virtu",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "João",
+   "attempt": "joao",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "canção",
+   "attempt": "cancao",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "fevereiro",
+   "attempt": "feveriro",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "fevereiro",
+   "attempt": "fevereriro",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "i"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "máquina",
+   "attempt": "maquina",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "íntimo",
+   "attempt": "intimo",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "óbvio",
+   "attempt": "obvio",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "pêlo",
+   "attempt": "pelo",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POR",
+   "target": "âmbar",
+   "attempt": "ambar",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DAN",
+   "target": "Aarhus",
+   "attempt": "aarhus",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "DAN",
+   "target": "Ålebæk",
+   "attempt": "alebaek",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "DAN",
+   "target": "fløde",
+   "attempt": "flode",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NLD",
+   "target": "Amsterdam",
+   "attempt": "amsterdam",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "NLD",
+   "target": "geïnd",
+   "attempt": "geind",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NLD",
+   "target": "geüpload",
+   "attempt": "geupload",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NLD",
+   "target": "sympathieën",
+   "attempt": "sympathieen",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NLD",
+   "target": "coördinaat",
+   "attempt": "coordinaat",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NOR",
+   "target": "Løvik",
+   "attempt": "lovik",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NOR",
+   "target": "Bokmål",
+   "attempt": "bokmal",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NOR",
+   "target": "sekretær",
+   "attempt": "sekretaer",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "NOR",
+   "target": "sekretær",
+   "attempt": "sekretar",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "Polska",
+   "attempt": "polska",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "był",
+   "attempt": "byl",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "pięć",
+   "attempt": "piec",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "zwyciężył",
+   "attempt": "zwyciezyl",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "śmietankowa",
+   "attempt": "smietankowa",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "POL",
+   "target": "śmietankowa",
+   "attempt": "smietakowa",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "d"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "Kemal",
+   "attempt": "kemal",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": []
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "değil",
+   "attempt": "degil",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "bakımından",
+   "attempt": "bakimindan",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s",
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "karşı",
+   "attempt": "karsi",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "hür",
+   "attempt": "hur",
+   "classicResult": "solved",
+   "looseResult": "solved",
+   "operations": [
+    "s"
+   ]
+  },
+  {
+   "learnLanguageAlpha3": "TUR",
+   "target": "haberler",
+   "attempt": "habelre",
+   "classicResult": "unsolved",
+   "looseResult": "solved",
+   "operations": [
+    "t",
+    "d"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+const NAMESPACE = 'OFFLINE_QUEUE';
+
+export const ONLINE = `${NAMESPACE}/ONLINE`;
+export const OFFLINE = `${NAMESPACE}/OFFLINE`;

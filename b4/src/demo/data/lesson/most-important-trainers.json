@@ -1,0 +1,325 @@
+{
+  "lesson": {
+    "id": "most-important-trainers",
+    "trainers": [
+      {
+        "type": "cube",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "ce4db09223271cbb66d7874988a50cfc",
+                "type": "phrase",
+                "display_language_text": "Hello!",
+                "learn_language_text": "((*H|h))allo!",
+                "info_text": null,
+                "image": {
+                  "id": "964e59d91592f68d7a4fbfd833ad0a20"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "72384d7f50190eca464e1347414e34ba",
+                "type": "phrase",
+                "display_language_text": "How do you like the Cube Write Trainer?",
+                "learn_language_text": "Wie gefällt ((*dir|*yes)) der Cube Write Trainer?",
+                "info_text": null,
+                "image": {
+                  "id": "a9d19ae349c7f7c0ffa2280f9f6b7767"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "5643416fa76cf963774c33c773e99a31"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "0ff65c4aeac0a0cfe41d9d27c4e156b1",
+                "type": "task",
+                "display_language_text": "This ((*is|could be)) a Card Choose Task.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "705626cacfe1b74b5c5a92715b841d38",
+                "type": "phrase",
+                "display_language_text": "(And) \"this\" 'phrase' offers some **neat** options!",
+                "learn_language_text": "(Und) \"diese\" 'Phrase' hat ((keine|*einige)) **gute** Optionen zu bieten!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "2eab07ee4963d527bab2eeda0402a9b4"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "cca8764485c2a8222cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "This is a Card Write Task.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "c5fd26e0158140cbb12d11b97f61ae26",
+                "type": "phrase",
+                "display_language_text": "The listening trainer ((is)) more **fun** than cleaning up.",
+                "learn_language_text": "Der Listening Trainer ((macht)) mehr **Spaß** als Aufräumen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "memory",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "8ba28f54a6be7e668076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the electrical engineer",
+                "learn_language_text": "die Elektroingenieurin",
+                "info_text": null,
+                "image": {
+                  "id": "c17bd8e976912ec5f36763735ed0cbf1"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "93562387477219998076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the astronaut",
+                "learn_language_text": "die Astronautin",
+                "info_text": null,
+                "image": {
+                  "id": "9639ef3649bd94a4bf3ad046c2244c50"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "f74ebc227ef0b8e44e2efa0dadd52610",
+                "type": "phrase",
+                "display_language_text": "the physicist",
+                "learn_language_text": "die Physikerin",
+                "info_text": null,
+                "image": {
+                  "id": "edeb6b2e23bc8fd48ea6dc9f9624955c"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "1751159edd2da7f3a2d05ed554cca6d8",
+                "type": "phrase",
+                "display_language_text": "the doctor",
+                "learn_language_text": "die Ärztin",
+                "info_text": null,
+                "image": {
+                  "id": "aa7ad0e6a656d77d1fc13cf2edd9e159"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "02c362eec52f5cf63e95ef0b2879ce3b",
+                "type": "phrase",
+                "display_language_text": "the squirrel",
+                "learn_language_text": "Das Eichhörnchen",
+                "info_text": null,
+                "image": {
+                  "id": "38b552b3d917016c73b4930a231e45f0"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "68c2b9e9ec7efefd8832eb473292aa44",
+                "type": "phrase",
+                "display_language_text": "the helicidae",
+                "learn_language_text": "Die Schnirkelschn((eck))e",
+                "info_text": "it's a type of snail",
+                "image": {
+                  "id": "6d2b826e4d52d9b0b202fd922b85ae67"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "wordorder",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "cbace7ac16c46de37b03e2e0447250d5",
+                "type": "phrase",
+                "display_language_text": "I'm Santa Clause",
+                "learn_language_text": "((Ich)) ((bin)) ((der)) ((Weihnachtsmann.))",
+                "info_text": null,
+                "image": {
+                  "id": "e0052bf275aeef16297f99399342d9a2"
+                },
+                "sound": {
+                  "id": "71f1e2d30c94fbfe21afb510c7586906"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

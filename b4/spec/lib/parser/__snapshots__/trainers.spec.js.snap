@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser Trainers maps the data onto a different format 1`] = `
+Object {
+  "lesson": Object {
+    "id": "468ab13967c95f54e6d131bb152b8a75",
+    "trainers": Array [],
+  },
+}
+`;

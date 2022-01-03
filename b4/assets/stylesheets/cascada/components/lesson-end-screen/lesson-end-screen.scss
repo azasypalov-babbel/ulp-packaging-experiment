@@ -1,0 +1,30 @@
+$lesson-end-screen-content-width: rem(460px);
+$lesson-end-screen-content-height: rem(480px);
+
+.lesson-end-screen {
+  @extend %centered-columns;
+
+  &__disable-selection {
+    user-select: none;
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  }
+
+  &__content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: $lesson-end-screen-content-width;
+    margin: 1rem;
+
+    @include media(medium) {
+      min-height: $lesson-end-screen-content-height;
+    }
+  }
+
+  p {
+    @extend %trainer-page-text;
+  }
+}
+
+

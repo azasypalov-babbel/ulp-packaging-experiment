@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedbackActions /> Content Locked it renders 1`] = `
+<div
+  className="loy-lesson-end-screen-feedback-actions"
+>
+  <p>
+    Keep it up! Get access to all lessons and topics.
+  </p>
+  <WithKeypress(LoyButton)
+    data-selector="access-content-button"
+    listenToKey="Enter"
+    onClick={[MockFunction]}
+    primary={true}
+  >
+    Access all French content
+  </WithKeypress(LoyButton)>
+</div>
+`;
+
+exports[`<FeedbackActions /> Content Unlocked it renders when there are no purgable items 1`] = `
+<div
+  className="loy-lesson-end-screen-feedback-actions"
+>
+  <WithKeypress(LoyButton)
+    data-selector="return-home-button"
+    listenToKey="Enter"
+    onClick={[MockFunction]}
+    primary={true}
+  >
+    Continue learning
+  </WithKeypress(LoyButton)>
+</div>
+`;
+
+exports[`<FeedbackActions /> Content Unlocked it renders when there are purgable items 1`] = `
+<div
+  className="loy-lesson-end-screen-feedback-actions"
+>
+  <WithKeypress(LoyButton)
+    data-selector="correct-errors-button"
+    listenToKey="Enter"
+    onClick={[MockFunction]}
+    primary={true}
+  >
+    Correct my mistakes (4)
+  </WithKeypress(LoyButton)>
+  <WithKeypress(LoyButton)
+    data-selector="return-home-button"
+    onClick={[MockFunction]}
+    primary={false}
+  >
+    Continue learning
+  </WithKeypress(LoyButton)>
+</div>
+`;

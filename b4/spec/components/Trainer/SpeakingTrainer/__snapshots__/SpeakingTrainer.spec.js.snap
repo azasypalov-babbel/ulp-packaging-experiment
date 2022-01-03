@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SpeakingTrainer /> feedback attempt text when correct attempt FeedbackSheet has one button 1`] = `
+<FeedbackSheet
+  feedbackMessage="Sounds great!"
+  key="feedback-sheet"
+  onContinueClick={[Function]}
+  onTryAgainClick={null}
+/>
+`;
+
+exports[`<SpeakingTrainer /> feedback attempt text when incorrect attempt FeedbackSheet has two buttons 1`] = `
+<FeedbackSheet
+  feedbackMessage="You’re getting there!"
+  key="feedback-sheet"
+  onContinueClick={[Function]}
+  onTryAgainClick={[MockFunction]}
+/>
+`;
+
+exports[`<SpeakingTrainer /> renders 1`] = `
+<styled.div
+  data-interaction-type="speak"
+  data-trainer-type="spokenreview"
+>
+  <styled.div>
+    <Title
+      as="h1"
+      color="spaceGray"
+      fontFamily="fontMilliardSemi"
+      fontSize="big"
+      textAlign="center"
+    >
+      Listen, then say it out loud:
+    </Title>
+    <styled.div>
+      <SoundPlayer
+        audio={
+          Object {
+            "playSound": [MockFunction],
+            "playSoundWithState": [MockFunction],
+            "preload": [MockFunction],
+            "reset": [MockFunction],
+            "stop": [MockFunction],
+          }
+        }
+        key="123"
+        onEnded={[Function]}
+        onError={[Function]}
+        playOnMount={true}
+        render={[Function]}
+        url="mock-url-123.mp3"
+      />
+      <styled.div>
+        <MicButton
+          disabled={true}
+          isListening={false}
+          isUserSpeaking={false}
+          onClick={[Function]}
+        />
+      </styled.div>
+      <styled.span
+        color="spaceGrayW15"
+        fontFamily="fontMilliardMedium"
+        fontSize="base"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

@@ -1,0 +1,42 @@
+{
+  "type": "dictate",
+  "description": null,
+  "interaction": "choose",
+  "puzzle_helper": false,
+  "dictate": true,
+  "translation_visibility": "full",
+  "title": "Écoutez et choisissez la bonne lettre",
+  "image": null,
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "89290b8f9583d1c5c092dd3c4794580a",
+          "display_language_text": "f",
+          "learn_language_text": "((*f|w))",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "da96f13f2758241448cd8c4fbc543ef4"
+          },
+          "speaker_role": "m1",
+          "type": "phrase"
+        },
+        {
+          "id": "8e9741ed258b2fad8d7371d199ad986b",
+          "display_language_text": "h",
+          "learn_language_text": "((a|*h))",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "63eb1bac7dda623f4ba49976676ed0c6"
+          },
+          "speaker_role": "f1",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

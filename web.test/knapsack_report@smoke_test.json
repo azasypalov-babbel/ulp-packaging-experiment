@@ -1,0 +1,11 @@
+{
+  "features/interactions/puzzlehelper.feature": 42.00520181655884,
+  "features/interactions/writing-russian.feature": 28.86677575111389,
+  "features/interactions/fillin.feature": 91.38083124160767,
+  "features/interactions/wordorder.feature": 15.650968313217163,
+  "features/trainers/card-fillin.feature": 28.36189842224121,
+  "features/trainers/card-choicebuttons.feature": 6.741238117218018,
+  "features/trainers/card-puzzlehelper.feature": 6.0107951164245605,
+  "features/paywall/paywall.feature": 24.850994348526,
+  "features/review/review-end-page.feature": 19.28757929801941
+}

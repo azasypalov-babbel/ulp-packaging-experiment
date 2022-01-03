@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TrainerTitle /> it renders 1`] = `
+<Styled(Title)
+  as="h1"
+  color="spaceGray"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "formatt{ed}",
+    }
+  }
+  data-selector="title"
+  fontFamily="fontMilliardSemi"
+  fontSize="big"
+  textAlign="center"
+/>
+`;

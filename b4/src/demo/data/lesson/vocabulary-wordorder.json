@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "wordorder",
+    "trainers": [
+      {
+        "type": "wordorder",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "d76ecd533868fdf97b03e2e0447250d5",
+                "type": "phrase",
+                "display_language_text": "I'm from Zurich.",
+                "learn_language_text": "((Ich)) ((bin)) ((aus)) ((Zürich))((!))",
+                "info_text": null,
+                "image": {
+                  "id": "e0052bf275aeef16297f99399342d9a2"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "7b9c196ea2ee69bd7ee1441bc604160b",
+                "type": "phrase",
+                "display_language_text": "Are you from Weimar?",
+                "learn_language_text": "((Sind)) ((Sie)) ((aus)) ((Weimar?))",
+                "info_text": "Nein, ich bin nicht aus Weimar.",
+                "image": {
+                  "id": "8382a509c89e7f383fa64806690e2fb9"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f961ada949dce9f2075a37ba754de90a",
+                "type": "phrase",
+                "display_language_text": "Ich kann das besser.",
+                "learn_language_text": "((I)) ((can)) ((do)) ((better)) ((than)) ((that.))",
+                "info_text": "**Nächstes** Mal \"strenge\" ich {mich} mehr an!",
+                "image": {
+                  "id": "c368ce15d8e530a2497efa87cbfd2295"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": {
+    "id": "choicebuttons-one-item",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740b30ba82dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "Do you know how many **stars** are in the \"sky\"?",
+                "learn_language_text": "Weißt du, ((wie wenig|wie \"bitte\"|*wie viel|*also **yes**)) **Sternlein** stehen, an dem blauen \"Himmels\"zelt?",
+                "info_text": "This is a line from a **classic German childrens'** \"sleep\" song",
+                "image": {
+                  "id": "0e583f946c164e8681396b4e5e63e7db"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

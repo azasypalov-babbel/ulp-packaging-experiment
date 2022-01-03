@@ -1,0 +1,127 @@
+{
+  "lesson": {
+    "id": "vocabulary-fillin",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "2171a03dec0c9696a3a906bbcfa7f362",
+                "type": "phrase",
+                "display_language_text": "**the hibiscus**",
+                "learn_language_text": "der ((*Hibiskus|*sehr leicht))",
+                "info_text": "Den **Hibiskus** gibt es in \"vielen\" Farben.",
+                "image": {
+                  "id": "1e0003f2a2f094a9ba700ca37cdacaa8"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "cd78cb2705243fcc4018912cc6750efe",
+                "type": "phrase",
+                "display_language_text": "\"the horizon\"",
+                "learn_language_text": "der ((Horizont))",
+                "info_text": "Now, bring me that horizon..",
+                "image": {
+                  "id": "3628b53e61d7e3154d21172de1c2cfd3"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8f3da7532c928a21784ce6552afa42d5",
+                "type": "phrase",
+                "display_language_text": "the **hyena**",
+                "learn_language_text": "die ((Hyäne))",
+                "info_text": "What is this hyena doing?",
+                "image": {
+                  "id": "30a07114f952d3261035e268122df6fe"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c34378c88ecea290464e1347414e34ba",
+                "type": "phrase",
+                "display_language_text": "Trucks **can** easily \"block\" streets.",
+                "learn_language_text": "Lastwagen **können** ((*foo|*leicht)) Straßen versperren.",
+                "info_text": "This **spectacular** popup \"always\" pops up. It's \"soo\" predictable!",
+                "image": {
+                  "id": "a9d19ae349c7f7c0ffa2280f9f6b7767"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5243cfbe35964adcc9114f9085a6fe65",
+                "type": "phrase",
+                "display_language_text": "This \"is\" Jill.",
+                "learn_language_text": "Das \"ist\" ((Jill)).",
+                "info_text": "Es handlelt sich \"tatsächlich\" um Jill.",
+                "image": {
+                  "id": "5f5f1724ec2c475735dcb36a71783a6e"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "74677d27d6575811c9114f9085a6fe65",
+                "type": "phrase",
+                "display_language_text": "I'll \"**explain**\" the rules of the game to you in a moment.",
+                "learn_language_text": "((Ich)) \"**erkläre**\" dir gleich ((die)) Spielregeln.",
+                "info_text": null,
+                "image": {
+                  "id": "5f5f1724ec2c475735dcb36a71783a6e"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

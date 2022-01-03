@@ -1,0 +1,50 @@
+$icon-height: rem(96px);
+$icon-width: rem(96px);
+
+.lesson-end-screen-feedback-message {
+  margin-bottom: rem(24px);
+
+  @include media(medium) {
+    flex: 1;
+    margin-bottom: rem(48px);
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 auto rem(16px) auto;
+  }
+
+  &__text {
+    font-family: $font-leitura-bold;
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+
+    @include media(medium) {
+      font-size: 3.7em;
+    }
+  }
+}
+
+// Modifiers
+
+.lesson-end-screen-feedback-message--high {
+  .lesson-end-screen-feedback-message__text {
+    color: $teal;
+  }
+}
+
+.lesson-end-screen-feedback-message--medium {
+  .lesson-end-screen-feedback-message__text {
+    color: $survival-blue;
+  }
+}
+
+.lesson-end-screen-feedback-message--low {
+  .lesson-end-screen-feedback-message__text {
+    color: $canary;
+  }
+}

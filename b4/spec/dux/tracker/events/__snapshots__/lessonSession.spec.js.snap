@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:ended:* lesson_session:ended:abort 1`] = `
+Object {
+  "event": "lesson_session:ended:abort",
+  "payload": Object {
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "number_of_pages_in_lesson": 1,
+    "position_in_lesson": 1,
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+  },
+  "version": 5,
+}
+`;
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:ended:* lesson_session:ended:finish 1`] = `
+Object {
+  "event": "lesson_session:ended:finish",
+  "payload": Object {
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "number_of_pages_in_lesson": 1,
+    "position_in_lesson": 1,
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+  },
+  "version": 5,
+}
+`;
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:started:* lesson_session:started:initial 1`] = `
+Object {
+  "event": "lesson_session:started:initial",
+  "payload": Object {
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+  },
+  "version": 5,
+}
+`;
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:started:* lesson_session:started:purge 1`] = `
+Object {
+  "event": "lesson_session:started:purge",
+  "payload": Object {
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+  },
+  "version": 5,
+}
+`;
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:trainer:* lesson_session:trainer:finished 1`] = `
+Object {
+  "event": "lesson_session:trainer:finished",
+  "payload": Object {
+    "content_release_id": "mocked-content-release-id",
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "dictate": false,
+    "interaction": "write",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "position_in_lesson": 1,
+    "puzzle_helper": true,
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+    "trainer_shown": "Card_Puzzlehelper",
+    "trainer_type": "card",
+    "translation_visibility": "full",
+  },
+  "version": 9,
+}
+`;
+
+exports[`tracker selectors lesson session events lesson_session:* lesson_session:trainer:* lesson_session:trainer:started 1`] = `
+Object {
+  "event": "lesson_session:trainer:started",
+  "payload": Object {
+    "content_release_id": "mocked-content-release-id",
+    "content_uuid": "mocked-lesson-uuid",
+    "course_uuid": "3c3a779d5cfe8d985becdffec0eea15b",
+    "dictate": false,
+    "interaction": "write",
+    "learn_language_alpha3": "DEU",
+    "lesson_uuid": "c59ee920b4fe47ecb54a65a8d562b38a",
+    "locale": "en",
+    "position_in_lesson": 1,
+    "puzzle_helper": true,
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_total": 5,
+    "session_loop": 1,
+    "session_points_total": -1,
+    "trainer_shown": "Card_Puzzlehelper",
+    "trainer_type": "card",
+    "translation_visibility": "full",
+  },
+  "version": 9,
+}
+`;

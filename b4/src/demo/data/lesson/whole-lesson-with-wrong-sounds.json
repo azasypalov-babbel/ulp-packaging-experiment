@@ -1,0 +1,1292 @@
+{
+  "lesson": {
+    "id": "whole-lesson-with-broken-sounds",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f251eca0a721b19699f874e8471ce945",
+                "type": "phrase",
+                "display_language_text": "This item does not have sound",
+                "learn_language_text": "Dieses Objekt hat keinen Ton",
+                "info_text": null,
+                "image": {
+                  "id": "4bc03bbde7375d7a83549e48fd348d90"
+                },
+                "sound": {
+                  "id": "d35721934foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1d9293fa08bc7cb9b38e8817bf2d78c5",
+                "type": "phrase",
+                "display_language_text": "This man sleeps during class",
+                "learn_language_text": "Dieser Mann schläft während der Vorlesung",
+                "info_text": null,
+                "image": {
+                  "id": "df2556b9fd2d20b40400284e15d21107"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "none",
+        "title": null,
+        "description": "Dialog Speak",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "54b0160a168b9e1bdb979d5086e3c53f",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "((Hallo Foo, was gibt's zum Frühstück?))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8824774469232f1114461fa4d45264",
+                "type": "task",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": "Dieses Objekt hat keinen Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "f2"
+              },
+              {
+                "id": "54b0360a168b9e3bdb979d5086e3c53f",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Hallo Bar, es gibt Haferflocken, Nüsse und Milch. Aber keinen Ton.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8844774469234f1114461fa4d45264",
+                "type": "task",
+                "display_language_text": "The sun is shining through the window.",
+                "learn_language_text": "Die Sonne scheint durchs Fenster herein.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c34378c88ecea290464e1347414e34ba",
+                "type": "phrase",
+                "display_language_text": "Trucks **can** easily \"block\" streets.",
+                "learn_language_text": "Lastwagen **können** ((*foo|*leicht)) Straßen versperren.",
+                "info_text": "This **spectacular** popup \"always\" pops up. It's \"soo\" predictable!",
+                "image": {
+                  "id": "a9d19ae349c7f7c0ffa2280f9f6b7767"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "74647d27d6575811c9114f9085a6fe65",
+                "type": "phrase",
+                "display_language_text": "This item does not have sound.",
+                "learn_language_text": "((Dieses)) Objekt ((hat)) keinen Ton.",
+                "info_text": null,
+                "image": {
+                  "id": "5f5f1724ec2c475735dcb36a71783a6e"
+                },
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "memory",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "7c457bae5e2ff79a8076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "item without sound",
+                "learn_language_text": "Objekt ohne Ton",
+                "info_text": null,
+                "image": {
+                  "id": "7ae9016df8ac195842d143f68faa5d79"
+                },
+                "sound": {
+                  "id": "d3572193foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "1216079338373c868076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the astronaut",
+                "learn_language_text": "die Astronautin",
+                "info_text": null,
+                "image": {
+                  "id": "7ae9016df8ac195842d143f68faa5d79"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "wordorder",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "d767cd533868fdf97b03e2e0447250d5",
+                "type": "phrase",
+                "display_language_text": "I don't have sound",
+                "learn_language_text": "((Ich)) ((habe)) ((keinen)) ((Ton))",
+                "info_text": null,
+                "image": {
+                  "id": "e0052bf275aeef16297f99399342d9a2"
+                },
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "7b98196ea2ee69bd7ee1441bc604160b",
+                "type": "phrase",
+                "display_language_text": "Bist du der Weihnachtsmann?",
+                "learn_language_text": "((Bist)) ((du)) ((der)) ((Weihnachtsmann?))",
+                "info_text": null,
+                "image": {
+                  "id": "8382a509c89e7f383fa64806690e2fb9"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c57862a0f2326d6112af448f848d42d0",
+                "type": "phrase",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": "Dieses Objekt ((hat)) keinen Ton.",
+                "info_text": null,
+                "image": {
+                  "id": "ef8ab07d5980c6502699507b523b333b"
+                },
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "3019ce95f6fd5a6532a1fdc321cda994",
+                "type": "phrase",
+                "display_language_text": "Could you give me the dice and the small stack of cards, please?",
+                "learn_language_text": "Kannst ((du mir)) bitte den Würfel und den kleinen ((Stapel)) Karten geben?",
+                "info_text": "Würfel! Stapel!",
+                "image": {
+                  "id": "8c0c70e7dbe73171f1578d04059aa020"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740130ba92dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": "((*Dieses|Fieses)) Objekt hat ((*keinen|feinen)) Ton.",
+                "info_text": "Ja: Monopoly, ein Klassiker!",
+                "image": {
+                  "id": "0a2d59805794a8ba59cf40967089b67d"
+                },
+                "sound": {
+                  "id": "d357219foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "bf8226cd29f9585466d7874988a50cfc",
+                "type": "phrase",
+                "display_language_text": "The clock's sound is broken.",
+                "learn_language_text": "Der Ton ((die|*der|das|*yes)) Uhr ist kaputt.",
+                "info_text": null,
+                "image": {
+                  "id": "2420f0dbde67bb037e9320b7e8d9e2d2"
+                },
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "5643416fa76cf963774c33c773e99a31"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "5c6d3524aed69d76e41d9d27c4e156b1",
+                "type": "task",
+                "display_language_text": "Learn about German social manners",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5c6d4524aed69d76e41d9d27c4e156b1",
+                "type": "task",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c11b5916e8f349c85c5a92715b841d38",
+                "type": "phrase",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": "Dieses ((Objekt|Haus)) hat keinen Ton.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d35721934foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c11b6916e8f349c85c5a92715b841d38",
+                "type": "phrase",
+                "display_language_text": "(Hello). **Hello**. \"Hello\". 'Hello'.",
+                "learn_language_text": "((*Hallo|*cli**ck** here|\"Tschüßiii\")).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "2eab07ee4963d527bab2eeda0402a9b4"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "9d418fbaf6ec50241b55b3bf344ea217",
+                "type": "task",
+                "display_language_text": "It is ok to address **family members** with their respective \"roles\". For example, you can say:",
+                "info_text": "This **is** a \"formatted\" info text! neat!",
+                "learn_language_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "003392305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "\"Good morning\", **dear** cousin.",
+                "learn_language_text": "((Schöner|*Guten)) \"Morgen\", lieber **Cousin**",
+                "info_text": "and your cousin should not be offended",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "9d411fbaf6ec50241b55b3bf344ea217",
+                "type": "task",
+                "display_language_text": "This item has no sound.",
+                "info_text": null,
+                "learn_language_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "003322305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "This item has no sound.",
+                "learn_language_text": "Dieses Objekt ((hat|*hat keinen)) Ton.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572foo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "none",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "c47b5df9b6b369839f95d39639e5895b"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "0b213d4f6fb8e28b2cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "This is some grammar information with sound.",
+                "learn_language_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m2"
+              },
+              {
+                "id": "b2de460878357307b12d11b97f61ae26",
+                "type": "phrase",
+                "display_language_text": "This item has no sound",
+                "learn_language_text": "Dieses Objekt hat keinen ((Fön|Fun|*Ton))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "0b215d4f6fb8e28b2cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "This is some grammar information without sound",
+                "learn_language_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d35721934777foo"
+                },
+                "speaker_role": "m2"
+              },
+              {
+                "id": "b2de760878357307b12d11b97f61ae26",
+                "type": "phrase",
+                "display_language_text": "If it rains, you get wet.",
+                "learn_language_text": "Wenn es regnet, wirst du ((*nass|*blass)).",
+                "info_text": "this is an info popup",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "keyboard",
+        "translation_visibility": "partial",
+        "title": "Learn the Russian R",
+        "description": "**Мы скучаем по тебе, Саша**. The last item below does not have sound.",
+        "image": {
+          "id": "290d49f4c19e3b2f7ebb51f69ee243f8"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f09e8da4a92764b54b225c86bee5d8e1",
+                "type": "phrase",
+                "display_language_text": "Radio. Type 'zh'",
+                "learn_language_text": "((ж))адио",
+                "info_text": "Video killed the жадио star",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "b4669ee093b3eb52a729fc4744d1198b",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "((й))",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Dialog Fillin",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c4124f431a701ffeb7d95c08401dab12",
+                "type": "phrase",
+                "display_language_text": "What did you do yesterday?",
+                "learn_language_text": "Was hast du ((gestern)) gemacht?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "a557534d59c23aa803e2f7cdf5c667af",
+                "type": "task",
+                "display_language_text": "Foo was at the playground with his kids.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c4126f431a704ffeb7d95c08401dab12",
+                "type": "phrase",
+                "display_language_text": "And what are you doing today without sound?",
+                "learn_language_text": "Und was machst du ((heute)) ohne Ton?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "a557734d59c25aa803e2f7cdf5c667af",
+                "type": "task",
+                "display_language_text": "Foo misses this item's sound a lot.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Dialog Choicebuttons",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "61008e92d29865a26ac1b658fd6e4fdd",
+                "type": "phrase",
+                "display_language_text": "This is a phrase with sound",
+                "learn_language_text": "Das ist ein((ie|*e|er)) 'phrase' mit Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8894774469235f1114461eb4d45264",
+                "type": "task",
+                "display_language_text": "this is a task with sound",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "61001e92d29865a26ac1b658fd6e4fdd",
+                "type": "phrase",
+                "display_language_text": "This is a phrase without sound",
+                "learn_language_text": "Das ist eine 'phrase' ((ö|e|*o))hne Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d35721934foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8824774469235f1114461eb4d45264",
+                "type": "task",
+                "display_language_text": "this is a task without sound",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d35721934777foo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Dialog Dictate Fillin",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "642033d21551c7642a115a633f9168eb",
+                "type": "phrase",
+                "display_language_text": "This item doesn't have sound",
+                "learn_language_text": "Dieses ((Objekt)) hat keinen Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d35721934777foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e7c646e75b1d5af0cff620797a1de9df",
+                "type": "task",
+                "display_language_text": "This item doesn't have sound",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "642053d21551c7642a115a833f9168eb",
+                "type": "phrase",
+                "display_language_text": "Foo und Bar treffen sich in der Bar",
+                "learn_language_text": "Foo and ((Bar)) meet in a bar",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e7c676e75b1d5af0cff620997a1de9df",
+                "type": "task",
+                "display_language_text": "They drink only water in the bar.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Dialog Dictate Choice",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "141e8425eab6b19029c61f1a28806875",
+                "type": "phrase",
+                "display_language_text": "Que-ce que tu vas faire aujourdhui?",
+                "learn_language_text": "Was wirst du ((*h|m|L))eute machen?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "89891607e68c6d4395e7c6327a840b7d",
+                "type": "task",
+                "display_language_text": "This is context information",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "141e3425eab6b19029c61f4a28806875",
+                "type": "phrase",
+                "display_language_text": "This item doesn't have sound",
+                "learn_language_text": "Dieses Objekt hat keinen ((Mond|Eimer|*Ton)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "89892607e68c6d4395e7c6527a840b7d",
+                "type": "task",
+                "display_language_text": "This item doesn't have sound",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d357219347778foo"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Dialog Puzzlehelper",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "1b52298277472964fe59396cd48443a8",
+                "type": "phrase",
+                "display_language_text": "An interesting conversation starter",
+                "learn_language_text": "Eine interessante ((Art)), eine Unterhaltung ((zu)) beginnen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e7c356e75b1d5af0cff620197a1de9df",
+                "type": "task",
+                "display_language_text": "An interesting context information without sound",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d357219347foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1b54298277472964fe59396cd48443a8",
+                "type": "phrase",
+                "display_language_text": "A mildly interesting conversation follow up with no sound",
+                "learn_language_text": "Eine ((nur)) wenig interessante Weiterführung des Dialogs ohne Ton.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e7c556e75b1d5af0cff620197a1de9df",
+                "type": "task",
+                "display_language_text": "An interesting context information",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "comprehension",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Comprehension Text",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "fdc1c1a36004271a26a706613f040964",
+                "type": "phrase",
+                "display_language_text": "This is text with translation and sound",
+                "learn_language_text": "Das hier ist Text mit Übersetzung und Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "25120c361b3511eb8ae73a472db1796d",
+                "type": "phrase",
+                "display_language_text": "This text has a broken sound id",
+                "learn_language_text": "Dieser Text hat eine kaputte Ton Id",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1foo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "df6192278697e8b7202b495be93be337",
+                "type": "task",
+                "display_language_text": "This is the question. Answer it: ((no|*yes|maybe|*correct))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "comprehension",
+        "translation_visibility": "none",
+        "title": null,
+        "description": "Comprehensio Audio",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "67aa400f7bbb4b5ba76a437e554ee906",
+                "type": "phrase",
+                "display_language_text": "Comprehension Audio Text ohne Ton",
+                "learn_language_text": "Comprehension Audio text without sound",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785bfoo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "51c64e54dbbee03755d26c3c2b187fb5",
+                "type": "phrase",
+                "display_language_text": "Aber hier wurde der Ton gerettet",
+                "learn_language_text": "But this sound here was saved",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "ed436de5ee84f3afb22abd7e515d055c",
+                "type": "task",
+                "display_language_text": "Choose the letter X to win: ((Y|Z|*X))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "matching",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Matching Type 1",
+        "image": null,
+        "item_groups": [
+          {
+            "title": "null",
+            "image": null,
+            "items": [
+              {
+                "id": "d85a01bdf3bac689e7bc4808365dc5e6",
+                "type": "phrase",
+                "display_language_text": "the sound",
+                "learn_language_text": "der Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "08867270d834986fb24a4af09ab10d04",
+                "type": "phrase",
+                "display_language_text": "the broken sound",
+                "learn_language_text": "der kaputte Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bfoo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "matching",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Matching Type 2",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "162d2e047d4a2badc81e00aa574b15e0",
+                "type": "phrase",
+                "display_language_text": "To + n = Ton",
+                "learn_language_text": "Sou + nd =_Sound",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "30b1059fa1c1a0578fdd61f4a9d45875",
+                "type": "phrase",
+                "display_language_text": "sound + broken Id = no sound",
+                "learn_language_text": "Ton + kaputt =_kein Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d357219347778foo"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": "Dictate Wordorder",
+        "description": "Dictate Wordorder",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "061637f43e95a5371ffcb92b9a4fda8b",
+                "type": "phrase",
+                "display_language_text": "this sound is broken",
+                "learn_language_text": "((Dieser)) ((Ton)) ((ist)) ((kaputt))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bfoo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "71d9566c48c14d2871b1f414c6e52800",
+                "type": "phrase",
+                "display_language_text": "Are you Santa Claus?",
+                "learn_language_text": "((Bist)) ((du)) ((der)) ((Weihnchatsmann?))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "sort",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": "Dictate Fillin",
+        "description": "Dictate Fillin",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "19daa5ec50cbce6b9e8b6c7de2af1a46",
+                "type": "phrase",
+                "display_language_text": "Working sound is great",
+                "learn_language_text": "Funktionierender ((Ton)) ist prima",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "a4c5abc767f1fcb6c4c7db5eb48377c3",
+                "type": "phrase",
+                "display_language_text": "Broken sound is bad",
+                "learn_language_text": "((Kaputter)) Sound ist schlecht",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785bfoo"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": "Dictate Puzzlehelper",
+        "description": "Dictate Puzzlehelper",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "cf9b87977e624663d16068355eb51544",
+                "type": "phrase",
+                "display_language_text": "yesterday, there was no sound in this item",
+                "learn_language_text": "Gestern hatte dieses ((Objekt)) keinen Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785foo"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5846dab202c021e153b99c99113527e2",
+                "type": "phrase",
+                "display_language_text": "Usually, I do eat breakfast, though.",
+                "learn_language_text": "Ich ((esse)) aber sonst schon Frühstück.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": true
+      },
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": "Dictate Choicebuttons",
+        "description": "Dictate Choicebuttons",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "13b0b14cdeb9b331c0553ce7b3733d3c",
+                "type": "phrase",
+                "display_language_text": "This item doesn't have sound",
+                "learn_language_text": "Dieses ((A|*O|Ü))bjekt hat keinen Ton",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1foo"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c4b90807c320dec9774f8fb38e3f13c2",
+                "type": "task",
+                "display_language_text": "this lesson does not have info texts",
+                "learn_language_text": "Diese Lektion hat keine ((A|E|*I|O|U))nfotexte",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

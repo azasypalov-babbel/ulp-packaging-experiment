@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MicPermissionMessage /> on click tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "mic_error_no_permission",
+    "gui_element": "opt_out_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicPermissionMessage /> tracks gui:shown 1`] = `
+Object {
+  "event": "gui:shown",
+  "payload": Object {
+    "gui_container": "mic_error_no_permission",
+    "gui_element": "opt_out_button",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicPermissionMessage /> when in lesson renders with the button 1`] = `
+<ErrorOverlay
+  body={
+    <ReplaceInline
+      replacement={
+        <VideocamBlocked
+          size="1.25rem"
+        />
+      }
+      symbol="[*]"
+    >
+      speech_recognition.error_mic_permission.body
+    </ReplaceInline>
+  }
+  dataSelector="error-overlay-mic-permission-error"
+  icon={
+    <WithTheme(MicOff)
+      size="3.5rem"
+    />
+  }
+  key="permission-error"
+  title="speech_recognition.error_mic_permission.title"
+>
+  <WithKeypress(styled.button)
+    data-selector="cta-button"
+    onClick={[Function]}
+  >
+    speech_recognition.error_mic_permission.cta
+  </WithKeypress(styled.button)>
+</ErrorOverlay>
+`;
+
+exports[`<MicPermissionMessage /> when in review renders without the button 1`] = `
+<ErrorOverlay
+  body={
+    <ReplaceInline
+      replacement={
+        <VideocamBlocked
+          size="1.25rem"
+        />
+      }
+      symbol="[*]"
+    >
+      speech_recognition.error_mic_permission.body
+    </ReplaceInline>
+  }
+  dataSelector="error-overlay-mic-permission-error"
+  icon={
+    <WithTheme(MicOff)
+      size="3.5rem"
+    />
+  }
+  key="permission-error"
+  title="speech_recognition.error_mic_permission.title"
+/>
+`;

@@ -1,0 +1,151 @@
+{
+  "lesson": {
+    "id": "matching",
+    "trainers": [
+      {
+        "type": "matching",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "This is matching trainer - type 1",
+        "image": null,
+        "item_groups": [
+          {
+            "title": "null",
+            "image": null,
+            "items": [
+              {
+                "id": "d85a01bdf3bac689e7bc4808365dc5e6",
+                "type": "phrase",
+                "display_language_text": "**the** \"fruit\"",
+                "learn_language_text": "das **Obst ist in vielen Farben** und \"ormen erhältlich\". Es handelt sich um ein Naturprodukt und unterliegt daher den natürlichen Schwankungen.",
+                "info_text": "Obst gibt es in vielen verschiedenen Farben",
+                "image": null,
+                "sound": {
+                  "id": "a8dd2bad99fc65301fc250fd05741766"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "08867270d834986fb24a4af09ab10d04",
+                "type": "phrase",
+                "display_language_text": "the vegetables",
+                "learn_language_text": "das Gemüse",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "33df6f3aa74afbe4d6f541825f6e758d",
+                "type": "phrase",
+                "display_language_text": "the cheese",
+                "learn_language_text": "der Käse",
+                "info_text": "Käse hat manchmal Löcher",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "b9cf73d37e1dd788faa5bf3cfaf3fd44",
+                "type": "phrase",
+                "display_language_text": "the sausage",
+                "learn_language_text": "die Wurst",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "matching",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "This is matching trainer - type 2",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "ich-darf-id",
+                "type": "phrase",
+                "display_language_text": "I may",
+                "learn_language_text": "ich_darf",
+                "info_text": "ICH DARF",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "er-darf-id",
+                "type": "phrase",
+                "display_language_text": "he may",
+                "learn_language_text": "er_darf",
+                "info_text": "ER DARF",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "162d2e047d4a2badc81e00aa574b15e0",
+                "type": "phrase",
+                "display_language_text": "3-0=3",
+                "learn_language_text": "drei - null =_drei",
+                "info_text": "wenn du das nicht rechnen kannst,..",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "30b1059fa1c1a0578fdd61f4a9d45875",
+                "type": "phrase",
+                "display_language_text": "1+6=7",
+                "learn_language_text": "eins + sechs =_sieben",
+                "info_text": "... dann holla, die Waldfee!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "122de94dffe2af7d3c9bda6a94a79dc8",
+                "type": "phrase",
+                "display_language_text": "2x2=4",
+                "learn_language_text": "zwei x zwei =_vier",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

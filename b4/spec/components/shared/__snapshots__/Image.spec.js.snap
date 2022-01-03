@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> it renders 1`] = `
+<div
+  className="image-frame image-frame-bubble"
+>
+  <img
+    alt=""
+    src="http://someurl.com"
+  />
+</div>
+`;
+
+exports[`<Image /> it renders without image-frame and image-frame-bubble 1`] = `
+<div
+  className=" "
+>
+  <img
+    alt=""
+    src="http://someurl.com"
+  />
+</div>
+`;

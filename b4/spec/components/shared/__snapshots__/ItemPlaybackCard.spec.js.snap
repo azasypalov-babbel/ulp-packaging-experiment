@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemPlaybackCard /> it renders 1`] = `
+<Styled(styled.div)>
+  <div>
+    <PlayButton
+      disabled={false}
+      duration={0}
+      onClick={[Function]}
+    />
+  </div>
+  <div>
+    <styled.span
+      as="p"
+      color="spaceGray"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Der kleine ((Stapel)) **Karten** \\"gehört\\" mir!",
+        }
+      }
+      fontSize={
+        Object {
+          "desktop": "big",
+          "mobile": "medium",
+        }
+      }
+      textAlign="left"
+    />
+    <Styled(styled.span)
+      as="p"
+      color="spaceGrayW28"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "(Tante) The small stack of \\"cards\\" is **mine** (lit. belongs to me)!",
+        }
+      }
+      fontSize="base"
+      textAlign="left"
+    />
+  </div>
+</Styled(styled.div)>
+`;

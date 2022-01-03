@@ -1,0 +1,145 @@
+{
+  "lesson": {
+    "id": "dialog-fillin-purge-edge-cases",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "2eab07ee4963d527bab2eeda0402a9b4"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "9d41bfbaf6ec50241b55b3bf344ea217",
+                "type": "task",
+                "display_language_text": "These are the answers: **1.** Das Waschbecken ist zu klein **2.** niemals **3.** Pfannkuchen \"or\" Krapfen **4.** scheint **5.** scheint **6.** trister \"or\" öder **7.** drüben **8.** Hallo **9.** das Wetter \"and then\" isst Fred",
+                "info_text": null,
+                "learn_language_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "9d41bfbaf6ec50241b55b3bf344ea217",
+                "type": "phrase",
+                "display_language_text": "1. The sink is too small.",
+                "info_text": null,
+                "learn_language_text": "((Das Waschbecken ist zu klein))",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "003382305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "2. never!",
+                "learn_language_text": "((niemals))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "013422305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "3. German type of donut",
+                "learn_language_text": "((*Pfannkuchen|*Krapfen))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m2"
+              },
+              {
+                "id": "05b1f9a08520098d2cbbb6f343226861",
+                "type": "phrase",
+                "display_language_text": "4. The moon is shining bright tonight.",
+                "learn_language_text": "Heute ((scheint)) der Mond hell.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f2"
+              },
+              {
+                "id": "658f6323f5380ad34821765803f354b5",
+                "type": "phrase",
+                "display_language_text": "5. But the sun doesn't shine at all today.",
+                "learn_language_text": "Aber die Sonne ((*scheint)) dafür heute überhaupt nicht.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              },
+              {
+                "id": "9647d7e46d7f0df61f45ecfe3cfaaec3",
+                "type": "phrase",
+                "display_language_text": "6. This is a bleak place.",
+                "learn_language_text": "Das ist ein ((*trister|*öder)) Ort.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "7bcdafcd3a809b12269fe1f8bbb8998a",
+                "type": "phrase",
+                "display_language_text": "7. Hello there!",
+                "learn_language_text": "Hallo da ((drüben))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m2"
+              },
+              {
+                "id": "ecda8fcd3809b32a269fe1f8bbb8998a",
+                "type": "phrase",
+                "display_language_text": "8. Hello there!",
+                "learn_language_text": "((Hallo)) da drüben!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "cdafc6cd3a809b12269fe1f8bbb8998a",
+                "type": "phrase",
+                "display_language_text": "9. What is **the weather** like \"in Eritrea\", and what does Fred \"eat\" **for breakfast**?",
+                "learn_language_text": "Wie ist ((das Wetter)) **in Eritrea**, und \"was\" ((isst Fred)) zum **Frühstück**?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

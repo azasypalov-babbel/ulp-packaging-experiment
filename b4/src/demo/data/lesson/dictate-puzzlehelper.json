@@ -1,0 +1,61 @@
+{
+  "lesson": {
+    "id": "dictate-puzzlehelper",
+    "trainers": [
+      {
+        "type": "dictate",
+        "translation_visibility": "none",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "cf9b87977e624663d16068355eb51544",
+                "type": "phrase",
+                "display_language_text": "Yesterday, we didn't have breakfast.",
+                "learn_language_text": "**Gestern** \"gab\" 'es' leider kein Früh((stück)).",
+                "info_text": "Ein Tag ohne Frühstück!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5846dab202c021e153b99c99113527e2",
+                "type": "phrase",
+                "display_language_text": "Usually, I do eat breakfast, though.",
+                "learn_language_text": "Ich esse aber sonst ((*true|*schon)) Frühstück.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "4eb5de3947e1d3c58a43d8d0b71e4d20",
+                "type": "phrase",
+                "display_language_text": "So today, we are going to eat a big breakfast in a cafe!",
+                "learn_language_text": "((Heute)) gehen wir dafür groß ((in)) einem Cafe frühstücken!",
+                "info_text": "Das ist ein guter Ersatz",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": true
+      }
+    ]
+  }
+}

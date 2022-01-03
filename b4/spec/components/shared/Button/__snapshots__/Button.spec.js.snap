@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> <Button disabled /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #e1e5e7;
+  color: #9aa7b3;
+  border: 1px solid #becedd;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+<styled.button
+  disabled={true}
+  type="button"
+>
+  <button
+    className="c0"
+    disabled={true}
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> <Button negative /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ffdcdc;
+  color: #284b7c;
+  border: 1px solid #ff4d4d;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  color: #284b7c;
+}
+
+.c0:hover,
+.c0:focus {
+  border: none;
+}
+
+.c0:active,
+.c0.is-active {
+  border: none;
+  background-color: #ff4d4d;
+  color: #ffffff;
+}
+
+.c0:active svg,
+.c0.is-active svg {
+  color: #ffffff;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#ffdcdc)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#ffdcdc))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#ffdcdc)));
+}
+
+<styled.button
+  negative={true}
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> <Button negativeSolid /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: lighten(0.05,#ff4d4d);
+}
+
+.c0:active,
+.c0.is-active {
+  background-color: #ff4d4d;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#ff4d4d)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#ff4d4d))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#ff4d4d)));
+}
+
+<styled.button
+  negativeSolid={true}
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> <Button positive /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #e3f8f7;
+  color: #284b7c;
+  border: 1px solid #44cdc8;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  color: #284b7c;
+}
+
+.c0:hover,
+.c0:focus {
+  border: none;
+}
+
+.c0:active,
+.c0.is-active {
+  border: none;
+  background-color: #44cdc8;
+  color: #ffffff;
+}
+
+.c0:active svg,
+.c0.is-active svg {
+  color: #ffffff;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#e3f8f7)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#e3f8f7))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#e3f8f7)));
+}
+
+<styled.button
+  positive={true}
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> <Button positiveSolid /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #44cdc8;
+  color: #ffffff;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: lighten(0.1,#44cdc8);
+}
+
+.c0:active,
+.c0.is-active {
+  background-color: #44cdc8;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#44cdc8)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#44cdc8))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#44cdc8)));
+}
+
+<styled.button
+  positiveSolid={true}
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> <Button primary /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ff790f;
+  color: #ffffff;
+  border: none;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus {
+  background-color: #ffaf00;
+}
+
+.c0:active,
+.c0.is-active {
+  background-color: #ff790f;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#9a4400)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#9a4400))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#9a4400)));
+}
+
+<styled.button
+  primary={true}
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> it renders 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  color: #284b7c;
+  border: 1px solid #becedd;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus {
+  border: none;
+  background-color: #d1eefc;
+}
+
+.c0:active,
+.c0.is-active {
+  border: none;
+  background-color: #738ce6;
+  color: #ffffff;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#284b7c)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#284b7c))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#284b7c)));
+}
+
+<styled.button
+  type="button"
+>
+  <button
+    className="c0"
+    type="button"
+  />
+</styled.button>
+`;
+
+exports[`<Button /> when button is pressed it renders with is-active class 1`] = `
+.c0 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  color: #284b7c;
+  border: 1px solid #becedd;
+}
+
+.c0:hover,
+.c0:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c0:active,
+.c0.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:hover,
+.c0:focus {
+  border: none;
+  background-color: #d1eefc;
+}
+
+.c0:active,
+.c0.is-active {
+  border: none;
+  background-color: #738ce6;
+  color: #ffffff;
+}
+
+.c0:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#284b7c)));
+}
+
+.c0:active,
+.c0.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#284b7c))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#284b7c)));
+}
+
+<styled.button
+  pressed={true}
+  type="button"
+>
+  <button
+    className="c0 is-active"
+    type="button"
+  />
+</styled.button>
+`;

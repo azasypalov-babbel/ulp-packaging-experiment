@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewItem /> it renders 1`] = `
+<div
+  className="loy-review-item"
+  onClick={[Function]}
+>
+  <div
+    className="loy-review-item__icon"
+  />
+  <div
+    className="loy-review-item__text"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "die Straße",
+      }
+    }
+  />
+</div>
+`;

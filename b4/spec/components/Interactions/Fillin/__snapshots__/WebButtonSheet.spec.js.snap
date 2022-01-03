@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WebButtonSheet /> it renders 1`] = `
+<styled.div
+  onClick={[Function]}
+>
+  <div>
+    <Styled(WithKeypress(IconButton))
+      data-selector="transliteration-toggle"
+      iconName="KeyboardIcon"
+      onClick={[Function]}
+    >
+      typing tips
+    </Styled(WithKeypress(IconButton))>
+  </div>
+  <div>
+    <Styled(WithKeypress(IconButton))
+      data-selector="show-hint"
+      iconName="LightBulbIcon"
+      onClick={[Function]}
+    >
+      hint
+    </Styled(WithKeypress(IconButton))>
+  </div>
+</styled.div>
+`;

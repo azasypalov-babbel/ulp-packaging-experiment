@@ -1,0 +1,113 @@
+{
+  "lesson": {
+    "id": "vocabulary-speak",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f25deca0a721b19699f874e8471ce945",
+                "type": "phrase",
+                "display_language_text": "This man would like to have muscles (parentheses)",
+                "learn_language_text": "Dieser Mann hätte gerne Muskeln",
+                "info_text": "Hat er aber nicht!",
+                "image": {
+                  "id": "4bc03bbde7375d7a83549e48fd348d90"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1d9c93fa08bc7cb9b38e8817bf2d78c5",
+                "type": "phrase",
+                "display_language_text": "This man sleeps during class",
+                "learn_language_text": "Dieser Mann schläft während der Vorlesung",
+                "info_text": null,
+                "image": {
+                  "id": "df2556b9fd2d20b40400284e15d21107"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "68e4625b2230773aa7e1407d5b816245",
+                "type": "phrase",
+                "display_language_text": "This woman is on edge",
+                "learn_language_text": "Diese Frau ist genervt",
+                "info_text": "Denn als Vorstandsvorsitzende hat sie viele Diskussionen zu führen",
+                "image": {
+                  "id": "cdd2e892b0ae208ad2af49a342e29c8c"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "72ccd2767a4bb30edcbdae83c43ec871",
+                "type": "phrase",
+                "display_language_text": "The small stack of \"cards\" is **mine** (lit. belongs to me)!",
+                "learn_language_text": "Der kleine ((Stapel)) **Karten** \"gehört\" mir!",
+                "info_text": "Du kannst meine Karten nicht haben!",
+                "image": {
+                  "id": "5a5fe99ac5e17f32965d1cae0db18540"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "2871959a5b4c598d4279addc195390c8",
+                "type": "phrase",
+                "display_language_text": "Don't be a spoilsport!",
+                "learn_language_text": "Sei kein ((Spielverderber))!",
+                "info_text": "Das sagen Kinder häufig.",
+                "image": {
+                  "id": "4826ae2c1abc9b72fbcf34eb9da7cb83"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

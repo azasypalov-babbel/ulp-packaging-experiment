@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComprehensionTrainerContainer preloads sounds 1`] = `
+Array [
+  Array [
+    "123.mp3",
+  ],
+  Array [
+    "456.mp3",
+  ],
+  Array [
+    "789.mp3",
+  ],
+]
+`;

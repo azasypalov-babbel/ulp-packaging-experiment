@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChoiceList /> renders 1`] = `
+<styled.div
+  choiceItemCount={4}
+  data-has-attempt={false}
+  data-selector="choicelist-container"
+>
+  <PoseGroup
+    animateOnMount={true}
+    flipMove={false}
+  >
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={0}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={false}
+      key="One_Two"
+      listenToKey="1"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Two
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={1}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={false}
+      key="One_Three"
+      listenToKey="2"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Three
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={2}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={false}
+      key="One_Four"
+      listenToKey="3"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Four
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={3}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={false}
+      key="One_Five"
+      listenToKey="4"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Five
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+  </PoseGroup>
+</styled.div>
+`;
+
+exports[`<ChoiceList /> with correct attempt renders 1`] = `
+<styled.div
+  choiceItemCount={4}
+  data-has-attempt={true}
+  data-selector="choicelist-container"
+>
+  <PoseGroup
+    animateOnMount={true}
+    flipMove={false}
+  >
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={0}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Two"
+      listenToKey="1"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Two
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={1}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Three"
+      listenToKey="2"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Three
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={2}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Four"
+      listenToKey="3"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Four
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={3}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Five"
+      listenToKey="4"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Five
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+  </PoseGroup>
+</styled.div>
+`;
+
+exports[`<ChoiceList /> with incorrect attempt renders 1`] = `
+<styled.div
+  choiceItemCount={4}
+  data-has-attempt={true}
+  data-selector="choicelist-container"
+>
+  <PoseGroup
+    animateOnMount={true}
+    flipMove={false}
+  >
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={0}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Two"
+      listenToKey="1"
+      mistakeFeedback={true}
+      onClick={[Function]}
+    >
+      Two
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={1}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Three"
+      listenToKey="2"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Three
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={2}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Four"
+      listenToKey="3"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Four
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+    <WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))
+      animationDelayOffset={3}
+      correctFeedback={false}
+      data-selector="display-language-text"
+      dataSelector="distractor"
+      disabled={true}
+      key="One_Five"
+      listenToKey="4"
+      mistakeFeedback={false}
+      onClick={[Function]}
+    >
+      Five
+    </WithKeypress(Connect(WithShortcutHint(WithAnimations(ChoiceItem))))>
+  </PoseGroup>
+</styled.div>
+`;

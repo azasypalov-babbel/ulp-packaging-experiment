@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:ended:* vocabulary_review:ended:abort 1`] = `
+Object {
+  "event": "vocabulary_review:ended:abort",
+  "payload": Object {
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_due": 47,
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_due": 5,
+    "session_loop": 1,
+    "source": null,
+  },
+  "version": 3,
+}
+`;
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:ended:* vocabulary_review:ended:finish 1`] = `
+Object {
+  "event": "vocabulary_review:ended:finish",
+  "payload": Object {
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_due": 47,
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_due": 5,
+    "session_loop": 1,
+    "source": null,
+  },
+  "version": 3,
+}
+`;
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:started:* vocabulary_review:started:continue 1`] = `
+Object {
+  "event": "vocabulary_review:started:continue",
+  "payload": Object {
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_due": 47,
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_due": 5,
+    "session_loop": 1,
+    "source": null,
+  },
+  "version": 3,
+}
+`;
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:started:* vocabulary_review:started:purge 1`] = `
+Object {
+  "event": "vocabulary_review:started:purge",
+  "payload": Object {
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_due": 47,
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_items_due": 5,
+    "session_loop": 1,
+    "source": null,
+  },
+  "version": 3,
+}
+`;
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:trainer_item:attempted vocabulary_review:trainer_item:attempted 1`] = `
+Object {
+  "event": "vocabulary_review:trainer_item:attempted",
+  "payload": Object {
+    "attempt_result": null,
+    "attempt_text": null,
+    "item_position_in_trainer": 5,
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "purge_flow": false,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_loop": 1,
+    "source": null,
+    "target_text": null,
+  },
+  "version": 7,
+}
+`;
+
+exports[`vocabulary review events vocabulary_review:* vocabulary_review:type_chosen 1`] = `
+Object {
+  "event": "vocabulary_review:type_chosen",
+  "payload": Object {
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "overall_items_total": 4200,
+    "overall_points_total": null,
+    "review_type": "flashcard",
+    "session_items_correct": 1,
+    "session_items_done": 3,
+    "session_loop": 1,
+    "source": null,
+  },
+  "version": 3,
+}
+`;

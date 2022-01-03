@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardTrainerLayout /> it renders 1`] = `
+<styled.div
+  dataSelector="card-data-selector"
+>
+  <TrainerTitle
+    text="card title"
+  />
+  <styled.div>
+    <div>
+      <h1>
+        A card row
+      </h1>
+    </div>
+    <WithServices(TrainerImage)
+      imageId="image-id"
+    />
+  </styled.div>
+</styled.div>
+`;

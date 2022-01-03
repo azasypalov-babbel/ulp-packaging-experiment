@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover" />
+  <base href="/en/lesson-player/" />
+  </head>
+  <body>
+  <div data-main></div>
+  <script data-config type="application/json">
+    {
+      "locale": "<%= htmlWebpackPlugin.options.locale %>",
+      "asset_url": "<%= htmlWebpackPlugin.options.publicPath %>",
+      "my_base_url": "https://my.babbel.cn",
+      "home_base_url": "https://home.babbel.cn",
+      "apigateway_base_url": "https://api.babbel-staging.io/gamma",
+      "sign_in_url": "https://accounts.babbel.cn/en/accounts/sign_in",
+      "static_base_url_template": "https://%{subdomain}.babbel.cn",
+      "base_images_url": "https://images.babbel.com/v1.0.0/images",
+      "base_sounds_url": "https://sounds.babbel.com/v1.0.0/sounds",
+      "uuid": "<%= htmlWebpackPlugin.options.uuid %>",
+      "client":{
+        "app_name":null,
+        "app_version":null,
+        "app_vendor_or_app_store":null,
+        "app_in_app_purchase_store":null,
+        "browser_name":null,
+        "browser_version":null,
+        "os_name":null,
+        "os_version":null,
+        "device_manufacturer":null,
+        "device_name":null
+      },
+      "geo_data": {
+        "city": "Berlin",
+        "country_code3": "DEU",
+        "region": "BE"
+      }
+    }
+  </script>
+  <script data-static type="application/json">
+    <%= JSON.stringify(htmlWebpackPlugin.options.data) %>
+  </script>
+  </body>

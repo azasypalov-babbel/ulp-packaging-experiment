@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SpeakingTrainerContainer /> #handleMicButtonClick when onboarding is not complete when the first item is displayed tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "speaking_trainer",
+    "gui_element": "mic_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "RUS",
+    "locale": "en_GB",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<SpeakingTrainerContainer /> when onFeedbackAttemptCardClick callback is fired when onboarding is not complete tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "speaking_trainer",
+    "gui_element": "feedback_attempt_card",
+    "interaction": "clicked",
+    "learn_language_alpha3": "RUS",
+    "locale": "en_GB",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<SpeakingTrainerContainer /> when onItemPlaybackCardClick callback is fired when onboarding is not complete tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "speaking_trainer",
+    "gui_element": "item_playback_card",
+    "interaction": "clicked",
+    "learn_language_alpha3": "RUS",
+    "locale": "en_GB",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;

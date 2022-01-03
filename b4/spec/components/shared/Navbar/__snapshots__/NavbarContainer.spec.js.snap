@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavbarContainer /> handleProgressBarTrainerClick it calls track with required payload for lessons 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_element": "progress_bar",
+    "interaction": "clicked",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<NavbarContainer /> wraps Navbar component with all necessary data in lesson mode 1`] = `
+<div
+  className="loy"
+>
+  <WithServices(WithTranslations(Navbar))
+    onClickClose={[Function]}
+    progressBar={
+      Object {
+        "currentTrainerIndex": 2,
+        "onTrainerClick": [Function],
+        "sequenceHeadIndex": 2,
+        "sequenceHeadProgress": 0.33,
+        "trainerCount": 4,
+      }
+    }
+    progressCounter={
+      Object {
+        "current": 2,
+        "total": 3,
+      }
+    }
+    showFeedbackButton={true}
+    showProgressBar={true}
+  />
+</div>
+`;
+
+exports[`<NavbarContainer /> wraps Navbar component with all necessary data in review mode 1`] = `
+<div
+  className="loy"
+>
+  <WithServices(WithTranslations(Navbar))
+    onClickClose={[Function]}
+    progressBar={
+      Object {
+        "currentTrainerIndex": 2,
+        "onTrainerClick": [Function],
+        "sequenceHeadIndex": 2,
+        "sequenceHeadProgress": 0.33,
+        "trainerCount": 4,
+      }
+    }
+    progressCounter={
+      Object {
+        "current": 2,
+        "total": 3,
+      }
+    }
+    showFeedbackButton={true}
+    showProgressBar={true}
+  />
+</div>
+`;

@@ -1,0 +1,398 @@
+{
+  "lesson_player": {
+    "b3": {
+      "button": {
+        "continue": "Continuar"
+      },
+      "page_dialog": {
+        "title_dictatefillin": "Ouça e complete",
+        "title_speak_phase1": "Leia uma parte do diálogo em voz alta",
+        "title_speak_phase2": "Ouça você no diálogo",
+        "continue": "Continuar",
+        "complete_the_dialogue": "Complete o diálogo",
+        "enable_mic": "Você não configurou seu microfone. Quer configurar agora?",
+        "complete_the_dialogue_choicebuttons": "Selecione a opção correta",
+        "title_dictatechoice": "Ouça e selecione a opção correta"
+      },
+      "page_dialog_speak": {
+        "hint": "Reproduzir áudio",
+        "your_turn": "Agora é a sua vez! Repita as frases abaixo.",
+        "recording": "Gravando…",
+        "hint_playing": "Reproduzindo áudio…",
+        "confirm_msg": "Gostou da sua gravação?",
+        "start_record": "Clique para gravar",
+        "replay": "Escute o diálogo completo",
+        "skip": "Pular"
+      },
+      "page_matching": {
+        "match_up_the_correct_items": "Una os elementos correspondentes"
+      },
+      "vocabulary_click": {
+        "click_on_the_correct_translation": "Selecione a tradução correta"
+      },
+      "text_box_puzzle_helper": {
+        "show_solution": "Mostrar resposta",
+        "help": "Ajuda",
+        "solve": "Solução",
+        "done": "Feito"
+      },
+      "cyrillic_transliteration_table": {
+        "show": "Mostrar a tabela de transliteração",
+        "hide": "Esconder a tabela de transliteração"
+      },
+      "page_vocabulary_gap": {
+        "type_the_missing_characters": "Complete as lacunas",
+        "choice_title": "Selecione a opção correta"
+      },
+      "pop_over": {
+        "odd_solution": "Sua resposta é correta e compreensível, contudo falantes nativos não se expressariam dessa forma.",
+        "enter_reminder_content": "Por favor, insira sua resposta e confirme ⏎.",
+        "infotext_continue": "OK",
+        "click_here_to_type": "Clique aqui para começar a digitar"
+      },
+      "vocabulary_word_order": {
+        "click_on_the_parts_of_the_sentence_in_the_correct_order": "Ordene os elementos"
+      },
+      "menu": {
+        "special_characters": "Caracteres especiais",
+        "remove_special_characters": "Não mostrar os caracteres especiais"
+      },
+      "review_info": {
+        "title": "O que aconteceu aqui? Vamos ver!",
+        "description": "Um vocábulo ou uma frase que tem que ser revisado pode subir ou baixar de nível depois que for revisado.",
+        "one_mistake_title": "Se você cometer apenas um erro",
+        "one_mistake_1": "o vocábulo ou frase permanece no mesmo nível",
+        "one_mistake_2": "e deverá ser revisado no dia seguinte.",
+        "more_mistakes_title": "Se você cometer mais de um erro",
+        "more_mistakes_1": "ele baixará de nível",
+        "more_mistakes_2": "e deverá ser revisado de novo imediatamente.",
+        "no_mistakes_title": "Se você não cometer nenhum erro",
+        "no_mistakes_1": "ele subirá de nível",
+        "no_mistakes_2": "e deverá ser revisado em uma nova data (algo entre 4 e 180 dias, dependendo do novo nível de aprendizado)."
+      },
+      "comprehension": {
+        "text_title": "Leia e selecione a opção correta",
+        "audio_title": "Ouça e selecione a opção correta"
+      },
+      "page_vocabulary": {
+        "speak_title": "Ouça e repita",
+        "click_title": "Selecione a tradução correta",
+        "show_title": "Aprenda as palavras",
+        "show_phrasebook_title": "Aprenda as seguintes frases",
+        "click_phrasebook_title": "Selecione a tradução correta",
+        "fillin_title": "Escreva a tradução",
+        "skip": "Pular",
+        "enable_mic": "Você não configurou seu microfone. Configurar agora?"
+      },
+      "text_dictate": {
+        "listen_again": "Escutar novamente"
+      },
+      "settings": {
+        "title": "Configuração",
+        "disable_speak": "Sem reconhecimento de voz",
+        "enable_speak": "Com reconhecimento de voz (necessário microfone)"
+      },
+      "page_dictate": {
+        "title": "Ouça e complete",
+        "choice_title": "Ouça e selecione a opção correta",
+        "word_order_title": "Ouça e ordene os elementos"
+      },
+      "mic_modal": {
+        "allow_title": "Autorizar acesso ao microfone",
+        "chrome": "Você está utilizando Google Chrome como navegador? Clique em \"%{allow}\" na parte de cima do seu navegador.",
+        "without_mic": "Iniciar lição sem microfone",
+        "instruction": "Depois de você selecionar um microfone e aparecer um sinal de visto, clique em \"Continuar\".",
+        "no_mic": "Parece que você não tem um microfone conectado ao seu computador. Se você quiser utilizar o reconhecimento de voz, conecte um microfone e selecione \"Continuar\".",
+        "instruction_permission_rejected": "Confira as configurações do seu navegador ou comece a lição sem o microfone.",
+        "title_permission_granted": "O acesso ao microfone foi ativado!",
+        "title_permission_rejected": "Você não autorizou o acesso ao seu microfone."
+      },
+      "speak_interface": {
+        "listen": "Escute",
+        "speak_now": "Fale agora",
+        "recording": "Gravando...",
+        "processing": "Processando",
+        "audio_settings": "Configurações de áudio",
+        "help": "Ajuda",
+        "help_instruction_1": "Repita a tradução com o tom normal da sua voz.",
+        "help_instruction_2": "Quando você fala, o ícone do microfone deve ser preenchido.",
+        "help_instruction_3": "Se o volume permanecer constantemente abaixo ou acima do ícone do microfone, vá para \"Configurações de áudio\" e ajuste a sensibilidade do seu microfone."
+      },
+      "record_flash_manager": {
+        "adjust_title": "Ajuste a sensibilidade do microfone",
+        "volume": "Volume: ",
+        "sensitivity": "Sensibilidade: ",
+        "microphone": "Microfone: ",
+        "instructions_gain": "Fale algumas palavras no microfone (por exemplo: “Um, dois, testando.”). A linha do mostrador de volume deverá alcançar a zona verde. Se o som estiver muito alto ou muito baixo, você pode regular a sensibilidade do microfone com a barra inferior."
+      },
+      "vocabulary_speak": {
+        "title": "Ouça e repita",
+        "no_speak_title": "Escute",
+        "enable_mic": "Você não configurou seu microfone. Configurar agora?"
+      },
+      "page_card": {
+        "title_fillin": "Complete as lacunas",
+        "title_choicebuttons": "Selecione a opção correta",
+        "title_puzzle_helper": "Escreva as palavras"
+      },
+      "page_spoken_review": {
+        "speak_the_translation": "Pronuncie a tradução correta"
+      },
+      "learning_language": {
+        "fra": "francês",
+        "deu": "alemão",
+        "eng": "inglês",
+        "spa": "espanhol",
+        "ita": "italiano",
+        "swe": "sueco",
+        "por": "português",
+        "pol": "polonês",
+        "tur": "turco",
+        "nld": "holandês",
+        "ind": "indonésio",
+        "nor": "norueguês",
+        "dan": "dinamarquês",
+        "rus": "russo",
+        "qms": "espanhol (América Latina)"
+      },
+      "page_keyboard": {
+        "title": "Aprenda uma nova letra",
+        "transliteration_instruction": "Para escrever essa letra na Babbel, pressione %{transliteration} no seu teclado:",
+        "and": "e"
+      }
+    },
+    "navbar": {
+      "close": "Fechar",
+      "contact": "Contato"
+    },
+    "review_end_screen": {
+      "purge_errors": "Corrigir os erros (%{mistakes})",
+      "close": "Fechar",
+      "correct": "Acertos",
+      "feedback_message": {
+        "high": "Fantástico, %{name}!",
+        "low": "Estude um pouco mais, %{name}!",
+        "medium": "Muito bem, %{name}!"
+      },
+      "incorrect": "Erros",
+      "more_info_link": "Como você avalia essa funcionalidade?",
+      "review_more": "Revisar mais",
+      "subtitle_pluralized": {
+        "zero": " Nenhum item foi revisado.",
+        "one": "Você revisou %{count} item.",
+        "other": "Você revisou %{count} itens."
+      }
+    },
+    "flash_card_trainer": {
+      "title": "Você se lembra desses vocábulos em %{italiano}?",
+      "button_remember": "Sim",
+      "button_forgot": "Não"
+    },
+    "button": {
+      "see_hint": "Ver a dica",
+      "see_solution": "Ver a resposta",
+      "see_translation": "Ver a tradução",
+      "typing_tips": "Como usar o teclado"
+    },
+    "comprehension": {
+      "press_play": "Aperte o play!",
+      "question": "Pergunta"
+    },
+    "feedback_sheet": {
+      "speech_recognition": {
+        "button_next": "Próximo",
+        "button_try_again": "Repetir"
+      }
+    },
+    "generic_error_screen": {
+      "reload": {
+        "body": "Atualizar a página pode ajudar.",
+        "cta": "Tente novamente",
+        "title": "Ocorreu um erro ao carregar o seu curso"
+      },
+      "return": {
+        "body": "Por favor, volte para página anterior e tente de novo.",
+        "cta": "Voltar",
+        "title": "Opa!"
+      }
+    },
+    "infotext": {
+      "title": "Dica ✨"
+    },
+    "infotext_notification": {
+      "cta": "Ver todas as dicas (%{number})"
+    },
+    "internet_explorer_message": {
+      "body": "As últimas funções e recursos da Babbel não funcionam bem no Internet Explorer. Instale e utilize um outro navegador. É fácil (e gratuito).",
+      "cta_close": "Lembre-me mais tarde",
+      "cta_show_me": "Mostre-me como.",
+      "title": "Por favor, atualize o seu navegador."
+    },
+    "landing_screen": {
+      "start_lesson": "Começar lição"
+    },
+    "learning_tip": {
+      "action": "Entendi!",
+      "tip": "Alto e claro: aumente o volume ou use fones de ouvido.",
+      "title": "Dica de estudo"
+    },
+    "lesson_settings": {
+      "body": "Uma boa pronúncia ajuda você a falar um idioma com segurança.",
+      "show": "Treinar a pronúncia",
+      "speak": "Desativar o microfone",
+      "title": "Que tal treinar um pouco de pronúncia?"
+    },
+    "listening_trainer": {
+      "button": {
+        "continue": "Continuar",
+        "fix_mistakes": "Corrigir meus erros",
+        "review_more": "Revisar mais"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Continue assim!",
+          "2": "Vai dar certo da próxima vez!",
+          "3": "Não se estresse – continue estudando!",
+          "4": "Quem não gosta de um desafio?",
+          "5": "Desafios ajudam a gente a crescer"
+        },
+        "positive": {
+          "1": "Você ouviu corretamente 👍",
+          "2": "Você escutou direito! Perfeito 👍",
+          "3": "Você entendeu super bem! 👏",
+          "4": "Parabéns! Que ouvido bom! 😎",
+          "5": "Correto. Você tem bons ouvidos 👂",
+          "6": "Você está entendendo cada vez melhor! 🤩"
+        }
+      },
+      "instruction": {
+        "listen": "Escute a frase"
+      }
+    },
+    "page_end": {
+      "button_correct_errors": "Corrigir meus erros (%{purgable_items_count})",
+      "button_return_home": "Continue aprendendo",
+      "button_start_new_lesson": "Começar nova lição",
+      "content_locked": {
+        "button_access_content": "Acesse todo o conteúdo de %{italiano}",
+        "text_access_content": "Continue aprendendo %{italiano} acessando todas as nossas lições"
+      },
+      "correct_answers": "Respostas corretas:",
+      "feedback_message": {
+        "high": "Fantástico, %{display_name}!",
+        "low": "Estude um pouco mais, %{display_name}",
+        "medium": "Muito bem, %{display_name}!"
+      }
+    },
+    "review": {
+      "end_screen": {
+        "body": "Você acertou %{count} de %{totalCount} itens!",
+        "button": "Continuar",
+        "title": "Ótimo trabalho, %{username}!"
+      }
+    },
+    "review_menu": {
+      "review_type": {
+        "flashcards": "Cartões de memória",
+        "listen": "Escutando",
+        "speak": "Falando",
+        "write": "Escrevendo"
+      },
+      "title": "Como você gostaria de revisar?"
+    },
+    "smart_surfaces": {
+      "lesson_end": {
+        "raf_popup": {
+          "body": "    ",
+          "button_invite": "Convide seus amigos",
+          "title": "Convide os seus amigos para experimentar um mês gratuito da Babbel e ganhe uma recompensa"
+        }
+      }
+    },
+    "speech_recognition": {
+      "error_generic_lesson": {
+        "body": "Confira as configurações do seu microfone ou continue sem o microfone e escute apenas.",
+        "cta": "Continuar sem microfone",
+        "title": "A gente não está escutando você."
+      },
+      "error_generic_review": {
+        "body": "Por favor, confira as configurações do microfone ou tente outro método de revisão",
+        "cta": "Tente outro método de revisão",
+        "title": "A gente não está escutando você"
+      },
+      "error_mic_muted": {
+        "body": "Por favor, ative o seu microfone nas configurações do seu computador",
+        "cta": "Infelizmente não posso falar agora",
+        "title": "Seu microfone está mudo!"
+      },
+      "error_mic_permission": {
+        "body": "Pressione para ícone de gravar [*] na barra de endereço do navegador do Chrome para permitir o acesso ao seu microfone.",
+        "cta": "Infelizmente não posso falar agora",
+        "title": "Ative o microfone!"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Repita mil vezes se necessário. E continue treinando! 💪"
+        },
+        "positive": {
+          "1": "Sua pronúncia é muito boa 👍",
+          "2": "Alto e claro! 😎",
+          "3": "Excelente pronúncia. 👏"
+        },
+        "recognition_error": {
+          "message": "Tente outra vez",
+          "title": "Desculpe, a gente não entendeu isso!"
+        }
+      },
+      "feeling_silly": {
+        "body": "Falar é uma ótima forma para melhorar a sua pronúncia. Pode parecer estranho no começo, mas você vai chegar lá",
+        "title": "Falta coragem para falar? A gente entende você!"
+      },
+      "got_it": "Entendi",
+      "interaction": {
+        "toggle_off": "Não posso falar agora",
+        "toggle_on": "Posso falar agora"
+      },
+      "mic_button": {
+        "press_to_speak": "Pressione e comece a falar",
+        "speak": "Fale agora",
+        "tap_to_speak": "Mantenha o botão apertado enquanto estiver falando"
+      },
+      "mic_permission": {
+        "body": "Clique em \"Permitir\" no seu navegador para ativar o seu microfone",
+        "cta": "Continuar",
+        "title": "Prepare-se para falar"
+      },
+      "mic_permission_review": {
+        "body": "Para praticar sua pronúncia, ative o seu microfone clicando em \"Permitir\" no Chrome.",
+        "cta": "Continuar",
+        "title": "Ative seu microfone"
+      },
+      "mic_test": {
+        "body": "O microfone está funcionando?",
+        "error_feedback": {
+          "body": "Por favor, ajuste seu microfone nas suas configurações",
+          "title": "Desculpe, a gente não entendeu isso!"
+        },
+        "no_transcript": "Não entendi",
+        "positive_feedback": {
+          "body": "Vamos começar a falar",
+          "title": "Tudo pronto!"
+        },
+        "title": "Teste o microfone falando esta frase:"
+      },
+      "tooltip": {
+        "message": "Pressione e capriche na pronúncia!"
+      },
+      "trainer_item": {
+        "title": "Escute e depois repita em voz alta"
+      }
+    },
+    "writing": {
+      "feedback": {
+        "negative": "Tente outra vez",
+        "typos": "Erro de digitação? Pode acontecer 😉"
+      }
+    }
+  }
+}

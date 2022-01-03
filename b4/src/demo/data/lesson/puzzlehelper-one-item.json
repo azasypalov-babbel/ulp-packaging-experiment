@@ -1,0 +1,39 @@
+{
+  "lesson": {
+    "id": "puzzlehelper-one-item",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "2b31298277472964fe59396cd48443a8",
+                "type": "phrase",
+                "display_language_text": "The children are playing in the garden. Sam is on **the swing**, and Filip is on **the seesaw**",
+                "learn_language_text": "Die Kinder spielen ((im Garten)). Sam \"schaukelt\" {**die Schaukel**}, und Filip \"wippt\" {**die Wippe**}.",
+                "info_text": "A **peaceful** scene and \"lovely\" children",
+                "image": {
+                  "id": "476a05df6dd8803d1ac9bf071f517732"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      }
+    ]
+  }
+}

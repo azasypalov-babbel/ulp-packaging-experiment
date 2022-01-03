@@ -1,0 +1,156 @@
+<style>
+  body {
+    font-family: Sans-Serif;
+  }
+
+  .btn {
+    background-color: #ff790f;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0.5rem;
+    color: white;
+    text-decoration: none;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .btn:hover {
+    background-color: orange;
+  }
+
+  .demo-container {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .trainer-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trainer-list-container > * {
+    flex: 1 0 auto;
+    min-width: 15rem;
+    width: calc(50% - 1rem)
+  }
+
+  .trainer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trainer-container > * {
+    flex: 1 0 auto;
+    min-width: 10rem;
+    width: calc(50% - 3rem);
+  }
+
+  section {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    box-sizing: border-box;
+  }
+
+</style>
+
+<div class="demo-container">
+  <div class="trainer-container">
+    <section>
+      <h2>Review Session</h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" review="review" data-selector="review-as-lead" href="DEU/review?is_unlocked=off">Review as Lead</a>
+        <a class="btn btn-primary" review="review" data-selector="review-as-customer" href="DEU/review?is_unlocked=on">Review as Customer</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Composite Lessons</h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="composite-one" href="DEU/composite-one?is_unlocked=on">Composite Lesson One</a>
+        <a class="btn btn-primary" data-selector="most-important-trainers" href="DEU/most-important-trainers?is_unlocked=off">Most Important Trainers Lesson as Lead</a>
+        <a class="btn btn-primary" data-selector="published-trainers" href="DEU/published-trainers?is_unlocked=off">Published content compilation</a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="demo-container" data-selector="demo-index-page-title">
+  <h1>Lesson Player Demos</h1>
+
+  <div class="trainer-list-container">
+    <section>
+      <h2> Vocabulary </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="vocabulary-click" href="DEU/vocabulary-click?">Click</a>
+        <a class="btn btn-primary" data-selector="vocabulary-choicebuttons" href="DEU/vocabulary-choicebuttons?">Choicebuttons</a>
+        <a class="btn btn-primary" data-selector="vocabulary-fillin" href="DEU/vocabulary-fillin?">Fillin</a>
+        <a class="btn btn-primary" data-selector="vocabulary-puzzlehelper" href="DEU/vocabulary-puzzlehelper?">Puzzlehelper</a>
+        <a class="btn btn-primary" data-selector="vocabulary-speak-b4"
+          href="DEU/vocabulary-speak?is_analyzer_lib_recognizer=off&is_b3_vocabulary_trainer=off">Speak - b4</a>
+        <a class="btn btn-primary" data-selector="vocabulary-speak-b3"
+          href="DEU/vocabulary-speak?is_analyzer_lib_recognizer=on&is_b3_vocabulary_trainer=on">Speak - b3</a>
+        <a class="btn btn-primary" data-selector="vocabulary-wordorder" href="DEU/vocabulary-wordorder?">Wordorder</a>
+      </div>
+    </section>
+
+    <section>
+      <h2> Dialog </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="dialog-speak" href="DEU/dialog-speak?">Speak</a>
+        <a class="btn btn-primary" data-selector="dialog-fillin" href="DEU/dialog-fillin?">Fillin</a>
+        <a class="btn btn-primary" data-selector="dialog-fillin-short" href="DEU/dialog-fillin-short?">Fillin Short Version</a>
+        <a class="btn btn-primary" data-selector="dialog-puzzlehelper" href="DEU/dialog-puzzlehelper?">Puzzlehelper</a>
+        <a class="btn btn-primary" data-selector="dialog-choicebuttons" href="DEU/dialog-choicebuttons?">Choicebuttons</a>
+        <a class="btn btn-primary" data-selector="dialog-choicebuttons-short" href="DEU/dialog-choicebuttons-short?">Choicebuttons Short Version</a>
+        <a class="btn btn-primary" data-selector="dialog-dictatefillin" href="DEU/dialog-dictatefillin?">DictateFillin</a>
+        <a class="btn btn-primary" data-selector="dialog-dictatechoice" href="DEU/dialog-dictatechoice?">DictateChoice</a>
+      </div>
+    </section>
+
+    <section>
+      <h2> Card </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="card-fillin" href="DEU/card-fillin?">Fillin</a>
+        <a class="btn btn-primary" data-selector="card-puzzlehelper" href="DEU/card-puzzlehelper?">Puzzlehelper</a>
+        <a class="btn btn-primary" data-selector="card-choicebuttons" href="DEU/card-choicebuttons?">Choicebuttons</a>
+      </div>
+    </section>
+
+    <section>
+      <h2> Comprehension </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="comprehension-text" href="DEU/comprehension-text?">Text</a>
+        <a class="btn btn-primary" data-selector="comprehension-audio" href="DEU/comprehension-audio?">Audio</a>
+      </div>
+    </section>
+
+    <section>
+      <h2> Keyboard </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="keyboard" href="RUS/keyboard?">Fillin</a>
+      </div>
+    </section>
+
+    <section>
+      <h2> Matching </h2>
+      <div class="trainer-container">
+        <a class="btn btn-primary" data-selector="matching" href="DEU/matching?">Matching</a>
+        <a class="btn btn-primary" data-selector="long-matching" href="DEU/long-matching?">Real Content Long Items Matching</a>
+      </div>
+    </section>
+  </div>
+
+  <section>
+    <h2> Dictate </h2>
+    <div class="trainer-container">
+      <a class="btn btn-primary" data-selector="dictate-wordorder" href="DEU/dictate-wordorder?">Wordorder</a>
+      <a class="btn btn-primary" data-selector="dictate-choicebuttons" href="DEU/dictate-choicebuttons?">Choicebuttons</a>
+      <a class="btn btn-primary" data-selector="dictate-puzzlehelper" href="DEU/dictate-puzzlehelper?">Puzzlehelper</a>
+      <a class="btn btn-primary" data-selector="dictate-fillin" href="DEU/dictate-fillin?">Fillin</a>
+    </div>
+  </section>
+
+</div>
+</div>

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonEndScreenContainer mapStateToProps maps the props 1`] = `
+Object {
+  "correctItemsCount": 8,
+  "displayName": "Christian",
+  "incorrectItemsCount": 4,
+  "isUnlocked": true,
+  "learnLanguageAlpha3": "FRA",
+  "locale": "en",
+  "purgeableItemsCount": 4,
+  "showReferAFriend": true,
+}
+`;
+
+exports[`LessonEndScreenContainer mergeProps combines stateProps, dispatchProps and ownProps 1`] = `
+Object {
+  "correctItemsCount": 2,
+  "grade": "medium",
+  "incorrectItemsCount": 3,
+  "learnLanguageAlpha3": "FRA",
+  "locale": "en",
+  "onAccessContentButtonClick": [MockFunction],
+  "onCorrectErrorsButtonClick": [MockFunction],
+  "onReturnHomeButtonClick": [Function],
+  "playEndScreenSound": [Function],
+  "purgeableItems": 1,
+}
+`;

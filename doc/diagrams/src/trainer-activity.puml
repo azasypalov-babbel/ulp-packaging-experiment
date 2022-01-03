@@ -1,0 +1,65 @@
+@startuml lesson-sequence
+start
+:Start Lesson;
+partition "Lesson Sequence" {
+  repeat :Loading;
+  repeat while (Data is loading)
+  if (?showLessonLandingScreen param present?) then (yes)
+    :Lesson Landing Screen;
+  else if (Lesson contains speak interaction?) then (yes)
+    :Mic Settings Page;
+  elseif (First trainer auto play audio?) then (yes)
+    :Leaning Tip Screen;
+  else (no)
+  endif
+  repeat
+    :Trainer Sequence|
+    :Lesson End Screen;
+  repeat while (Correct mistakes?)
+  :Continue Leaning / Close<
+}
+stop
+@enduml
+
+@startuml trainer-sequence
+start
+partition "Trainer Sequence" {
+  repeat :Next trainer;
+    if (Required speech recognition?) then (yes)
+      if (User has given microphone permissions) then (no)
+        :Request microphone permissions<
+      endif
+    endif
+    :Trainer|
+  repeat while (Has more trainers?)
+}
+stop
+@enduml
+
+@startuml trainer
+start
+partition "Trainer" {
+  repeat :Next interactive item;
+    :Present item>
+    :Interaction|
+  repeat while (Has more interactive items?)
+}
+stop
+@enduml
+
+@startuml interaction
+start
+partition "Interaction" {
+  :wait for active;
+  :Present interaction>
+  repeat :Next interactive element;
+    :Present element>
+    repeat :Wait for user input;
+      :User input<
+      :Assess input|
+      :Present feedback>
+    repeat while (Make another attempt?)
+  repeat while (More interactive elements?)
+}
+stop
+@enduml

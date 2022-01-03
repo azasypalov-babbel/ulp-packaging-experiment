@@ -1,0 +1,83 @@
+{
+  "lesson": {
+    "id": "dialog-dictatefillin",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Als Leyla vom Einkaufen zurück nach Hause kommt, trifft sie einen Nachbarn, der ihr berichtet, was er im Haus beobachtet hat.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "642033d21551c7642a115a633f9168eb",
+                "type": "phrase",
+                "display_language_text": "Hello Mr Güner, how are you? **(solution: 'Ihnen' or 'totally')**",
+                "learn_language_text": "Hallo Herr Güner, wie geht es ((*Ihnen|*totally))?",
+                "info_text": "info text for testing",
+                "image": null,
+                "sound": {
+                  "id": "a8dd2bad99fc65301fc250fd05741766"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "70ced025f2a6cdc40db4e3761e07b571",
+                "type": "phrase",
+                "display_language_text": "Hello Leyla, I'm fine. I noticed that our front door has been left open repeatedly. Did you notice this as well? **(solution: 'Hallo')**",
+                "learn_language_text": "((Hallo)) Leyla, es geht mir gut. Ich habe beobachtet, dass unsere Hauseingangstür ständig offen steht. Hast du das auch bemerkt?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "57e3a172e0f6878a2a115a633f9168eb",
+                "type": "task",
+                "display_language_text": "Leyla nickt. Ihr ist das auch schon aufgefallen. This is a taks, it gives context to the story.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "fdf85d454b365d93ae11846fc90cd1a2",
+                "type": "phrase",
+                "display_language_text": "Yes, I have noticed this, too. I'll write a letter to our landlord. **(solutions are: 'ist' and 'schreiben')**",
+                "learn_language_text": "Ja, das ((ist)) mir auch schon aufgefallen. Ich werde mal unser**er** Hausverwaltung ((*schreiben|*Bescheid sagen)).",
+                "info_text": "Immer ordentlich die Hauseingangstür abschließen!",
+                "image": null,
+                "sound": {
+                  "id": "524242ddf7174016b536bd8ceefc578f"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "6344dd3f381c98e4a211846fc9dc41a2",
+                "type": "phrase",
+                "display_language_text": "Oh \"thank you\", that is a good idea. **(solution is: 'eine sehr gute')**",
+                "learn_language_text": "Oh \"danke\", das ist ((eine sehr gute)) Idee.",
+                "info_text": "Now, they part ways and do their own stuff.",
+                "image": null,
+                "sound": {
+                  "id": "49efd1d775a2d3eac1bf742fd461e348"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

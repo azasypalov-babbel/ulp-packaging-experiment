@@ -1,0 +1,125 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "â",
+      "cost": 0
+    },
+    {
+      "character": "â",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "c",
+      "replacement": "ç",
+      "cost": 0
+    },
+    {
+      "character": "ç",
+      "replacement": "c",
+      "cost": 0
+    },
+    {
+      "character": "g",
+      "replacement": "ğ",
+      "cost": 0
+    },
+    {
+      "character": "ğ",
+      "replacement": "g",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "î",
+      "cost": 0
+    },
+    {
+      "character": "î",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "î",
+      "replacement": "ı",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "ı",
+      "cost": 0
+    },
+    {
+      "character": "ı",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "ı",
+      "replacement": "î",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ö",
+      "cost": 0
+    },
+    {
+      "character": "ö",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "s",
+      "replacement": "ş",
+      "cost": 0
+    },
+    {
+      "character": "ş",
+      "replacement": "s",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "û",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "û",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "ü",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "ü",
+      "replacement": "û",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "â",
+    "ç",
+    "ğ",
+    "î",
+    "ı",
+    "ö",
+    "ş",
+    "û",
+    "ü"
+  ]
+}

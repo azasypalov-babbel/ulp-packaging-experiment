@@ -1,0 +1,99 @@
+{
+  "lesson": {
+    "id": "vocabulary-choicebuttons",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740b30ba92dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "Do you know a good 'board' game?",
+                "learn_language_text": "((*K|k))ennst **du** \"ein\" gutes '((b|*B))rett'spiel?",
+                "info_text": "Ja: Monopoly, ein Klassiker!",
+                "image": {
+                  "id": "0a2d59805794a8ba59cf40967089b67d"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "bf82c6cd29f9585466d7874988a50cfc",
+                "type": "phrase",
+                "display_language_text": "The clock's display is broken.",
+                "learn_language_text": "Die Anzeige ((\"die\"|*der|**das**|*y**es**)) Uhr ist kaputt.",
+                "info_text": null,
+                "image": {
+                  "id": "2420f0dbde67bb037e9320b7e8d9e2d2"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740b30ba92dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "How do you like the Cube Choicebuttons?",
+                "learn_language_text": "Wie gefällt ((D|*d))ir Cube ((*C|c))hoicebuttons",
+                "info_text": "Ja: Monopoly, ein Klassiker!",
+                "image": {
+                  "id": "0a2d59805794a8ba59cf40967089b67d"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "bf82c6cd29f9585466d7874988a50cfc",
+                "type": "phrase",
+                "display_language_text": "The weather in Berlin is cold and grey.",
+                "learn_language_text": "((Die|Der|*Das|*yes)) Wetter in Berlin ist kalt und grau.",
+                "info_text": null,
+                "image": {
+                  "id": "2420f0dbde67bb037e9320b7e8d9e2d2"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

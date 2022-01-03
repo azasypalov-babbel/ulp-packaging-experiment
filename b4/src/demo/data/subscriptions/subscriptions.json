@@ -1,0 +1,17 @@
+{
+  "subscriptions": [
+    {
+      "type": "web_purchase",
+      "active": true,
+      "cancelable": true,
+      "id": 12345,
+      "product_title": "Babbel Inglés 3M",
+      "start_state_name": "running_since",
+      "start_state_date": "2020-10-08",
+      "end_state_name": "next_payment",
+      "end_state_date": "2020-10-15",
+      "receipt_manage_subscription_url": null,
+      "invoices": []
+    }
+  ]
+}

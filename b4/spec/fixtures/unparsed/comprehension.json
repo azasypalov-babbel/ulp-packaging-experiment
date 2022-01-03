@@ -1,0 +1,84 @@
+{
+  "type": "comprehension",
+  "translation_visibility": "partial",
+  "title": "This is some title",
+  "description": "Audrey is sitting at the computer reading the latest news about the festival...",
+  "image": null,
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "e3a642e6e18cdb668b6639a3946ffcc4",
+          "type": "phrase",
+          "display_language_text": "**Cannes : small piece of gossip before the awards ceremony**",
+          "learn_language_text": "**Cannes : petit cancan avant la remise des prix**",
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": "None"
+        },
+        {
+          "id": "1a494c8a983a86e0258f4916cd1fa074",
+          "type": "phrase",
+          "display_language_text": "from the \"Gazette de Cannes\"",
+          "learn_language_text": "par \"La Gazette de Cannes\"",
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": "None"
+        },
+        {
+          "id": "9a1115b582b265b06692f038ecb3b2fa",
+          "type": "phrase",
+          "display_language_text": "The festival ends on Saturday with the showing of \"Mina\", by Jean-Luc Godasse.",
+          "learn_language_text": "Le festival s'achève samedi avec la projection de \"Mina\", de Jean-Luc Godasse.",
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": "None"
+        }
+      ]
+    },
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "63e63811c7a714039e880daeb31e269b",
+          "type": "task",
+          "display_language_text": "When does the festival finish? ((Sunday|This evening|*Saturday))",
+          "learn_language_text": null,
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": null
+        },
+        {
+          "id": "a47f8ccdabe18401d9ffc2f8525e3f81",
+          "type": "task",
+          "display_language_text": "Who is the leading actor of the film \"Mina\"? ((a star|*a dog|Jean-Luc Godasse))",
+          "learn_language_text": null,
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": null
+        },
+        {
+          "id": "4f072cf656bf3a36d888016bda1f515c",
+          "type": "task",
+          "display_language_text": "Will the dog make an appearance on the red carpet? ((*maybe|definitely not|yes, wearing a dress for certain))",
+          "learn_language_text": null,
+          "info_text": null,
+          "image": null,
+          "sound": null,
+          "speaker_role": null
+        }
+      ]
+    }
+  ],
+  "interaction": "choose",
+  "dictate": false,
+  "puzzle_helper": false
+}

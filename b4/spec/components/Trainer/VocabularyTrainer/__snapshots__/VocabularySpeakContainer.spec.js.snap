@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VocabularySpeakContainer #handleItemPlaybackCardClick when user should be tracked tracks gui:interacted event 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "cube_trainer",
+    "gui_element": "item_playback_card",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en_GB",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`VocabularySpeakContainer #handleMicButtonInteraction when user should be tracked tracks gui:interacted event 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "cube_trainer",
+    "gui_element": "mic_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en_GB",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;

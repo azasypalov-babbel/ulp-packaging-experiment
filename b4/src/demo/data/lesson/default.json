@@ -1,0 +1,450 @@
+{
+  "user_settings": {
+    "feedback_sound_enabled": true
+  },
+  "learn_language": {
+    "unlocked": false,
+    "course_overviews": [
+      {
+        "id": "mocked-course-overview-id",
+        "title": "Course Overview 3000",
+        "courses": [
+          {
+            "id": "mocked-course-id",
+            "title": "Course 666",
+            "lessons": [
+              {
+                "id": "mocked-uncompleted-lesson-id",
+                "title": "Lesson 4711",
+                "completed": false,
+                "learn_unit": "course"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "language_combination": {
+    "learn_language": {
+      "alpha3": "DEU",
+      "locale_identifier": "de"
+    },
+    "display_language": {
+      "alpha3": "QAE",
+      "locale_identifier": "en"
+    }
+  },
+  "account": {
+    "uuid":"62a40efb02f1d754757fe45",
+    "email":"alexodell@babbel.com",
+    "displayname":"Alex Odell",
+    "neo":false,
+    "confirmed_at":"2017-08-31T07:22:12Z",
+    "created_at":"2017-08-31T07:21:49Z"
+  },
+  "speech_recognition_substitutions": {
+    "lookup_table_entries": [],
+    "character_substitution_costs": []
+  },
+  "lesson": {
+    "id": "default",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f25deca0a721b19699f874e8471ce945",
+                "type": "phrase",
+                "display_language_text": "This man would like to have muscles",
+                "learn_language_text": "Diese Mann hätte gerne Muskeln",
+                "info_text": null,
+                "image": {
+                  "id": "4bc03bbde7375d7a83549e48fd348d90"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1d9c93fa08bc7cb9b38e8817bf2d78c5",
+                "type": "phrase",
+                "display_language_text": "This man sleeps during class",
+                "learn_language_text": "Dieser Mann schläft während der Vorlesung",
+                "info_text": null,
+                "image": {
+                  "id": "df2556b9fd2d20b40400284e15d21107"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "68e4625b2230773aa7e1407d5b816245",
+                "type": "phrase",
+                "display_language_text": "This woman is on edge",
+                "learn_language_text": "Diese Frau ist genervt",
+                "info_text": null,
+                "image": {
+                  "id": "cdd2e892b0ae208ad2af49a342e29c8c"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "memory",
+        "translation_visibility": "full",
+        "title": "Lerne ein paar wichtige Berufe",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "98a7aa611c0138368076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the fire fighter",
+                "learn_language_text": "die Feuerwehrfrau",
+                "info_text": null,
+                "image": {
+                  "id": "e1646b6ea5d0146e73f8615eb131b6ad"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "adf3d08445d419188076cbb5916bdc22",
+                "type": "phrase",
+                "display_language_text": "the police officer",
+                "learn_language_text": "die Polizistin",
+                "info_text": null,
+                "image": {
+                  "id": "f3f739ac87d6aadf0ecbfbe8d0e480de"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "34f05da6c0c6236a4e2efa0dadd52610",
+                "type": "phrase",
+                "display_language_text": "the construction worker",
+                "learn_language_text": "die Bauarbeiterin",
+                "info_text": null,
+                "image": {
+                  "id": "1476c3681e0e43d943163f787fd83c79"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "036f9eb05535a8e6a2d05ed554cca6d8",
+                "type": "phrase",
+                "display_language_text": "the champion",
+                "learn_language_text": "die Siegerin",
+                "info_text": null,
+                "image": {
+                  "id": "0fb606c5ba9c5e8739cb3be037f33d4f"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": "Der BER",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f9a5361eeeea65ecd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "In Berlin, they have been building a new airport since September 2006.",
+                "learn_language_text": "In Berlin wird seit September 2006 ein neuer ((f|*F))lughafen gebaut.",
+                "info_text": null,
+                "image": {
+                  "id": "7a5384316f37947b61cabac96ebfbdea"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "b3496c3e514ffcfa66d7874988a50cfc",
+                "type": "phrase",
+                "display_language_text": "It is called 'BER', and there are many jokes about it.",
+                "learn_language_text": "Er heißt 'BER', und ((*es|*right|ef)) gibt eine Menge Witze über ihn.",
+                "info_text": null,
+                "image": {
+                  "id": "f8b4808a16de55379fe4a5c4382254cf"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "wordorder",
+        "translation_visibility": "full",
+        "title": "Der BER",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "1f0e7066875edeef7b03e2e0447250d5",
+                "type": "phrase",
+                "display_language_text": "Maybe, the BER will be opened someday",
+                "learn_language_text": "((vielleicht wird der BER)) ((irgendwann)) ((eröffnet))",
+                "info_text": null,
+                "image": {
+                  "id": "f7233d947c791182e1bfc3e8d248a27f"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "9e11b86298a780f27ee1441bc604160b",
+                "type": "phrase",
+                "display_language_text": "Read the online newspaper 'the Postillion'",
+                "learn_language_text": "((lies)) ((die Onlinezeitung)) (('der Postillion'))",
+                "info_text": null,
+                "image": {
+                  "id": "151b65505f5c3e381a369c658054b50f"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "17a73d4d221db897075a37ba754f961a",
+                "type": "phrase",
+                "display_language_text": "Alternative plans for the BER plot include a party area",
+                "learn_language_text": "((alternative Pläne)) ((für die Fläche des BER)) ((beinhalten)) ((eine Partymeile))",
+                "info_text": null,
+                "image": {
+                  "id": "55779f4109bc6002d715248719100993"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  },
+  "initial_mic_permissions": "prompt",
+  "initial_mic_enabled": false,
+  "interaction_types":[
+    {
+      "id":"flashcard",
+      "count":35
+    },
+    {
+      "id":"listen",
+      "count":35
+    },
+    {
+      "id":"speak",
+      "count":35
+    },
+    {
+      "id":"write",
+      "count":35
+    }
+  ],
+  "review_session":{
+    "remaining_item_count":2,
+    "next_url":"https:\/\/api.babbel.io\/gamma\/v1.1.0\/en_GB\/accounts\/62a40efb0229dbd8e163df1d754757fe\/learn_languages/DEU/vocabulary?filter=due\u0026interaction_type=flashcard\u0026limit=10\u0026offset=0",
+    "trainers":[
+      {
+        "type": "vocabulary",
+        "interaction": "wordorder",
+        "translation_visibility": "full",
+        "puzzle_helper": false,
+        "dictate": false,
+        "title": "Do you remember these words?",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "347e3cd1f7aed0185ec6b3f765aeefe8",
+                "display_language_text": "The owner is a single (and) old man.",
+                "learn_language_text": "((Le)) ((propriétaire)) ((est)) ((un)) ((homme)) ((seul)) ((et)) ((âgé.))",
+                "info_text": null,
+                "speaker_role": "f1",
+                "type": "phrase",
+                "image": {
+                  "id": "1c6bba6923dfa214e5a9261f36904efe"
+                },
+                "sound": {
+                  "id": "69f4d5e293df28bb893c0b3bf9aeb0de"
+                },
+                "attempt": null
+              }
+            ]
+          }
+        ],
+        "completed": false
+      },
+      {
+        "type":"cube",
+        "interaction":"write",
+        "puzzle_helper":false,
+        "dictate":false,
+        "translation_visibility":"full",
+        "title":"Do you remember these words in German?",
+        "image":null,
+        "item_groups":[
+          {
+            "title":null,
+            "image":null,
+            "items":[
+              {
+                "id":"3206489c621eea45a319cae445aa45d5",
+                "display_language_text":"(I) {like} \"the\" **small** town",
+                "learn_language_text":"(Ich) {mag} \"die\" **kleine** ((*Stadt)) {Stadt}",
+                "info_text":" ",
+                "speaker_role":"M1",
+                "type":"phrase",
+                "image":{
+                  "id":"83da55c815dee0eabb391c4d59a34ba6"
+                },
+                "sound":{
+                  "id":"28dd66682b5befa4ecfdab862ceaf913"
+                }
+              },
+              {
+                "id":"41bdf32331e8706e4054683b46f497ba",
+                "display_language_text":"**the** \"street\"",
+                "learn_language_text":"**die** ((*Straße))",
+                "info_text":"(also) **format** {info} \"popups\"",
+                "speaker_role":"M1",
+                "type":"phrase",
+                "image":{
+                  "id":"c773aa7885bb9b6e2a1a79f8e62c5b63"
+                },
+                "sound":{
+                  "id":"a4efca5cf79830c22fb7c49a27f0d0ea"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type":"wordorder",
+        "interaction":"choose",
+        "puzzle_helper":false,
+        "dictate":false,
+        "translation_visibility":"full",
+        "title":"Metti in ordine gli elementi",
+        "image":null,
+        "item_groups":[
+          {
+            "title":null,
+            "image":null,
+            "items":[
+              {
+                "id":"7bbb0ede1c83455c2df4ad7f0aa933ca",
+                "display_language_text":"Desidera altro?",
+                "learn_language_text":"((*Haben)) ((*Sie)) ((*andere)) ((*Wünsche?))",
+                "info_text":"(also) **format** {info} \"popups\"",
+                "speaker_role":"m1",
+                "type":"phrase",
+                "spoofed_texts":[
+
+                ],
+                "image":{
+                   "id":"7cf572c677d13d95c43db97704db94c5"
+                },
+                "sound":{
+                   "id":"756d129c7f04ff04f15c62096b6d6139"
+                }
+              },
+              {
+                "id":"88d9c4a10324bf946beae46f88c5634e",
+                "display_language_text":"la camera doppia",
+                "learn_language_text":"((*das)) ((*Dop))((*pel))((*zim))((*mer))",
+                "info_text":"",
+                "speaker_role":"f2",
+                "type":"phrase",
+                "spoofed_texts":[
+
+                ],
+                "image":{
+                   "id":"c8bfb5e9423bb5e11a9a7c7e7d5ca225"
+                },
+                "sound":{
+                   "id":"17f2e410e07b62a46601d158035ed5b1"
+                }
+              }
+            ]
+          }
+        ]
+     }
+    ]
+  }
+}

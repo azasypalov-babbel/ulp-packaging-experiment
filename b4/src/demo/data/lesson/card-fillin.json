@@ -1,0 +1,93 @@
+{
+  "lesson": {
+    "id": "card-fillin",
+    "trainers": [
+      {
+        "type": "card",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "2eab07ee4963d527bab2eeda0402a9b4"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "9d41bfbaf6ec50241b55b3bf344ea217",
+                "type": "task",
+                "display_language_text": "It is ok to address **family members** with their respective \"roles\". For example, you can say:",
+                "info_text": "This **is** a \"formatted\" info text! neat!",
+                "learn_language_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "003382305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "\"Good morning\", **dear** cousin.",
+                "learn_language_text": "((Schöner|*Guten)) \"Morgen\", lieber **Cousin**",
+                "info_text": "and your cousin should not be offended",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "05b1f9a08520098d2cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "Please type 'yes' or 'äöüß': ((*yes|*äöüß)). We use **the present tense** to talk about \"what is happening right now\". The next answers are 'Sonne' or 'Laterne' and 'Es ist'",
+                "learn_language_text": null,
+                "info_text": "das Präsens",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "658f6323f5380ad34821765803f354b5",
+                "type": "phrase",
+                "display_language_text": "The \"sun\" is **shining** brightly. It's a beautiful day.",
+                "learn_language_text": "Die ((*Sonne|*Laterne)) scheint hell. ((Es ist)) ein schöner Tag.",
+                "info_text": "Die **Stadt**. Die \"Straße\". Ich bin \"**Sandra**\".",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "9647d7e46d7f0df61f45ecfe3cfaaec3",
+                "type": "phrase",
+                "display_language_text": "I have an \"important question\": **Which** pullover fits (you)?",
+                "learn_language_text": "Ich habe eine \"wichtige Frage\": Welch**er** Pullover passt dir?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "8ecdafcd3a809b32269fe1f8bbb8998a",
+                "type": "task",
+                "display_language_text": "In the accusative case, the only form that changes is the masculine. It follows the pattern of the definite article \"der\", so the accusative ending is **-en**.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

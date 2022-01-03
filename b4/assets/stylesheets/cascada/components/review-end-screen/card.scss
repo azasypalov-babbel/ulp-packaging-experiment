@@ -1,0 +1,43 @@
+$card-width: rem(360px);
+
+.card {
+  @extend %bordered-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: rem(16px);
+
+  &__title {
+    @extend .h2;
+    margin-bottom: rem(16px);
+
+    .card--incorrect & {
+      color: $red;
+    }
+
+    .card--correct & {
+      color: $green;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  @include media(medium) {
+    padding: rem(32px);
+    width: $card-width;
+  }
+
+  @include media(large) {
+    padding: rem(24px);
+  }
+
+  @include media(extra-large) {
+    padding: rem(32px);
+  }
+}

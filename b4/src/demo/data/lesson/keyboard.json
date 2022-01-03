@@ -1,0 +1,68 @@
+{
+  "lesson": {
+    "id": "keyboard",
+    "trainers": [
+      {
+        "type": "keyboard",
+        "translation_visibility": "partial",
+        "title": "Learn the Russian R",
+        "description": "**Мы скучаем по тебе, Саша**. The letter **р** looks like a \"p\", but is similar to the english \"r\". The pronounciation is a lot harder and rolled, though.",
+        "image": {
+          "id": "290d49f4c19e3b2f7ebb51f69ee243f8"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "b466cee093b3eb52a729fc4744d1198b",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "((й))",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f09eada4a92764b54b225c86bee5d8e1",
+                "type": "phrase",
+                "display_language_text": "Radio. Type 'zh'",
+                "learn_language_text": "((ж))адио",
+                "info_text": "Video killed the жадио star",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "fe322b9f6694f9276ff9b8c5692f0392",
+                "type": "phrase",
+                "display_language_text": "Brother - to take. Type '",
+                "learn_language_text": "**т** - **ть**: брат - брат((ь))",
+                "info_text": "Did you hear the difference between the т in each word? The т in бра**ть** (with the soft sign) sounds softer.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

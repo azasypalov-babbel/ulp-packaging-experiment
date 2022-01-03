@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReferAFriendModalContent renders 1`] = `
+.c2 {
+  font-family: LeituraNews-Roman4,serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c2 > strong,
+.c2 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c2 > em,
+.c2 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c2 > strong em,
+.c2 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+.c4 {
+  font-family: Milliard-Book,sans-serif;
+  color: inherit;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-letter-spacing: 0.031rem;
+  -moz-letter-spacing: 0.031rem;
+  -ms-letter-spacing: 0.031rem;
+  letter-spacing: 0.031rem;
+  text-align: inherit;
+}
+
+.c4 > strong,
+.c4 > b {
+  font-family: Milliard-SemiBold,sans-serif;
+  font-weight: normal;
+}
+
+.c4 > em,
+.c4 > i {
+  font-family: Milliard-BookItalic,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c4 > strong em,
+.c4 > b i {
+  font-family: Milliard-MediumItalic,sans-serif;
+  font-weight: normal;
+}
+
+.c1 {
+  margin: auto;
+  text-align: center;
+  padding: 0 rem(20) rem(40);
+  max-width: rem(580);
+}
+
+.c3 {
+  color: #0c2e44;
+  display: block;
+}
+
+.c5 {
+  color: #0c2e44;
+  display: block;
+  max-width: rem(416);
+  margin: rem(19) auto rem(45);
+}
+
+.c0 {
+  margin-top: rem(-14);
+}
+
+.c6 {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 3rem;
+  min-width: 7.5rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Milliard-SemiBold,sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  -webkit-letter-spacing: 0.025rem;
+  -moz-letter-spacing: 0.025rem;
+  -ms-letter-spacing: 0.025rem;
+  letter-spacing: 0.025rem;
+  border-radius: 0.25rem;
+  -webkit-transition: box-shadow 100ms, background-color 100ms;
+  transition: box-shadow 100ms, background-color 100ms;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  padding: 0 1rem;
+  background-color: #ff790f;
+  color: #ffffff;
+  border: none;
+}
+
+.c6:hover,
+.c6:focus {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c6:disabled:hover {
+  padding: 0 1rem;
+}
+
+.c6:active,
+.c6.is-active {
+  padding: 0 calc(1px + 1rem);
+}
+
+.c6:focus {
+  outline: none;
+}
+
+.c6:hover,
+.c6:focus {
+  background-color: #ffaf00;
+}
+
+.c6:active,
+.c6.is-active {
+  background-color: #ff790f;
+}
+
+.c6:hover {
+  box-shadow: inset 0 -2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.7,#9a4400)));
+}
+
+.c6:active,
+.c6.is-active {
+  box-shadow: inset 0 2px 0 0 setSaturation(1,setLightness(0.2,transparentize(0.5,#9a4400))), inset 0 0 2px 0 setSaturation(1,setLightness(0.2,transparentize(0.8,#9a4400)));
+}
+
+<ReferAFriendModalContent
+  cta="RAF CTA text"
+  description="RAF pop up description"
+  onCtaClick={[MockFunction]}
+  talkableUrl="/refer-a-friend?traffic_source=lesson-end"
+  title="RAF pop up title"
+>
+  <styled.img
+    src="test-file-stub"
+  >
+    <img
+      className="c0"
+      src="test-file-stub"
+    />
+  </styled.img>
+  <styled.div>
+    <div
+      className="c1"
+    >
+      <Styled(styled.span)
+        fontFamily="fontLeituraBold"
+        fontSize="xlarge"
+      >
+        <span
+          className="c2 c3"
+          fontFamily="fontLeituraBold"
+          fontSize="xlarge"
+        >
+          RAF pop up title
+        </span>
+      </Styled(styled.span)>
+      <Styled(styled.span)
+        fontFamily="fontMilliardBook"
+        fontSize="standard"
+      >
+        <span
+          className="c4 c5"
+          fontFamily="fontMilliardBook"
+          fontSize="standard"
+        >
+          RAF pop up description
+        </span>
+      </Styled(styled.span)>
+      <a
+        href="/refer-a-friend?traffic_source=lesson-end"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <WithKeypress(styled.button)
+          onClick={[MockFunction]}
+          primary={true}
+        >
+          <styled.button
+            onBlur={[Function]}
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            pressed={false}
+            primary={true}
+            tabIndex={0}
+            type="button"
+          >
+            <button
+              className="c6"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              RAF CTA text
+            </button>
+          </styled.button>
+        </WithKeypress(styled.button)>
+      </a>
+    </div>
+  </styled.div>
+</ReferAFriendModalContent>
+`;

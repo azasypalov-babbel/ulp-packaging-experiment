@@ -1,0 +1,57 @@
+.review-end-screen {
+  @extend %responsive-container;
+
+  h1 {
+    font-family: $font-leitura-bold;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    font-size: 2.5em;
+    font-family: $font-leitura-bold;
+    color: $storm;
+    text-align: center;
+  }
+
+  p {
+    @extend %trainer-page-text;
+  }
+
+  &__cards {
+    @extend %centered-columns;
+    margin: 0 auto rem(24px) auto;
+    display: none;
+
+    @include media(medium) {
+      flex-flow: row nowrap;
+    }
+
+    @include media(large) {
+      display: flex;
+    }
+
+    & > * {
+      margin-bottom: rem(24px);
+
+      @include media(medium) {
+        margin-bottom: 0;
+        &:nth-child(even) {
+          margin-left: rem(24px);
+        }
+      }
+    }
+  }
+
+  &__actions {
+    margin: rem(16px) auto;
+    text-align: center;
+
+    .btn {
+      margin-bottom: rem(16px);
+
+      @include media(small) {
+        &:nth-of-type(even) {
+          margin-left: rem(16px);
+        }
+      }
+    }
+  }
+}

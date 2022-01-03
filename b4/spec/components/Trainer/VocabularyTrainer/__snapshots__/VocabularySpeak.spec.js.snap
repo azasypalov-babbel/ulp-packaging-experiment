@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VocabularySpeak /> renders 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      data-interaction-type="speak"
+      data-trainer-type="vocabulary"
+    >
+      <Title
+        as="h1"
+        color="spaceGray"
+        data-selector="title"
+        fontFamily="fontMilliardSemi"
+        fontSize="big"
+        textAlign="center"
+      >
+        Listen, then say it out loud:
+      </Title>
+      <styled.div>
+        <styled.img
+          src="mock-url-123.jpg"
+        />
+        <SoundPlayer
+          audio={
+            Object {
+              "isEnded": false,
+              "playSound": [MockFunction],
+              "playSoundWithState": [MockFunction],
+              "preload": [MockFunction],
+              "reset": [MockFunction],
+              "stop": [MockFunction],
+            }
+          }
+          key="item-sound123"
+          onEnded={[MockFunction]}
+          onError={[MockFunction]}
+          playOnMount={true}
+          render={[Function]}
+          url="mock-url-123.mp3"
+        />
+      </styled.div>
+      <div>
+        <SpeechMicButton
+          isListening={false}
+          isRecording={false}
+          onMicButtonClick={[MockFunction]}
+          translations={
+            Object {
+              "attemptFeedback": Object {
+                "labelYouSaid": "You said:",
+                "negativeFeedback": "You’re getting there!",
+                "positiveFeedback": "Sounds great!",
+              },
+              "micButton": Object {
+                "pressToSpeak": "Press and start speaking",
+                "speak": "Speak now",
+                "tapToSpeak": "Tap, hold and speak",
+              },
+              "trainerTitle": "Listen, then say it out loud:",
+            }
+          }
+          visible={true}
+        />
+      </div>
+    </styled.div>
+  </styled.div>
+  <Connect(InteractionToggleToolbar) />
+</Fragment>
+`;

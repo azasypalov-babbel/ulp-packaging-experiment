@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`languageCodeConverter #learnLanguageAlpha3toBCP47 it maps known locales 1`] = `
+Array [
+  Object {
+    "DAN": "da-DK",
+  },
+  Object {
+    "NLD": "nl-NL",
+  },
+  Object {
+    "ENG": "en-GB",
+  },
+  Object {
+    "FRA": "fr-FR",
+  },
+  Object {
+    "DEU": "de-DE",
+  },
+  Object {
+    "IND": "id-ID",
+  },
+  Object {
+    "ITA": "it-IT",
+  },
+  Object {
+    "NOR": "nb-NO",
+  },
+  Object {
+    "POL": "pl-PL",
+  },
+  Object {
+    "POR": "pt-BR",
+  },
+  Object {
+    "RUS": "ru-RU",
+  },
+  Object {
+    "SPA": "es-ES",
+  },
+  Object {
+    "SWE": "sv-SE",
+  },
+  Object {
+    "TUR": "tr-TR",
+  },
+  Object {
+    "QMS": "es-MX",
+  },
+]
+`;
+
+exports[`languageCodeConverter #localeToBCP47 it maps known locales 1`] = `
+Array [
+  Object {
+    "de": "de",
+  },
+  Object {
+    "en": "en-us",
+  },
+  Object {
+    "en_dev": "en-us",
+  },
+  Object {
+    "en_GB": "en-gb",
+  },
+  Object {
+    "es": "es",
+  },
+  Object {
+    "fr": "fr",
+  },
+  Object {
+    "it": "it",
+  },
+  Object {
+    "pl": "pl",
+  },
+  Object {
+    "pt": "pt-br",
+  },
+  Object {
+    "sv": "sv",
+  },
+]
+`;

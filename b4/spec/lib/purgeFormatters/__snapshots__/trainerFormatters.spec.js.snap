@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trainerFormatters #makeCorrectItemsNonInteractive works 1`] = `
+Object {
+  "item_groups": Array [
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+          "nonInteractive": true,
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 1,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "042",
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "052",
+          "nonInteractive": true,
+        },
+        Object {
+          "attempt": Object {
+            "skipped": true,
+          },
+          "id": "062",
+        },
+      ],
+    },
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+          "nonInteractive": true,
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 2,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "072",
+        },
+      ],
+    },
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+          "nonInteractive": true,
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`trainerFormatters #makeUnattemptedItemsNonInteractive works 1`] = `
+Object {
+  "item_groups": Array [
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 1,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "042",
+          "nonInteractive": true,
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "052",
+        },
+        Object {
+          "attempt": Object {
+            "skipped": true,
+          },
+          "id": "062",
+        },
+      ],
+    },
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+        },
+        Object {
+          "attempt": Object {
+            "mistakes": 2,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "072",
+          "nonInteractive": true,
+        },
+      ],
+    },
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 0,
+          },
+          "id": "012",
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`trainerFormatters #removeCorrectItems works 1`] = `
+Object {
+  "item_groups": Array [
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 1,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "042",
+        },
+        Object {
+          "attempt": Object {
+            "skipped": true,
+          },
+          "id": "062",
+        },
+      ],
+    },
+    Object {
+      "items": Array [
+        Object {
+          "attempt": Object {
+            "mistakes": 2,
+          },
+          "id": "022",
+        },
+        Object {
+          "id": "072",
+        },
+      ],
+    },
+  ],
+}
+`;

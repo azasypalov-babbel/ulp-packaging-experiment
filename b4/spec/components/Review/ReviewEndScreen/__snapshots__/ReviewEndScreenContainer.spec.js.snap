@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewEndScreenContainer #mapStateToProps should return the correct props 1`] = `
+Object {
+  "correctItems": Array [
+    Object {
+      "learnLanguageText": "a",
+      "sound": Object {
+        "id": "100afffb3",
+      },
+    },
+    Object {
+      "learnLanguageText": "b",
+      "sound": Object {
+        "id": "101afffb3",
+      },
+    },
+  ],
+  "displayName": "Julia",
+  "hasNextReviewItems": false,
+  "incorrectItems": Array [
+    Object {
+      "learnLanguageText": "c",
+      "sound": Object {
+        "id": "102afffb3",
+      },
+    },
+  ],
+  "locale": "locale-test",
+  "purgeableItemsCount": 3,
+}
+`;
+
+exports[`ReviewEndScreenContainer #mergeProps should return the correct props 1`] = `
+Object {
+  "correctItems": Array [
+    Object {
+      "learnLanguageText": "a",
+      "sound": Object {
+        "id": "100afffb3",
+      },
+    },
+    Object {
+      "learnLanguageText": "b",
+      "sound": Object {
+        "id": "101afffb3",
+      },
+    },
+  ],
+  "displayName": "Julia",
+  "grade": "high",
+  "incorrectItems": Array [
+    Object {
+      "learnLanguageText": "c",
+      "sound": Object {
+        "id": "102afffb3",
+      },
+    },
+  ],
+  "mediaUrlService": [MockFunction],
+  "onCloseButtonClick": [MockFunction],
+  "onCorrectErrorsButtonClick": [MockFunction],
+  "onGetMoreInfoLinkClick": [MockFunction],
+  "onReviewMoreButtonClick": [MockFunction],
+  "playEndScreenSound": [Function],
+  "playSound": [Function],
+  "purgeableItemsCount": 3,
+  "showCloseButton": false,
+  "soundService": [MockFunction],
+  "totalItemsCount": 3,
+}
+`;

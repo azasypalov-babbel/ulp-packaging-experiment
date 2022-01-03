@@ -1,0 +1,41 @@
+* {
+
+  /*
+   * Disable grey selection highlighting
+   * */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html, body {
+  height: 100vh;
+  font-size: 16px;
+}
+
+/* 
+ * give titles space to consistently render 
+ * without breaking into 2 lines
+ * 
+ * */
+.b3 > div {
+  width: 100%;
+}
+
+/*
+ * Realign mic settings as per previous rule
+ *
+ * */
+.b3 .page-trainer-settings {
+  width: auto;
+}
+
+/*
+ * Shorter item image margin reduces 
+ * the chance of a long PH overlaping 
+ * the translation.
+ *
+ * Uniforms different values in diferent trainers
+ *
+ * */
+.b3 .image-frame-bubble {
+  margin-bottom: 1.5rem !important;
+}

@@ -1,0 +1,34 @@
+// Set asset-path
+$assets-path: '~@lessonnine/cascada.css/assets';
+
+$cascada-font-names:
+  'Milliard-SemiBold'
+  'Milliard-Book'
+  'Milliard-Medium'
+  'Milliard-BookItalic'
+  'Milliard-MediumItalic'
+  'LeituraNews-Roman4'
+;
+
+@import '~@lessonnine/design-tokens.lib/dist/legacy/cascada/variables';
+
+@import '~@lessonnine/cascada.css/cascada';
+
+@import '~@lessonnine/cascada.css/sass/components/navbar';
+
+@import './components/shared/main';
+
+@import './components/lesson-end-screen/lesson-end-screen';
+@import './components/lesson-end-screen/feedback-message';
+@import './components/lesson-end-screen/answers-counter';
+@import './components/lesson-end-screen/feedback-actions';
+@import './components/progress-bar';
+@import './components/progress-counter';
+@import './components/navbar';
+
+@import './components/review-end-screen/main';
+@import './components/review-end-screen/card';
+@import './components/review-end-screen/review-item-list';
+@import './components/review-end-screen/review-item';
+
+@import './components/learning-tip-screen/learning-tip-screen';

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeyboardShortcutHint /> it renders 1`] = `
+<styled.span
+  data-selector="keyboard-shortcut-hint"
+  keyName="1"
+>
+  <styled.span
+    fontFamily="fontMilliardBook"
+  >
+    1
+  </styled.span>
+</styled.span>
+`;

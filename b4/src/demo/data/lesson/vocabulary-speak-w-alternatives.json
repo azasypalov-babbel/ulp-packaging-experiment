@@ -1,0 +1,71 @@
+{
+  "lesson": {
+    "id": "vocabulary-speak-w-alternatives",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "5d32e596a8794874abf778a59f6184ea",
+                "type": "phrase",
+                "display_language_text": "Would",
+                "learn_language_text": "w**ou**ld",
+                "info_text": null,
+                "image": {
+                  "id": "e7f3b39ca7c84aeaae5cdf8f263aa57a"
+                },
+                "sound": {
+                  "id": "d0394facb80625a8721f8cdd0bfdcc05"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "21594174dad14e0097c2dce8cd2c0728",
+                "type": "phrase",
+                "display_language_text": "Sink",
+                "learn_language_text": "sink",
+                "info_text": null,
+                "image": {
+                  "id": "842c182719e8cd96a54517d5509f6853"
+                },
+                "sound": {
+                  "id": "8f4bb14790f19035b7c19f1076b5f8d5"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

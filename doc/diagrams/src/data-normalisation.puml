@@ -1,0 +1,12 @@
+@startuml data-normalisation
+rectangle Babbel {
+  package "lesson-player.spa" as platform {
+    [Services] -> [Denormalisation]
+    [Normalisation] -> [Services]
+    [Application Code] <-down-> [Services]
+  }
+
+  Input -down-> [Normalisation]
+  [Denormalisation] -down-> Output
+}
+@enduml

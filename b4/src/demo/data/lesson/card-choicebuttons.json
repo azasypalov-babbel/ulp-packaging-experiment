@@ -1,0 +1,81 @@
+{
+  "lesson": {
+    "id": "card-choicebuttons",
+    "trainers": [
+      {
+        "type": "card",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "5643416fa76cf963774c33c773e99a31"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "5c6d9524aed69d76e41d9d27c4e156b1",
+                "type": "task",
+                "display_language_text": "Learn about German social manners",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "c11ba916e8f349c85c5a92715b841d38",
+                "type": "phrase",
+                "display_language_text": "(Hello). **Hello**. \"Hello\". 'Hello'.",
+                "learn_language_text": "((*Hallo|*cli**ck** here|\"Tschüßiii\")).",
+                "info_text": "Look at THIS! The choices \"themselves\" can be **formatted** as well?!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "a815b0545f7823b15c5a92715b841d38",
+                "type": "phrase",
+                "display_language_text": "We don't bow down when we greet other people ",
+                "learn_language_text": "Wir verbeugen uns ((*nicht|ganz tief)), wenn wir andere Leute begrüßen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c591083166c4ca09aecf8c14463857da",
+                "type": "task",
+                "display_language_text": "Hallo is the translation for Hello. That is ((*right|*correct|wrong|totallywrong)). Tschüß is the translation for goodbye. That is a ((no|nono|*yes|*totally))",
+                "learn_language_text": null,
+                "info_text": "Say tschüß to the clerk who served you when you leave a store",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "d591083166c4ca0368320912",
+                "type": "task",
+                "display_language_text": null,
+                "learn_language_text": null,
+                "info_text": "Say tschüß to the clerk who served you when you leave a store",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+name: Build Lessonplayer for Mobile
+
+on: push
+
+jobs:
+  build_and_unit_test_b4:
+    name: Build and publish ULP Android Library
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Read .node-version
+        run: echo ::set-output name=NVMRC::$(cat b4/.node-version)
+        id: nvm
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '${{ steps.nvm.outputs.NVMRC }}'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@lessonnine'
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ${{ github.workspace }}/b4
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+
+      - name: 👩‍🎓 Build Lesson Player
+        working-directory: ${{ github.workspace }}/b4
+        env:
+          ROLLBAR_CLIENT_ACCESS_TOKEN: ${{ secrets.ROLLBAR_CLIENT_ACCESS_TOKEN }}
+        run: npm run build:webview
+
+      - name: Zip Lesson PLayer
+        uses: montudor/action-zip@v1
+        with:
+          working-directory: ${{ github.workspace }}/public
+          run: zip -qq -r ulp.zip
+
+      - name: Publish ULP .aar Library
+        uses: Raul6469/android-gradle-action@2.0.0
+        run: ./gradlew test

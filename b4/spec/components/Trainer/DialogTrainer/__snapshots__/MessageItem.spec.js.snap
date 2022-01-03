@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageItem /> it renders 1`] = `
+<styled.div
+  active={true}
+  onClick={[MockFunction]}
+  position="left"
+>
+  <styled.span
+    color="spaceGray"
+    fontFamily="fontMilliardBook"
+  >
+    children
+  </styled.span>
+  <styled.span
+    color="spaceGrayW28"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<i>Y sho era</i> el <b>mejor</b>",
+      }
+    }
+    data-selector="item-translation"
+    fontFamily="fontMilliardBook"
+    fontSize="small"
+  />
+</styled.div>
+`;

@@ -1,0 +1,113 @@
+{
+  "lesson": {
+    "id": "card-choicebuttons-purge-edge-cases",
+    "trainers": [
+      {
+        "type": "card",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "2eab07ee4963d527bab2eeda0402a9b4"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "9d41bfbaf6ec50241b55b3bf344ea217",
+                "type": "task",
+                "display_language_text": "These are the answers: **1.** Der **2.** niemals \"or\" nie **3.** Pfannkuchen **4.** scheint **5.** scheint **6.** das \"and then\" isst **7.** das \"and then\" isst",
+                "info_text": null,
+                "learn_language_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "9d41bfbaf6ec50241b55b3bf344ea217",
+                "type": "phrase",
+                "display_language_text": "The {for male words}",
+                "learn_language_text": "((*d**er**|d\"ie\"|d\"**as**\"))",
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "003382305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "2. never!",
+                "learn_language_text": "((*nie|*niemals|manchmal|selten))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "013422305ca4013597f61ae26c63b12d",
+                "type": "phrase",
+                "display_language_text": "3. I very much like the German type of donut.",
+                "learn_language_text": "Ich mag ((Pfanne|Fischleber|*Pfannkuchen)) sehr gerne.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "05b1f9a08520098d2cbbb6f343226861",
+                "type": "phrase",
+                "display_language_text": "4. Does the moon shine tonight?",
+                "learn_language_text": "((Weint|*Scheint|Feind)) der Mond heute?",
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "658f6323f5380ad34821765803f354b5",
+                "type": "phrase",
+                "display_language_text": "5. He thinks that the sun is shining.",
+                "learn_language_text": "Er glaubt, dass die Sonne ((*scheint|schneit|schnitt))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "cdafc6cd3a809b12269fe1f8bbb8998a",
+                "type": "phrase",
+                "display_language_text": "6. What is the weather like in Eritrea, and what does Fred eat for breakfast?",
+                "learn_language_text": "Wie ist ((der|die|*das)) Wetter in Eritrea, und was ((aß|war|*isst|sitzt)) Fred zum Frühstück?",
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "da8fcd3809b32a269fe1f8bbab38998a",
+                "type": "phrase",
+                "display_language_text": "7. What is t**h**e weather like \"in Eritrea\", and what does Fred e\"a\"t **for breakfast**?",
+                "learn_language_text": "Wie ist ((d**e**r|d**i**e|*d**a**s)) Wetter \"in Eritrea\", und was ((aß|w\"a\"r|*i\"ss\"t|si\"tzt\")) Fred **zum Frühstück**?",
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

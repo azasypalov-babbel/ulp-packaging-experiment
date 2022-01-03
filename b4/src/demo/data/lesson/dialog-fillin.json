@@ -1,0 +1,81 @@
+{
+  "lesson": {
+    "id": "dialog-fillin",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Enver ist nach anfänglichen Bedenken sehr begeistert von der Idee des Onlinedatings …",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c4125f431a70cffeb7d95c08401dab12",
+                "type": "phrase",
+                "display_language_text": "I also signed up and I'm going on my first date \"already today\"! **(the solution is: 'mich' or 'totally')**",
+                "learn_language_text": "Ich habe ((*mich|*totally)) auch angemeldet und gehe \"noch heute\" zu meinem ersten Treffen!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "a557834d59c22aa803e2f7cdf5c667af",
+                "type": "task",
+                "display_language_text": "Seine Freundin Aerdane ist erstaunt!",
+                "learn_language_text": null,
+                "info_text": "Info text for non interactive aka task item",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "8352d7f6e02b632903e2f7cdf5c667af",
+                "type": "phrase",
+                "display_language_text": "Really?! Wow, you're really crossing the t's and dotting the i's, aren't you!!",
+                "learn_language_text": "Wirklich?! Wow, du machst echt ((*Nägel mit Köpfen)), wie!!",
+                "info_text": "Nägel mit Köpfen machen. Tatsachen schaffen.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "148fdd5afbbf80249f835b796faaaf24",
+                "type": "task",
+                "display_language_text": "Enver findet das ganz richtig so, schließlich wird er ja nicht jünger, und er war jetzt lange genug allein!",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "09916d0342536dc9810940d1b3d3efd3",
+                "type": "phrase",
+                "display_language_text": "Mmmhh okay, but please watch out for yourself, ok? **(the solutions are: 'Ja schon' and 'auf')**",
+                "learn_language_text": "((Ja schon)), aber pass bitte ((auf)) dich auf, ok?",
+                "info_text": "Merk dir das! Beim Onlinedating darf man NICHT ALLES GLAUBEN!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

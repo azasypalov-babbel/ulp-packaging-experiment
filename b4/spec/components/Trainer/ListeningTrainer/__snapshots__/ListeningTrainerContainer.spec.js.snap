@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListeningTrainerContainer /> handleKeyboardTriggeredAttempt calls track with required payload 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "listening_trainer",
+    "gui_element": "keyboard_shortcut",
+    "interaction": "clicked",
+    "learn_language_alpha3": "FRA",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<ListeningTrainerContainer /> handleToggleShortcuts calls track with required payload 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "listening_trainer",
+    "gui_element": "shortcut_hint_toggler",
+    "interaction": "clicked",
+    "learn_language_alpha3": "FRA",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;

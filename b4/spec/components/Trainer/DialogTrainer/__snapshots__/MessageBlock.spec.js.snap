@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageBlock /> it renders 1`] = `
+<styled.div
+  position="right"
+  tabIndex="0"
+>
+  <styled.div
+    active={false}
+    data-selector="item-sound-replay-wrapper"
+    onClick={[Function]}
+    position="right"
+  >
+    <styled.div />
+    <div
+      position="right"
+    >
+      <MessageItem
+        active={false}
+        position="right"
+        secondaryText="display language"
+      >
+        learn language
+      </MessageItem>
+    </div>
+  </styled.div>
+</styled.div>
+`;

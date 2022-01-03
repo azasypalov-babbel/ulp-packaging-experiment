@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar /> it renders 1`] = `
+<div
+  className="loy-progress-bar"
+>
+  <div
+    className="loy-progress-bar__base"
+  >
+    <div
+      key="trainer-0"
+      onClick={[Function]}
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <span
+        className="loy-progress-bar__item"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      key="trainer-1"
+      onClick={[Function]}
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <span
+        className="loy-progress-bar__item"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      key="trainer-2"
+      onClick={[Function]}
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <span
+        className="loy-progress-bar__item"
+        style={
+          Object {
+            "width": "33%",
+          }
+        }
+      />
+    </div>
+    <div
+      key="trainer-3"
+      onClick={[Function]}
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <span
+        className="loy-progress-bar__item"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

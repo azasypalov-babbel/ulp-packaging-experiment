@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "remaining_item_count":2
+  },
+  "_params": {
+    "next": {
+      "filter":"due",
+      "interaction_type":"flashcard",
+      "limit":10,
+      "offset":0
+    }
+  },
+  "review_session":{
+    "trainers":[
+      {
+        "type":"cube",
+        "interaction":"write",
+        "puzzle_helper":false,
+        "dictate":false,
+        "translation_visibility":"full",
+        "title":"Do you remember these words in German?",
+        "image":null,
+        "item_groups":[
+          {
+            "title":null,
+            "image":null,
+            "items":[
+              {
+                "id":"3206489c621eea45a319cae445aa45d5",
+                "display_language_text":"(I) {like} \"the\" **small** town",
+                "learn_language_text":"(Ich) {mag} \"die\" **kleine** ((*Stadt)) {Stadt}",
+                "info_text":" ",
+                "speaker_role":"M1",
+                "type":"phrase",
+                "image":{
+                  "id":"83da55c815dee0eabb391c4d59a34ba6"
+                },
+                "sound":{
+                  "id":"28dd66682b5befa4ecfdab862ceaf913"
+                }
+              },
+              {
+                "id":"41bdf32331e8706e4054683b46f497ba",
+                "display_language_text":"**the** \"street\"",
+                "learn_language_text":"**die** ((*Straße))",
+                "info_text":"(also) **format** {info} \"popups\"",
+                "speaker_role":"M1",
+                "type":"phrase",
+                "image":{
+                  "id":"c773aa7885bb9b6e2a1a79f8e62c5b63"
+                },
+                "sound":{
+                  "id":"a4efca5cf79830c22fb7c49a27f0d0ea"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

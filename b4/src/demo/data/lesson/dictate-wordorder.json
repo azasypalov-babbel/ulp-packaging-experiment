@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "dictate-wordorder",
+    "trainers": [
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Lerne die Farben",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "061637f45e95a5371ffcb92b9a4fda8b",
+                "type": "phrase",
+                "display_language_text": "Usually, the sun appears yellow, but sometimes also red or orange.",
+                "learn_language_text": "((Die Sonne)) ((erscheint)) ((meist gelb,)) ((aber manchmal auch rot oder orange.))",
+                "info_text": "Wenn die Sonne grün leuchtet, stimmt etwas nicht.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "71d9566cd8c14d2871b1f414c6e52800",
+                "type": "phrase",
+                "display_language_text": "In a meadow, we can find many different shades of green.",
+                "learn_language_text": "((In einer Wiese)) ((können wir)) ((viele verschiedene Grüntöne)) ((entdecken.))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "9936dcf2a2d4493a917d52e54d895b2b",
+                "type": "phrase",
+                "display_language_text": "In Winter, there isn't much green.",
+                "learn_language_text": "((Im Winter gibt es wenig grün.))",
+                "info_text": "Füchse machen dann Winterschlaf",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "17d52e54d895b2b9936dcf2a2d4493a9",
+                "type": "phrase",
+                "display_language_text": "This sentence is short and colorful.",
+                "learn_language_text": "((Dieser Satz)) ((ist)) ((kurz und bunt.))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "sort",
+        "dictate": true,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

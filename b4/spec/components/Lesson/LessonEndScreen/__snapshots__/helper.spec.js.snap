@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonEndScreen components helper #getMessage when translation includes a displayName interpolation it adds a new line before displayName 1`] = `
+Array [
+  <span>
+    Fantastique, 
+  </span>,
+  <br />,
+  <span>
+    John
+     !
+  </span>,
+]
+`;

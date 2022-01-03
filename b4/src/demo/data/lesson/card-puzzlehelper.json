@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "card-puzzlehelper",
+    "trainers": [
+      {
+        "type": "card",
+        "translation_visibility": "none",
+        "title": null,
+        "description": null,
+        "image": {
+          "id": "c47b5df9b6b369839f95d39639e5895b"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "0b21dd4f6fb8e28b2cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "The correct answer below is 'ä-x', or 'nass', or 'total nass'. All three answers should work, and the puzzlehelper buttons should update accordingly.",
+                "learn_language_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "b2de660878357307b12d11b97f61ae26",
+                "type": "phrase",
+                "display_language_text": "If it rains, you get wet.",
+                "learn_language_text": "Wenn es regnet, wirst du ((*ä-x|*nass|*total nass)).",
+                "info_text": "this is an info popup",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "a4d69c861d77fce52cbbb6f343226861",
+                "type": "task",
+                "display_language_text": "Of course, you can wear a rain jacket to not get wet. The answers below are 'sind' and 'die'. Type 'yes' or 'äöüß' now: ((*yes|*äöüß)).",
+                "learn_language_text": null,
+                "info_text": "this is another info popup",
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "502950d389ae54214821765803f354b5",
+                "type": "phrase",
+                "display_language_text": "Happy are the people that own rain jackets",
+                "learn_language_text": "Glücklich ((sind die)) Leute, ((die)) Regenjacken besitzen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      }
+    ]
+  }
+}

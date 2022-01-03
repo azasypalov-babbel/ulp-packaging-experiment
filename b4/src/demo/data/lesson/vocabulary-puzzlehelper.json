@@ -1,0 +1,113 @@
+{
+  "lesson": {
+    "id": "vocabulary-puzzlehelper",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "2171a03dec0c9696a3a906bbcfa7f362",
+                "type": "phrase",
+                "display_language_text": "the hibiscus",
+                "learn_language_text": "der ((Hibiskus))",
+                "info_text": "Der Hibiskus blüht in vielen Farben ",
+                "image": {
+                  "id": "1e0003f2a2f094a9ba700ca37cdacaa8"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "cd78cb2705243fcc4018912cc6750efe",
+                "type": "phrase",
+                "display_language_text": "the horizon",
+                "learn_language_text": "der ((Horizont))",
+                "info_text": "Now, bring me that horizon..",
+                "image": {
+                  "id": "3628b53e61d7e3154d21172de1c2cfd3"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8f3da7532c928a21784ce6552afa42d5",
+                "type": "phrase",
+                "display_language_text": "the hyena",
+                "learn_language_text": "die ((Hyäne))",
+                "info_text": "It is waiting for the sun to set and laughs about it.",
+                "image": {
+                  "id": "30a07114f952d3261035e268122df6fe"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "cube",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "c57862a0f2326d6112af448f848d42d0",
+                "type": "phrase",
+                "display_language_text": "Card games aren't as popular as they were 20 years ago.",
+                "learn_language_text": "Kartenspiele sind nicht mehr ((so)) beliebt wie vor 20 Jahren.",
+                "info_text": null,
+                "image": {
+                  "id": "ef8ab07d5980c6502699507b523b333b"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "3015ce95f6fd5a6532a1fdc321cda994",
+                "type": "phrase",
+                "display_language_text": "Could you give me the dice and the small stack of cards, please?",
+                "learn_language_text": "Kannst ((du mir)) bitte den Würfel und den kleinen ((Stapel)) Karten geben?",
+                "info_text": "Würfel! Stapel!",
+                "image": {
+                  "id": "8c0c70e7dbe73171f1578d04059aa020"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      }
+    ]
+  }
+}

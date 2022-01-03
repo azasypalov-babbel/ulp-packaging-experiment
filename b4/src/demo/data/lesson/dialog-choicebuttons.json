@@ -1,0 +1,93 @@
+{
+  "lesson": {
+    "id": "dialog-choicebuttons",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": null,
+        "description": "Lina und Luis treffen sich zum ersten Mal seit Monaten.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "61004e92d29865a26ac1b658fd6e4fdd",
+                "type": "phrase",
+                "display_language_text": "Hello Lina! Lovely to see you!",
+                "learn_language_text": "Hallo Lina! ((***Schön**|\"Komisch\"|E**ch**t kacke)), dich zu sehen!",
+                "info_text": "Das sagt man doch recht häufig.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ef8854774469235f1114461eb4d45264",
+                "type": "task",
+                "display_language_text": "This is a task without popup, it gives context about the dialog. Tasks don't have a translation, they are display language items.",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "56ef7c6f8a577a971114461eb4d45264",
+                "type": "phrase",
+                "display_language_text": "Hi Luis, yes, very nice! I'm quite tired today because I'm sick.",
+                "learn_language_text": "Hi Luis, ja, ich freue ((mir|mein|*mich)) auch! Ich bin heute sehr müde, weil ich ((*krank|frank|weh)) bin.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "cb16b36161e9f21d37f61281ef2be994",
+                "type": "phrase",
+                "display_language_text": "**What do** \"you\" 'have'?",
+                "learn_language_text": "((*Was|*Click here|Welche|Womit)) **hast** \"du\" 'denn'?",
+                "info_text": "It's ok to ask about someone's illness, but don't be too inquisitive!",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "6ab59104c5ec3034f3dda5556c6f224a",
+                "type": "phrase",
+                "display_language_text": "Ah, just a common cold, but I feel pretty bad this time.",
+                "learn_language_text": "Ah, nur eine normale Erkältung, aber es geht mir ziemlich dreckig diesmal.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "bc95130867b446868238b79cd37feee8",
+                "type": "task",
+                "display_language_text": null,
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+                }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

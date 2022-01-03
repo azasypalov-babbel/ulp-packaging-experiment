@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Answers Counter it renders 1`] = `
+<div
+  className="loy-lesson-end-screen-feedback-answers-counter"
+  data-lesson-score="8/12"
+>
+  <span
+    className="loy-lesson-end-screen-feedback-answers-counter__caption"
+  >
+    Answered correctly:
+  </span>
+  <h2
+    className="loy-lesson-end-screen-feedback-answers-counter__counter"
+  >
+    <Counter
+      onCounterEnd={[Function]}
+      value={8}
+    />
+    <span>
+      /
+    </span>
+    <Counter
+      onCounterEnd={[MockFunction]}
+      value={12}
+    />
+  </h2>
+</div>
+`;

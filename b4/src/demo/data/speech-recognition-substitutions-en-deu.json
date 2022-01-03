@@ -1,0 +1,30 @@
+{
+  "speech_recognition_substitutions": {
+    "character_substitution_costs": [
+      {
+        "character": "f",
+        "cost": 0.05,
+        "replacement": "p"
+      },
+      {
+        "character": "p",
+        "cost": 0.05,
+        "replacement": "f"
+      }
+    ],
+    "lookup_table_entries": [
+      {
+        "expression": "(^|[ \"])1($| |-|[;:,!\\?\\.\"]($| ))",
+        "replacement": "$1eins$2"
+      },
+      {
+        "expression": "(^|[ \"])2($| |-|[;:,!\\?\\.\"]($| ))",
+        "replacement": "$1zwei$2"
+      },
+      {
+        "expression": "(^|[ \"])3($| |-|[;:,!\\?\\.\"]($| ))",
+        "replacement": "$1drei$2"
+      }
+    ]
+  }
+}

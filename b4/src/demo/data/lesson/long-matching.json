@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "23e00ff6a8de47ca9f635afa5060f6e8",
+    "trainers": [
+      {
+        "type": "matching",
+        "translation_visibility": "partial",
+        "title": "Match the items",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "d7468488e3114b568563aa92c37c5950",
+                "type": "phrase",
+                "display_language_text": "Prenatal examinations can be carried out in turns by the midwife or the gynecologists.",
+                "learn_language_text": "Die Vorsorgeuntersuchungen können abwechselnd_von der Hebamme und den Frauenärzt:innen durchgeführt werden.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "e1c5f92ed10d4a04bca83fae4e336efc"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "a679911d13fd4f91acff28959704a602",
+                "type": "phrase",
+                "display_language_text": "During pregnancy, Braxton Hicks (lit. exercise) contractions can often be felt. These are quite different from labor contractions.",
+                "learn_language_text": "Im Verlauf der Schwangerschaft kann man häufig \"Übungswehen\" spüren._Sie unterscheiden sich deutlich von den Geburtswehen.",
+                "info_text": "Another term in German for \"Übungswehen\" is \"Braxton-Hicks-Kontraktionen\".",
+                "image": null,
+                "sound": {
+                  "id": "242f25a92b90400ba2faa3f08586956f"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f85aa9705a2847dba16fd62e0977c3c6",
+                "type": "phrase",
+                "display_language_text": "Ultrasound examinations are reserved for doctors. CTGs can be carried out by midwives.",
+                "learn_language_text": "Ultraschalluntersuchungen sind den Ärzten vorbehalten._CTGs können von den Hebammen durchgeführt werden.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "25f75eeaeb784e3abb85df077dabae2d"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "781ed8c21790446caa8445ed040e7049",
+                "type": "phrase",
+                "display_language_text": "High-risk pregnancies require additional care and prenatal examinations.",
+                "learn_language_text": "Risikoschwangerschaften erfordern_zusätzliche Betreuung und Vorsorgeuntersuchungen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "e87a119043074297aeabf15a0a99af99"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "puzzle_helper": false,
+        "dictate": false
+      }
+    ]
+  }
+}

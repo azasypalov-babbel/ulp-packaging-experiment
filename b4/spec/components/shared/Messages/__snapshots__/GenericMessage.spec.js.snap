@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GenericMessage /> renders 1`] = `
+<ErrorOverlay
+  body="generic_error_screen.return.body"
+  dataSelector="error-overlay-generic-error"
+  icon={
+    <WithTheme(GenericErrorIcon)
+      size="3.5rem"
+    />
+  }
+  key="generic-error"
+  title="generic_error_screen.return.title"
+>
+  <WithKeypress(styled.button)
+    data-selector="cta-button"
+    onClick={[Function]}
+  >
+    generic_error_screen.return.cta
+  </WithKeypress(styled.button)>
+</ErrorOverlay>
+`;

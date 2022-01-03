@@ -1,0 +1,83 @@
+{
+  "lesson": {
+    "id": "dialog-puzzlehelper",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "Livs Assistent ist krank geworden, sie braucht schnell einen Ersatz für drei Tage.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "1b51298277472964fe59396cd48443a8",
+                "type": "phrase",
+                "display_language_text": "Hi Rolf, I need your help! My assistant Maik got sick and I need someone to jump in for him. **(solution: 'Hi')**",
+                "learn_language_text": "((Hi)) Rolf, ich brauche deine Hilfe! Mein Assistent Maik ist krank geworden, und ich brauche jemanden, der für ihn einspringt.",
+                "info_text": "für jemanden einspringen",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e7c656e75b1d5af0cff620197a1de9df",
+                "type": "task",
+                "display_language_text": "Liv hat Glück: Rolf hat tatsächlich Zeit",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "5fbf53ad961e3b1e9a68f5c594cd90a4",
+                "type": "phrase",
+                "display_language_text": "Hi Liv! That shouldn't be a problem! I'm not too busy today. For how long would you need my help? **(solution: 'zu tun')**",
+                "learn_language_text": "Hallo Liv! Das sollte kein Problem sein, ich habe nicht so viel ((zu tun)) heute. Für wie lange bräuchtest du meine Hilfe?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "bda251f8962ca6c4786f4408e880e22f",
+                "type": "phrase",
+                "display_language_text": "Oh - actually until the day after tomorrow. Would you also be available the next two days? **(solutions: 'bis' and 'nächsten')**",
+                "learn_language_text": "Oh - eigentlich ((bis)) übermorgen. Hättest du die ((nächsten)) zwei Tage auch noch Zeit?",
+                "info_text": "Liv braucht etwas mehr Hilfe, als er erwartet hätte.",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "aef7eb5903463c29786f4408e880e22f",
+                "type": "phrase",
+                "display_language_text": "Well, actually not, but I'll check if I can move some errands and meetings to another time!",
+                "learn_language_text": "Nein, eigentlich nicht, aber ich werde mal fragen, ob ich ein paar Aufgaben und Meetings verschieben kann!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      }
+    ]
+  }
+}

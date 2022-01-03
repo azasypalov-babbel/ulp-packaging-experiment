@@ -1,0 +1,92 @@
+{
+  "learn_language": {
+    "id": "DEU",
+    "name": "German",
+    "unlocked": true,
+    "course_overviews": [
+      {
+        "id": "mocked-course-overview-id",
+        "title": "Newcomer",
+        "description": "An easy introduction to German: basic vocab, grammar, and pronunciation.",
+        "unlocked": true,
+        "tags": [
+          "progressive"
+        ],
+        "image": {
+          "id": "8c63190b62c6462d9d9a238ee90c916a"
+        },
+        "courses": [
+          {
+            "id": "mocked-course-id",
+            "title": "Newcomer - Course 1",
+            "description": "Greet people, introduce yourself, ask others how they are, say where you're from and what languages you speak",
+            "unlocked": true,
+            "active": false,
+            "completed": false,
+            "lessons_count": 13,
+            "completed_lessons_count": 1,
+            "tags": [
+              "progressive",
+              "A1"
+            ],
+            "cefr_level": "A1",
+            "lessons": [
+              {
+                "id": "mocked-uncompleted-lesson-id",
+                "completed": false
+              },
+              {
+                "id": "mocked-completed-lesson-id",
+                "completed": true
+              },
+              {
+                "id": "d41cc29c2ec44ae9b805bde72a591e9e",
+                "completed": false
+              },
+              {
+                "id": "1e6d735a0b5f43419bf5edf06fb60026",
+                "completed": true
+              },
+              {
+                "id": "3133a9008e7449d1bc06e593ec60c8d9",
+                "completed": true
+              },
+              {
+                "id": "f357af87be7c48cb977a421a6bd2cff9",
+                "completed": false
+              },
+              {
+                "id": "d90192ce607e4baaaec8115570474f73",
+                "completed": false
+              },
+              {
+                "id": "adc470af45904f80b6decb92338948c7",
+                "completed": false
+              },
+              {
+                "id": "818d575a82454022b1db7d8fc3ccf0d6",
+                "completed": false
+              },
+              {
+                "id": "1c7db35847f14dee8091199cfda24f3a",
+                "completed": false
+              },
+              {
+                "id": "6da9a3d8d78144b08e8792d40aa7ff02",
+                "completed": false
+              },
+              {
+                "id": "560ff33e1f914d5f840540e542fc1d39",
+                "completed": false
+              },
+              {
+                "id": "b427c6cce7be438bb1e9cf36d54f0677",
+                "completed": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

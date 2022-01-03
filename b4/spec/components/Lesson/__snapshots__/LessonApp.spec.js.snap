@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LessonApp default behaviour should render 1`] = `
+<styled.div>
+  <ApplicationErrorBoundary
+    name="LessonApp"
+  >
+    <Connect(NavbarContainer) />
+    <FeatureToggles />
+    <Connect(MessagesContainer) />
+    <TrainerOverlay />
+    <main>
+      <Component />
+    </main>
+    <Connect(BottomLayoutComponent) />
+  </ApplicationErrorBoundary>
+</styled.div>
+`;

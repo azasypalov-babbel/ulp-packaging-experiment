@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> Correct - it renders with delay 1`] = `
+<Card
+  itemsList={
+    Array [
+      Object {
+        "learnLanguageText": "die Straße",
+        "sound": Object {
+          "id": "100afffb3",
+        },
+      },
+      Object {
+        "learnLanguageText": "die Adresse",
+        "sound": Object {
+          "id": "101afffb3",
+        },
+      },
+      Object {
+        "learnLanguageText": "die Nationalität",
+        "sound": Object {
+          "id": "102afffb3",
+        },
+      },
+    ]
+  }
+  onAnimationComplete={[Function]}
+  onItemClick={[Function]}
+  title="Correct/Incorrect"
+  type="correct"
+>
+  <div
+    className="loy-card loy-card--correct"
+  >
+    <h2
+      className="loy-card__title"
+    >
+      Correct/Incorrect
+    </h2>
+    <div
+      className="loy-card__body"
+    >
+      <ul
+        className="loy-review-item-list"
+      >
+        <li
+          key="0"
+        >
+          <mock-ReviewItem
+            data-review="item-correct"
+            item={
+              Object {
+                "learnLanguageText": "die Straße",
+                "sound": Object {
+                  "id": "100afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+        <li
+          key="1"
+        >
+          <mock-ReviewItem
+            data-review="item-correct"
+            item={
+              Object {
+                "learnLanguageText": "die Adresse",
+                "sound": Object {
+                  "id": "101afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+        <li
+          key="2"
+        >
+          <mock-ReviewItem
+            data-review="item-correct"
+            item={
+              Object {
+                "learnLanguageText": "die Nationalität",
+                "sound": Object {
+                  "id": "102afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</Card>
+`;
+
+exports[`<Card /> Incorrect - it renders with delay 1`] = `
+<Card
+  itemsList={
+    Array [
+      Object {
+        "learnLanguageText": "die Straße",
+        "sound": Object {
+          "id": "100afffb3",
+        },
+      },
+      Object {
+        "learnLanguageText": "die Adresse",
+        "sound": Object {
+          "id": "101afffb3",
+        },
+      },
+      Object {
+        "learnLanguageText": "die Nationalität",
+        "sound": Object {
+          "id": "102afffb3",
+        },
+      },
+    ]
+  }
+  onAnimationComplete={[Function]}
+  onItemClick={[Function]}
+  title="Correct/Incorrect"
+  type="incorrect"
+>
+  <div
+    className="loy-card loy-card--incorrect"
+  >
+    <h2
+      className="loy-card__title"
+    >
+      Correct/Incorrect
+    </h2>
+    <div
+      className="loy-card__body"
+    >
+      <ul
+        className="loy-review-item-list"
+      >
+        <li
+          key="0"
+        >
+          <mock-ReviewItem
+            data-review="item-incorrect"
+            item={
+              Object {
+                "learnLanguageText": "die Straße",
+                "sound": Object {
+                  "id": "100afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+        <li
+          key="1"
+        >
+          <mock-ReviewItem
+            data-review="item-incorrect"
+            item={
+              Object {
+                "learnLanguageText": "die Adresse",
+                "sound": Object {
+                  "id": "101afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+        <li
+          key="2"
+        >
+          <mock-ReviewItem
+            data-review="item-incorrect"
+            item={
+              Object {
+                "learnLanguageText": "die Nationalität",
+                "sound": Object {
+                  "id": "102afffb3",
+                },
+              }
+            }
+            onItemClick={[Function]}
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</Card>
+`;

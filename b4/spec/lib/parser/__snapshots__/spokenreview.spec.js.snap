@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser spokenreview maps the data onto a different format 1`] = `
+Object {
+  "component": "spokenreview",
+  "traineritems": Array [
+    Object {
+      "id": 0,
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "Speak the correct translation",
+      "l2_text": "",
+      "sound_id": null,
+      "speaker_role": null,
+      "type": "title",
+    },
+    Object {
+      "id": "09180d48f40f53722edb62eec7673df4",
+      "image_id": "43912fcd48aef3ae530c26e5af28e3b1",
+      "info_text": "",
+      "l1_text": "the peace",
+      "l2_text": "der ((*Frieden))",
+      "sound_id": "d9749af7c8fe60a7107b0326040f4344",
+      "speaker_role": "N1",
+      "type": "Phrase",
+    },
+    Object {
+      "id": "99590db9b4a91f91a2337eb95f33de3a",
+      "image_id": "6bf7a1aed8949d3185fb319c36dbab7d",
+      "info_text": "",
+      "l1_text": "the border",
+      "l2_text": "die ((*Grenze))",
+      "sound_id": "96172e7e94931bdf178906c651564d09",
+      "speaker_role": "N1",
+      "type": "Phrase",
+    },
+  ],
+}
+`;

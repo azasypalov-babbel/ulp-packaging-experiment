@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> with \`showProgressBar\` set to false it renders without ProgressBar 1`] = `
+<header
+  className="loy-cascada-navbar"
+>
+  <div
+    className="loy-cascada-navbar__gate"
+  >
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--medium-only"
+    >
+      <span
+        className="loy-cascada-navbar__brand"
+      >
+        +B
+      </span>
+    </div>
+    <Connect(SkipTrainerControls)
+      renderSkipAreas={false}
+    >
+      <div
+        className="loy-cascada-navbar__item loy-cascada-navbar__item--progress"
+      />
+    </Connect(SkipTrainerControls)>
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--medium-only loy-cascada-navbar__item--align-right"
+    >
+      <a
+        data-selector="navbar-close-link"
+        onClick={[MockFunction]}
+        tabIndex="0"
+      >
+        Close
+      </a>
+    </div>
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--small-only loy-cascada-navbar__item--align-left"
+    >
+      <a
+        className="loy-cascada-navbar__close-icon"
+        data-selector="navbar-close-icon"
+        onClick={[MockFunction]}
+        tabIndex="0"
+      >
+        <WithTheme(CrossIcon)
+          fillColor="currentColor"
+          size="1.8rem"
+        />
+      </a>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`<Navbar /> with \`showProgressBar\` set to true it renders 1`] = `
+<header
+  className="loy-cascada-navbar"
+>
+  <div
+    className="loy-cascada-navbar__gate"
+  >
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--medium-only"
+    >
+      <span
+        className="loy-cascada-navbar__brand"
+      >
+        +B
+      </span>
+    </div>
+    <Connect(SkipTrainerControls)
+      renderSkipAreas={false}
+    >
+      <div
+        className="loy-cascada-navbar__item loy-cascada-navbar__item--progress"
+      />
+    </Connect(SkipTrainerControls)>
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--medium-only loy-cascada-navbar__item--align-right"
+    >
+      <a
+        data-selector="navbar-close-link"
+        onClick={[MockFunction]}
+        tabIndex="0"
+      >
+        Close
+      </a>
+    </div>
+    <div
+      className="loy-cascada-navbar__item loy-cascada-navbar__item--small-only loy-cascada-navbar__item--align-left"
+    >
+      <a
+        className="loy-cascada-navbar__close-icon"
+        data-selector="navbar-close-icon"
+        onClick={[MockFunction]}
+        tabIndex="0"
+      >
+        <WithTheme(CrossIcon)
+          fillColor="currentColor"
+          size="1.8rem"
+        />
+      </a>
+    </div>
+  </div>
+</header>
+`;

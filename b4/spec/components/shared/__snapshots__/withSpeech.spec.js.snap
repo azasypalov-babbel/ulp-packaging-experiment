@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withSpeech HOC passes speech prop to child component 1`] = `
+Object {
+  "confidenceScore": null,
+  "ended": false,
+  "engineName": "WebAPISpeechRecognition",
+  "error": "",
+  "listening": false,
+  "permissionsGranted": true,
+  "recording": false,
+  "reset": [Function],
+  "solved": false,
+  "start": [Function],
+  "stop": [Function],
+  "transcript": "",
+}
+`;

@@ -1,0 +1,46 @@
+{
+  "type": "vocabulary",
+  "translation_visibility": "full",
+  "title": "i am the title",
+  "description": null,
+  "interaction": "speak",
+  "puzzle_helper": false,
+  "dictate": false,
+  "image": null,
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "2ab20c1ade5806ddfe215322dac25261",
+          "display_language_text": "thank you",
+          "learn_language_text": "merci",
+          "info_text": null,
+          "speaker_role": "f1",
+          "type": "phrase",
+          "image": {
+            "id": "892nf89nf9283n91823dn2983dn"
+          },
+          "sound": {
+            "id": "8192he2n398fdn2948fdn298fn984"
+          }
+        },
+        {
+          "id": "2ab20c1ade5806ddfe215322dac25261",
+          "display_language_text": "thank you",
+          "learn_language_text": "merci",
+          "info_text": null,
+          "speaker_role": "f1",
+          "type": "phrase",
+          "image": {
+            "id": "783fn94gnq9e8fm8043fq8m"
+          },
+          "sound": {
+            "id": "f92dn829fn9834nf9834fn9834"
+          }
+        }
+      ]
+    }
+  ]
+}

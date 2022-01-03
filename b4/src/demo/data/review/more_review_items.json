@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "remaining_item_count":2
+  },
+  "_params": {
+    "next": {
+      "filter":"due",
+      "interaction_type":"flashcard",
+      "limit":10,
+      "offset":0
+    }
+  },
+  "review_session": {
+    "trainers": [
+       {
+          "type":"wordorder",
+          "interaction":"choose",
+          "puzzle_helper":false,
+          "dictate":false,
+          "translation_visibility":"full",
+          "title":"Metti in ordine gli elementi",
+          "image":null,
+          "item_groups":[
+             {
+                "title":null,
+                "image":null,
+                "items":[
+                   {
+                      "id":"7bbb0ede1c83455c2df4ad7f0aa933ca",
+                      "display_language_text":"Desidera altro?",
+                      "learn_language_text":"((*Haben)) ((*Sie)) ((*andere)) ((*Wünsche?))",
+                      "info_text":"(also) **format** {info} \"popups\"",
+                      "speaker_role":"m1",
+                      "type":"phrase",
+                      "spoofed_texts":[
+
+                      ],
+                      "image":{
+                         "id":"7cf572c677d13d95c43db97704db94c5"
+                      },
+                      "sound":{
+                         "id":"756d129c7f04ff04f15c62096b6d6139"
+                      }
+                   },
+                   {
+                      "id":"88d9c4a10324bf946beae46f88c5634e",
+                      "display_language_text":"la camera doppia",
+                      "learn_language_text":"((*das)) ((*Dop))((*pel))((*zim))((*mer))",
+                      "info_text":"",
+                      "speaker_role":"f2",
+                      "type":"phrase",
+                      "spoofed_texts":[
+
+                      ],
+                      "image":{
+                         "id":"c8bfb5e9423bb5e11a9a7c7e7d5ca225"
+                      },
+                      "sound":{
+                         "id":"17f2e410e07b62a46601d158035ed5b1"
+                      }
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+source 'https://rubygems.org'
+
+gem 'dotenv'
+gem 'knapsack'
+gem 'pry-byebug'
+gem 'rspec'
+gem 'rubocop'
+gem 'thor'
+
+# Install all the webdriver gems and cucumber
+gem 'appium_lib'
+gem 'cucumber', '7.1.0'
+gem 'selenium'
+gem 'selenium-webdriver'
+
+# Generate Random Data
+gem 'faker'
+
+# For Pretty Printing
+gem 'awesome_print', require: "ap"
+
+# Active Support Helpers
+gem 'activesupport'

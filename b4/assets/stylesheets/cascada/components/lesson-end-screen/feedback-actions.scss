@@ -1,0 +1,12 @@
+.lesson-end-screen-feedback-actions {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+
+  > * {
+    &:not(:last-of-type) {
+      margin-bottom: rem(16px);
+    }
+  }
+}

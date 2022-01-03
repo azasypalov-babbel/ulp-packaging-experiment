@@ -1,0 +1,41 @@
+{
+  "type": "flashcard",
+  "puzzle_helper": false,
+  "dictate": false,
+  "image": null,
+  "interaction": "show",
+  "title": "Do you remember these words in German?",
+  "translation_visibility": "full",
+  "item_groups": [
+    {
+      "title": null,
+      "image": null,
+      "items": [
+        {
+          "id": "842143a6f8845c92fcfe89a2c9ab916f",
+          "display_language_text": "zéro",
+          "learn_language_text": "null",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "5f7ad6d18627256948587dce5a3fdc37"
+          },
+          "speaker_role": "f1",
+          "type": "phrase"
+        },
+        {
+          "id": "f05595a64b488807da52be75043adf1b",
+          "display_language_text": "un",
+          "learn_language_text": "eins",
+          "info_text": null,
+          "image": null,
+          "sound": {
+            "id": "1b43efb43689d94dba1f33fba27a98d7"
+          },
+          "speaker_role": "f1",
+          "type": "phrase"
+        }
+      ]
+    }
+  ]
+}

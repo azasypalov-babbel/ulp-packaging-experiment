@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MicMutedMessage /> on click tracks gui:interacted 1`] = `
+Object {
+  "event": "gui:interacted",
+  "payload": Object {
+    "gui_container": "mic_error_muted",
+    "gui_element": "opt_out_button",
+    "interaction": "clicked",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicMutedMessage /> tracks gui:shown 1`] = `
+Object {
+  "event": "gui:shown",
+  "payload": Object {
+    "gui_container": "mic_error_muted",
+    "gui_element": "opt_out_button",
+    "learn_language_alpha3": "DEU",
+    "locale": "en",
+    "origin": "lesson_player",
+  },
+  "version": 1,
+}
+`;
+
+exports[`<MicMutedMessage /> when in lesson renders with the button 1`] = `
+<ErrorOverlay
+  body="speech_recognition.error_mic_muted.body"
+  dataSelector="error-overlay-speech-error"
+  icon={
+    <WithTheme(MicOff)
+      size="3.5rem"
+    />
+  }
+  key="speech-error"
+  title="speech_recognition.error_mic_muted.title"
+>
+  <WithKeypress(styled.button)
+    data-selector="cta-button"
+    onClick={[Function]}
+  >
+    speech_recognition.error_mic_muted.cta
+  </WithKeypress(styled.button)>
+</ErrorOverlay>
+`;
+
+exports[`<MicMutedMessage /> when in review renders without the button 1`] = `
+<ErrorOverlay
+  body="speech_recognition.error_mic_muted.body"
+  dataSelector="error-overlay-speech-error"
+  icon={
+    <WithTheme(MicOff)
+      size="3.5rem"
+    />
+  }
+  key="speech-error"
+  title="speech_recognition.error_mic_muted.title"
+/>
+`;

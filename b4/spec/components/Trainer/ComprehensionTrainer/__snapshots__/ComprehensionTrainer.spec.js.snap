@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComprehensionTrainer /> audio displays the correct trainer title 1`] = `"b3.comprehension.text_title"`;
+
+exports[`<ComprehensionTrainer /> audio displays the correct trainer title 2`] = `"b3.comprehension.audio_title"`;
+
+exports[`<ComprehensionTrainer /> text handles translation visibility correctly 1`] = `"But I actually don't like football"`;
+
+exports[`<ComprehensionTrainer /> text handles translation visibility correctly 2`] = `"Eine Woche besteht aus sieben Tagen, oder?"`;
+
+exports[`<ComprehensionTrainer /> text handles translation visibility correctly 3`] = `"But I actually don't like football"`;
+
+exports[`<ComprehensionTrainer /> text handles translation visibility correctly 4`] = `"Pero en realidad no me gusta el fútbol"`;

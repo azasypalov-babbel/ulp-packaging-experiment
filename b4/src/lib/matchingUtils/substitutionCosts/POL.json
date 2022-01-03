@@ -1,0 +1,125 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "ą",
+      "cost": 0
+    },
+    {
+      "character": "ą",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "c",
+      "replacement": "ć",
+      "cost": 0
+    },
+    {
+      "character": "ć",
+      "replacement": "c",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "ę",
+      "cost": 0
+    },
+    {
+      "character": "ę",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "l",
+      "replacement": "ł",
+      "cost": 0
+    },
+    {
+      "character": "ł",
+      "replacement": "l",
+      "cost": 0
+    },
+    {
+      "character": "n",
+      "replacement": "ń",
+      "cost": 0
+    },
+    {
+      "character": "ń",
+      "replacement": "n",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ó",
+      "cost": 0
+    },
+    {
+      "character": "ó",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "s",
+      "replacement": "ś",
+      "cost": 0
+    },
+    {
+      "character": "ś",
+      "replacement": "s",
+      "cost": 0
+    },
+    {
+      "character": "z",
+      "replacement": "ź",
+      "cost": 0
+    },
+    {
+      "character": "ź",
+      "replacement": "z",
+      "cost": 0
+    },
+    {
+      "character": "ź",
+      "replacement": "ż",
+      "cost": 0
+    },
+    {
+      "character": "z",
+      "replacement": "ż",
+      "cost": 0
+    },
+    {
+      "character": "ż",
+      "replacement": "z",
+      "cost": 0
+    },
+    {
+      "character": "ż",
+      "replacement": "ź",
+      "cost": 0
+    },
+    {
+      "character": "ó",
+      "replacement": "ò",
+      "cost": 0
+    },
+    {
+      "character": "ò",
+      "replacement": "ó",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "ą",
+    "ć",
+    "ę",
+    "ł",
+    "ń",
+    "ó",
+    "ś",
+    "ź",
+    "ż"
+  ]
+}

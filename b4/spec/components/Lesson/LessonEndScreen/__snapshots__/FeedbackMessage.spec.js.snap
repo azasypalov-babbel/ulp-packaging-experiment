@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FeedbackMessage /> it renders 1`] = `
+<div
+  className="loy-lesson-end-screen-feedback-message loy-lesson-end-screen-feedback-message--high"
+>
+  <img
+    className="loy-lesson-end-screen-feedback-message__icon"
+    src="test-file-stub"
+  />
+  <h1
+    className="loy-lesson-end-screen-feedback-message__text"
+    data-feedback-grade="high"
+  >
+    <span
+      key="1"
+    >
+      Fantastique, 
+    </span>
+    <br
+      key="2"
+    />
+    <span
+      key="3"
+    >
+      Christian
+       !
+    </span>
+  </h1>
+</div>
+`;

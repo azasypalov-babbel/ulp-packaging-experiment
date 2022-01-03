@@ -1,0 +1,1782 @@
+{"lesson":
+  {
+    "id": "published-trainers",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": "Listen and repeat",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "6780091f821a4b1a9cc15a095e7f04e2",
+                "type": "phrase",
+                "display_language_text": "You are in the hospital.",
+                "learn_language_text": "Sie sind im ((Krankenhaus)).",
+                "info_text": null,
+                "image": {
+                  "id": "380c83f5f4cbe0d051480d811dd95a13"
+                },
+                "sound": {
+                  "id": "63232d6f974ae3e4cc1f0ae0ee42c3cb"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "fd2df9149a3e4e408e5613548b4a3de7",
+                "type": "phrase",
+                "display_language_text": "You are not allowed to get up.",
+                "learn_language_text": "Sie ((dürfen)) nicht ((aufstehen)).",
+                "info_text": null,
+                "image": {
+                  "id": "f0541bd5ce0c976d998644d490ac4325"
+                },
+                "sound": {
+                  "id": "6269f2ba2015883d2de791ab2019cdea"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "4785477a21bc47139d13e5ae98b4ec64",
+                "type": "phrase",
+                "display_language_text": "May I go now?",
+                "learn_language_text": "((Darf)) ich jetzt gehen?",
+                "info_text": null,
+                "image": {
+                  "id": "749c9e5324b40df1b0d86c66ed30669b"
+                },
+                "sound": {
+                  "id": "298d2ba916b153cb0375d57cd7fcd361"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "02d515666f814502b952019f1a33d156",
+                "type": "phrase",
+                "display_language_text": "That can't be true!",
+                "learn_language_text": "Das ((darf)) doch nicht ((wahr)) sein!",
+                "info_text": null,
+                "image": {
+                  "id": "3d1690223da0bf923a0648f7a8908930"
+                },
+                "sound": {
+                  "id": "9febc0bd45139cae4517de044299110a"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "speak",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": "Choose the correct translation",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "6d1e9ada84ed4f30a490f9c2867769da",
+                "type": "phrase",
+                "display_language_text": "great picnic packets",
+                "learn_language_text": "prima Picknickpakete",
+                "info_text": null,
+                "image": {
+                  "id": "545fe40eef72a58b8ee895285d875983"
+                },
+                "sound": {
+                  "id": "c804fd85a6b72c37940275cdc8d22f0f"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "beb312fb91a848c39871aa5726ced302",
+                "type": "phrase",
+                "display_language_text": "foldable cardboard signs",
+                "learn_language_text": "klappbare Pappplakate",
+                "info_text": null,
+                "image": {
+                  "id": "f9cc15f83b007fa70dbf7be7f503ab87"
+                },
+                "sound": {
+                  "id": "1406024dca94e65af22786c2e9511260"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8b2e5f221c794d6199693811dba49e2f",
+                "type": "phrase",
+                "display_language_text": "the chaplain",
+                "learn_language_text": "der Kaplan",
+                "info_text": null,
+                "image": {
+                  "id": "36bda2195c40cc5847c01f3d947339f9"
+                },
+                "sound": {
+                  "id": "c62017d3e86e5a866afad76e2e37a092"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "b57aa0aabbf04e01b4bc69e3970354b4",
+                "type": "phrase",
+                "display_language_text": "the Cottbus mail coach driver",
+                "learn_language_text": "der Cottbuser Postkutscher",
+                "info_text": null,
+                "image": {
+                  "id": "2132a2340ca1c90497edfda72625abdc"
+                },
+                "sound": {
+                  "id": "9eea27ead148c3b71d4da9891f15cdf2"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "click",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": "Write the correct translation",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "b59733bb927a49ecb043b510869b8511",
+                "type": "phrase",
+                "display_language_text": "great picnic packets",
+                "learn_language_text": "prima Picknickpakete",
+                "info_text": null,
+                "image": {
+                  "id": "545fe40eef72a58b8ee895285d875983"
+                },
+                "sound": {
+                  "id": "c804fd85a6b72c37940275cdc8d22f0f"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "4c0287eb413a41a298ff7969cf2cddce",
+                "type": "phrase",
+                "display_language_text": "foldable cardboard signs",
+                "learn_language_text": "klappbare Pappplakate",
+                "info_text": null,
+                "image": {
+                  "id": "f9cc15f83b007fa70dbf7be7f503ab87"
+                },
+                "sound": {
+                  "id": "1406024dca94e65af22786c2e9511260"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "369bae6ac7c84be086fea4f33f549c15",
+                "type": "phrase",
+                "display_language_text": "the chaplain",
+                "learn_language_text": "der ((Kaplan))",
+                "info_text": null,
+                "image": {
+                  "id": "36bda2195c40cc5847c01f3d947339f9"
+                },
+                "sound": {
+                  "id": "c62017d3e86e5a866afad76e2e37a092"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "448ef257a9444dc1898d18ec97d8a415",
+                "type": "phrase",
+                "display_language_text": "the Cottbus mail coach driver",
+                "learn_language_text": "der ((Cottbuser Postkutscher))",
+                "info_text": null,
+                "image": {
+                  "id": "2132a2340ca1c90497edfda72625abdc"
+                },
+                "sound": {
+                  "id": "9eea27ead148c3b71d4da9891f15cdf2"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": "Sort the items",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "257f5bd38a184ade988bc65127099f40",
+                "type": "phrase",
+                "display_language_text": "Peter packs great picnic packets without a break.",
+                "learn_language_text": "((Peter)) ((packt)) ((pausenlos)) ((prima)) ((Picknickpakete.))",
+                "info_text": null,
+                "image": {
+                  "id": "8075a93a79857036fa5cec62abbaec02"
+                },
+                "sound": {
+                  "id": "796c4f1eabd1029a3ba01a3567f69ed4"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "58df099936bb4d748ecaf2ba4fe8725f",
+                "type": "phrase",
+                "display_language_text": "The chaplain is putting (lit. sticking) up foldable cardboard signs.",
+                "learn_language_text": "((Der Kaplan)) ((klebt)) ((klappbare)) ((Pappplakate)) ((an.))",
+                "info_text": null,
+                "image": {
+                  "id": "e4669ad633f240f998c620f955216e39"
+                },
+                "sound": {
+                  "id": "536138e30a091b8ef2fb8370afadcbe1"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "641cb5f68a284c7ab45605d9f33f1769",
+                "type": "phrase",
+                "display_language_text": "The Cottbus mail coach driver cleans the Cottbus mail coach until it shines.",
+                "learn_language_text": "((Der Cottbuser)) ((Postkutscher)) ((putzt)) ((den Cottbuser)) ((Postkutschkasten)) ((blank.))",
+                "info_text": null,
+                "image": {
+                  "id": "d33b5926ba7871084dc59b0d14b508ce"
+                },
+                "sound": {
+                  "id": "5fc7aff629fa140a68476b101f9c85d1"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "wordorder",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": "Choose the correct adjective endings",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "1a568f2571da435b9f2dd43076b13fe4",
+                "type": "phrase",
+                "display_language_text": "the clever composer",
+                "learn_language_text": "**der** klug((*e|er)) Komponist",
+                "info_text": null,
+                "image": {
+                  "id": "d621039ea328fec3245a44d2b0f6fff2"
+                },
+                "sound": {
+                  "id": "c0e54f2592faa68230c6eb0f91014ce1"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "86193cbf74a5409ab09015e010c5808b",
+                "type": "phrase",
+                "display_language_text": "a good audience",
+                "learn_language_text": "**ein** gut((e|*es)) Publikum",
+                "info_text": null,
+                "image": {
+                  "id": "5252292b4190d103e27300034d499ad0"
+                },
+                "sound": {
+                  "id": "b16f4a17049c6b1c9c5424aeddb1bdb8"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "5191c62a5d48446399f1720d1fc20c07",
+                "type": "phrase",
+                "display_language_text": "the beautiful melodies",
+                "learn_language_text": "**die** schön((er|*en)) Melodien",
+                "info_text": "Watch out! \"Melodien\" is the plural form of \"Melodie\".",
+                "image": {
+                  "id": "04d356dcbdd7ffb34e2c1809e0de9acb"
+                },
+                "sound": {
+                  "id": "00a2a6f16dd90833e3b0e850fc9b2688"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "aa0e9a45ff564f17bfe38e0e618b4be0",
+                "type": "phrase",
+                "display_language_text": "a fantastic opera",
+                "learn_language_text": "**eine** fantastisch((*e|er)) Oper",
+                "info_text": null,
+                "image": {
+                  "id": "605ad61efe91c22c3720828edfdd3c6d"
+                },
+                "sound": {
+                  "id": "41c934976096fdd99d6ef74ce4fea4cf"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "2f1409af95544b0e8353215aaa53c3db",
+                "type": "phrase",
+                "display_language_text": "a boring singer",
+                "learn_language_text": "**ein** langweilig((e|*er)) Sänger",
+                "info_text": null,
+                "image": {
+                  "id": "a01c0f2696e38ae2462de1d2ff2b9b88"
+                },
+                "sound": {
+                  "id": "5aa6c493df41c3b62e7d13e30f5430c6"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "vocabulary",
+        "translation_visibility": "partial",
+        "title": "Fill in the adjectives with the correct endings",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "5523e18cdaef4ade8094cc334ab9ba17",
+                "type": "phrase",
+                "display_language_text": "The singer is German. - a German singer",
+                "learn_language_text": "De**r** Sänger ist deutsch. - ein ((deutscher)) Sänger",
+                "info_text": null,
+                "image": {
+                  "id": "a4c4118ca076035cc58ee0d799800caf"
+                },
+                "sound": {
+                  "id": "75484731a58b38fa1e6ca69e643ea705"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "55b0b518db904ac7ac2051e86f6699b7",
+                "type": "phrase",
+                "display_language_text": "The song isn't good. - not a good song",
+                "learn_language_text": "Da**s** Lied ist nicht gut. - kein ((gutes)) Lied",
+                "info_text": null,
+                "image": {
+                  "id": "781c69e87b93665c9ccd34e7214ebe57"
+                },
+                "sound": {
+                  "id": "83ded7526781ff83fcf723605bddb755"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c8d3cd9a263b4a1faa274511c05d8e2b",
+                "type": "phrase",
+                "display_language_text": "The melody is interesting. - an interesting melody",
+                "learn_language_text": "Di**e** Melodie ist interessant. - eine ((interessante)) Melodie",
+                "info_text": null,
+                "image": {
+                  "id": "23d3f17d01908f6d868a32a929329114"
+                },
+                "sound": {
+                  "id": "38a65159851c782c08322dce13aad4c9"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "6c57ef00f12f4fe09d24021eca15475a",
+                "type": "phrase",
+                "display_language_text": "The lyric is not ingenious. - not an ingenious lyric",
+                "learn_language_text": "De**r** Text ist nicht genial. - kein ((genialer)) Text",
+                "info_text": null,
+                "image": {
+                  "id": "162626560e9853a8d496a1b9ead3efb1"
+                },
+                "sound": {
+                  "id": "aedda1fc56efa87161a66373c31a7b56"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "2084f606cc7a469da80802db806d1181",
+                "type": "phrase",
+                "display_language_text": "The concert is great. - a great concert",
+                "learn_language_text": "Da**s** Konzert ist toll. - ein ((tolles)) Konzert",
+                "info_text": null,
+                "image": {
+                  "id": "435076b0cd00ca897e852d7fbfe423f9"
+                },
+                "sound": {
+                  "id": "56a496a4da917eb90733985f3907d03f"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "01f607eca317425d86412ae9ef297327",
+                "type": "phrase",
+                "display_language_text": "The composer is famous. - a famous composer",
+                "learn_language_text": "Di**e** Komponistin ist berühmt. - eine ((berühmte)) Komponistin",
+                "info_text": "German adjective endings can be a bit tricky, but you're already well on your way to mastering them. Let's continue!",
+                "image": {
+                  "id": "abfc597e97bd243e77e8d047185259ed"
+                },
+                "sound": {
+                  "id": "3846925e7fb9c76470235ef96eb77f54"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "full",
+        "title": "Superlatives describing nouns",
+        "description": null,
+        "image": {
+          "id": "0a1170cefd3412d4676ae40d7cb6845c"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "99b87c8513f34613bf4f3d401567dfd5",
+                "type": "task",
+                "display_language_text": "When describing a singular noun with a superlative you use ((am|*the article)) and the adjective ending ((*-ste|-sten)).",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "89eb99f6aae54bbe98de0ad225829594",
+                "type": "phrase",
+                "display_language_text": "Who is **the** **most** successful sportsman?",
+                "learn_language_text": "Wer ist **der** erfolgreich**ste** Sportler?",
+                "info_text": "For adjectives ending in \"-t\" or \"-d\", the superlative ending is **-este**.",
+                "image": null,
+                "sound": {
+                  "id": "182677a7115345acac7b12f1c7028c29"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f66ceb41482b4929b6e07f4815ba95c4",
+                "type": "phrase",
+                "display_language_text": "Florence Griffith-Joyner was **the** fast**est** runner.",
+                "learn_language_text": "Florence Griffith-Joyner war **die** schnell**ste** Läuferin.",
+                "info_text": "In the nominative case the ending is always **e**, no matter what gender the noun is.",
+                "image": null,
+                "sound": {
+                  "id": "8b1107a0f93747868c18e5495d3c9398"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "57eef30016b441249f3471a4ef5eb9a0",
+                "type": "task",
+                "display_language_text": "In the plural, the adjective ending is ((-ste|*-sten)).",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "05a1c9afe5ae43caa4790efa972d49b9",
+                "type": "phrase",
+                "display_language_text": "Horse riding is one of **the** **most** interesting sports.",
+                "learn_language_text": "Reiten ist eine **der** interessant**esten** Sportarten.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "76c35835073e4bae8c2d2564290bc017"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "none",
+        "title": "Fill in the blanks",
+        "description": null,
+        "image": {
+          "id": "08ebdf62264bcf5c4828014527545815"
+        },
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "77c01abf4b4144a5bb9624d3e0d74659",
+                "type": "task",
+                "display_language_text": "Fill in the gaps with the correct word or phrase:  **Wunder**, **laut schreien**, **brav**, **Spielplatz**, **erzogen**, **Streit**, **stolz**",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "2ad62eac4a754bf781f6f35ee37560bb",
+                "type": "phrase",
+                "display_language_text": "",
+                "learn_language_text": "Ich gehe mit meinem Sohn auf den ((Spielplatz)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "8359fdb34aba4d4183d8d33db865cfaf"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "957b01e0a349469fa5a04584c59af079",
+                "type": "phrase",
+                "display_language_text": "",
+                "learn_language_text": "Dort sind viele Kinder, die ((laut schreien)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "3557e6bb18d646a390ba1a9609ab8933"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "8995b29d52e54c8c9b86424266467342",
+                "type": "phrase",
+                "display_language_text": "",
+                "learn_language_text": "Leider sind dort auch Eltern, die immer ((Streit)) mit anderen Eltern haben.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "c5acef304b4349eb895911829bc36499"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "7624310df4da46c4a633f6e44fbf31e4",
+                "type": "phrase",
+                "display_language_text": "",
+                "learn_language_text": "Kein ((Wunder)), dass deren Kinder nicht gut ((erzogen)) sind.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "26b4aeec0def46e0b152e3051cc91575"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "df256b6a57ef4a89bef6f260ec730578",
+                "type": "phrase",
+                "display_language_text": "",
+                "learn_language_text": "Ich bin ((stolz)) auf meinen Sohn, der immer ((brav)) ist.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "3fe2e32916a34c7f8e38d85d346f48ec"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "card",
+        "translation_visibility": "partial",
+        "title": "Review the forms of \"werden\"",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f4771a4f8570479585e50ce808b2f8ea",
+                "type": "phrase",
+                "display_language_text": "I'll be",
+                "learn_language_text": "ich ((werde))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "644fe44e6208996e27f3797f5403e9f4"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "bf0d682fef604e0f9bd1668aa6882ad8",
+                "type": "phrase",
+                "display_language_text": "you'll be",
+                "learn_language_text": "du ((wirst))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "e8da25851c812e82b9b50781c9fe9362"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "472c69e4b0af4851919a597a8bf69018",
+                "type": "phrase",
+                "display_language_text": "he/she/it will be",
+                "learn_language_text": "er/sie/es ((wird))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "a1608e9ba7c52fc27d10d69090921da7"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "fff698b329214a70bbae2fa7492cef16",
+                "type": "phrase",
+                "display_language_text": "we'll be",
+                "learn_language_text": "wir ((werden))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "1cfa379440bc6195fc8d478e9425864b"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "0ea204564db946a797ca6e9bf47eb423",
+                "type": "phrase",
+                "display_language_text": "you'll be",
+                "learn_language_text": "ihr ((werdet))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "0df66f8c5583ea1f4858fd445440e28f"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "f58e9cb1122e4385985294719328d41c",
+                "type": "phrase",
+                "display_language_text": "they/you will be",
+                "learn_language_text": "sie/Sie ((werden))",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "a84a31e0aad44445e56e8c81bdf8908d"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "8f88325223e84b31bfc5f3315dabdc6b",
+                "type": "task",
+                "display_language_text": null,
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": "Read and complete the text",
+        "description": "The morning after the move, Anja is writing a message to her friends to thank them for their help.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "1e474e8a97ce4bbd9dbf8eca2dd54098",
+                "type": "phrase",
+                "display_language_text": "Hello my dears!",
+                "learn_language_text": "Hallo ihr Lieben!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "a7967315fef7f2fb08944ce203a31f23"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "02af8743bc9e4a9f98af85c2ca570179",
+                "type": "phrase",
+                "display_language_text": "Thomas and I wanted to sincerely thank you again for your help!",
+                "learn_language_text": "Thomas und ich wollten uns nochmal ganz herzlich für eure Hilfe bedanken!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d6950e3f54752245b22f29fed15dad14"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "3c0db9d940204014a2d0438a2f3615e5",
+                "type": "phrase",
+                "display_language_text": "Without you Thomas' sofa bed would probably still be stuck in the staircase…",
+                "learn_language_text": "Ohne euch würde Thomas' ((Schlafsofa)) wahrscheinlich immer noch im Treppenhaus feststecken…",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "0554b2ff28cc08b2874c5177ea0fc1ec"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "10f020850712444d8573bb517e5a3536",
+                "type": "phrase",
+                "display_language_text": "It's such a mess here! We already misplaced our key four times today between all those boxes, and we're still looking for our lease…",
+                "learn_language_text": "Das ist ein Chaos hier! Wir haben heute schon viermal unseren ((Schlüssel)) zwischen den ganzen Kisten verlegt und sind immer noch auf der Suche nach unserem ((Mietvertrag))…",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "45699aefda651f601e6db9d1fb776fb7"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "5334f8e54e914122b4102fe780b86f77",
+                "type": "phrase",
+                "display_language_text": "But otherwise everything is fine!",
+                "learn_language_text": "Aber ansonsten ist alles prima!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "1aaffd68a8cd94fff3fee77e8ebd1e8c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "4b0bf42ddb484e92bb70355ca76d803e",
+                "type": "phrase",
+                "display_language_text": "We're just hanging up the curtain rods and the shower curtain (or at least we're trying to...).",
+                "learn_language_text": "Wir sind gerade dabei, die ((Gardinenstangen)) und den ((Duschvorhang)) aufzuhängen (oder es zumindest zu versuchen...).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "a91e09a93e6eeef5f0ecbfd9c321de17"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1474930a107143b4b1b25028362d7fb4",
+                "type": "phrase",
+                "display_language_text": "The neighbors we've seen so far are all very nice and the landlord is really helpful.",
+                "learn_language_text": "Die Nachbarn, die wir bisher gesehen haben, sind alle sehr nett und der ((Vermieter)) ist wirklich hilfsbereit.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "f17effe3dc9b17e6837a2c692120cb1a"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "63ed39d29ba344abbbd597e3544df7e1",
+                "type": "phrase",
+                "display_language_text": "He'll also hook up our washing machine next week.",
+                "learn_language_text": "Er schließt uns nächste Woche auch unsere ((Waschmaschine)) an.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "93edda5a772c277dfb208e620dac9cf8"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c84d4c177b814f69ace0d1881711ca96",
+                "type": "phrase",
+                "display_language_text": "One less worry!",
+                "learn_language_text": "Eine Sorge weniger!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "f62844a97163aa7669e3bea50fd44909"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "389455e2141541d5859b82aad6f9a321",
+                "type": "phrase",
+                "display_language_text": "Anyway, we'll get in touch with you in the next few days regarding the housewarming party!",
+                "learn_language_text": "Also, wir melden uns in den nächsten Tagen wegen der Einweihungsparty bei euch!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "bceeaa8413ed1d0f46c20dfd014cb2a6"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "55c601ab70e34d84b9b10e9c2c2ecec2",
+                "type": "phrase",
+                "display_language_text": "Sending you love from the rocking chair, your Anja",
+                "learn_language_text": "Liebe Grüße aus dem ((Schaukelstuhl)), eure Anja",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "c563af093c2e7171818ba96bf6740a19"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": "Listen and complete the dialogue",
+        "description": "Ms. Kramer asks her new colleague, Mr. Hegel, if he wants to come for an after-work drink…",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "99bf94ff533842e1bdc39cec70566340",
+                "type": "phrase",
+                "display_language_text": "Mr Hegel, some colleagues and I are going for a drink after work (lit. knock-off time).",
+                "learn_language_text": "Herr Hegel, ((ein paar Kollegen)) und ich wollen gerne zum ((Feierabend)) noch ((etwas trinken gehen)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "f29aba9059ad48478fd83bda89fbf348"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8f41061722a441e3bc784805411a65d3",
+                "type": "phrase",
+                "display_language_text": "Would you like to join us?",
+                "learn_language_text": "Hätten Sie Lust, ((uns zu begleiten))?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "20d8331183cd46bca9ea8c2c3cce7189"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "9e8f2909f4824816baa8eccd6286927d",
+                "type": "phrase",
+                "display_language_text": "Oh, what a shame, unfortunately I already have plans!",
+                "learn_language_text": "Schade, leider ((habe ich schon etwas vor))!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "41a1aa6d80164c948374a643b6e2426e"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "50c2c993b16a42bbabc86b193f0ea9bb",
+                "type": "phrase",
+                "display_language_text": "That's a pity. And what about tomorrow evening? Do you have (any) plans yet?",
+                "learn_language_text": "Das ist schade. Und wie sieht es morgen Abend bei Ihnen aus? ((Haben Sie schon etwas vor))?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "34c1800e49df40bba5014ea51ff0d2f4"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "bdecbcf535a54391a3c430650bbaba1f",
+                "type": "phrase",
+                "display_language_text": "No, I'm free tomorrow evening. I'd love to come then!",
+                "learn_language_text": "Nein, morgen Abend habe ich Zeit. Dann komme ich gerne mit!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "8eba6a43a2e748f286d38427bd31cf6a"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "dd4364e7590e47f58e7a56a118709023",
+                "type": "phrase",
+                "display_language_text": "Ok, then tomorrow evening (it is)! (Then) you'll have the opportunity to get to know your new colleagues better!",
+                "learn_language_text": "Alles klar, dann morgen Abend! Dann haben Sie ((auch Gelegenheit)), Ihre neuen Kollegen besser kennenzulernen!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "9e8b0785b3bf452c87f70bc9cb610605"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "704f962f5073411d83e6202fd498975a",
+                "type": "phrase",
+                "display_language_text": "Great. I'm looking forward to it.",
+                "learn_language_text": "Gerne. Ich freue mich darauf.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "df042648f09f4c6899ff12dc420ceaa7"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "dialog",
+        "translation_visibility": "full",
+        "title": "Complete the dialogue",
+        "description": "Mr. Wagner is at the doctor's because he has a bad cold…",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "096ed6d1fe814d7788ff25f04c577cab",
+                "type": "phrase",
+                "display_language_text": "Hello, Mr. Wagner. What's wrong with you (lit. What are you missing then)?",
+                "learn_language_text": "Guten Tag, Herr Wagner. Was fehlt Ihnen denn?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "20a54fd02fe64134877a969f426bcc00"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "04e9393cab574ccb9ec09baf7cb77625",
+                "type": "phrase",
+                "display_language_text": "Hello (Ms.) Doctor Schatz. I was swimming in the Danube last weekend, and now I have a cold.",
+                "learn_language_text": "Guten Tag, Frau Doktor Schatz. Ich bin am Wochenende in der Donau geschwommen und jetzt bin ich ((erkältet)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "fd2e6553b11cad322b33f051cf6eedc9"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "dcdde6cb659444e492b24070ded40709",
+                "type": "phrase",
+                "display_language_text": "What, in February?? No wonder!",
+                "learn_language_text": "Was, im Februar?? Kein Wunder!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "62502d4b835b479b9b857c319d84dffe"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "b05ddf903817458599c8b9300661a279",
+                "type": "phrase",
+                "display_language_text": "Have you never heard about winter swimming? It's supposed to toughen up the body…",
+                "learn_language_text": "Haben Sie noch nie vom Winterschwimmen gehört? Es soll den Körper abhärten …",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d82087a28daac37b63177ed5471abba2"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "3a6e506104264956bd9719285369dc67",
+                "type": "phrase",
+                "display_language_text": "In any case, now I have a bad (lit. strong) headache and my throat hurts too.",
+                "learn_language_text": "Jetzt habe ich auf jeden Fall starke ((Kopfschmerzen)) und mein ((Hals)) tut auch weh.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "e66f7d39e43de0205546b22212cb2a10"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "ee0ba0b29dc34b5fab5f1a283cd8273a",
+                "type": "phrase",
+                "display_language_text": "Then please open your mouth, I would like to look at your throat.",
+                "learn_language_text": "Dann machen Sie doch mal bitte den ((Mund)) auf, ich möchte mir mal Ihren ((Hals)) ansehen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "0dc7d72fcc8e4c888837db9a5fa04e2e"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "10ca8dd1a42b413a8310c42c94265af6",
+                "type": "phrase",
+                "display_language_text": "Aahh!",
+                "learn_language_text": "Aaah!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "310a5360e52abe3091111b36562400ce"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "26e149cfe9654ea58af814727b479f90",
+                "type": "phrase",
+                "display_language_text": "Yes, it's all red.",
+                "learn_language_text": "Ja, der ist ganz rot.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "4f5f30d0c3c94371b2e41568c1aa55c6"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "d53fd5e46d814b6cab7fb4da300fe1cb",
+                "type": "phrase",
+                "display_language_text": "And I have (a) cough.",
+                "learn_language_text": "Und ich habe ((Husten)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "721a3da0e220d248fbd2a41468dadd82"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "2cf6227bd2124a2bb9b0192c8a10db6c",
+                "type": "phrase",
+                "display_language_text": "I'll listen (to your chest). Please take a deep breath in… and out…",
+                "learn_language_text": "Ich höre Sie mal ab. Atmen Sie bitte tief ein … und aus …",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "dc80de15401c46d68e3f6a60e9cfba7c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "9cb9ec9ad81c4578a42506cc0818a8da",
+                "type": "phrase",
+                "display_language_text": "And I always wake up at night because my nose is blocked!",
+                "learn_language_text": "Und ich ((wache)) nachts immer ((auf)), weil meine ((Nase)) verstopft ist!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "54ae94901eac80ce88e02acf3b3187ba"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c296f89e165143a7b204b829fea1d3ec",
+                "type": "phrase",
+                "display_language_text": "Haha, you are sick of it (lit. have the nose full), right? Joking aside, you have an influenza infection. I'm writing you off sick for a couple of days.",
+                "learn_language_text": "Haha, da haben Sie wohl die ((Nase)) voll, was? Spaß beiseite, Sie haben einen grippalen Infekt. Ich schreibe Sie für ein paar Tage krank.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "2405f7d21cd142bf99d09009c5aad80e"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "18d29b04bbcd48d99cc8a131617b1a7d",
+                "type": "phrase",
+                "display_language_text": "That's good.",
+                "learn_language_text": "Das ist gut.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "b5d6944b8dff0e3b5e2ddc31a9c33962"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "8df2f4c1fe094a14b7d0f21bcbe12740",
+                "type": "phrase",
+                "display_language_text": "And I'm writing you a prescription. Please rub your back and chest with this ointment before sleeping.",
+                "learn_language_text": "Und ich schreibe Ihnen ein Rezept. Mit dieser Salbe reiben Sie sich bitte vor dem Schlafen ((Brust)) und ((Rücken)) ein.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "6b50466360ce49fdb1f31993bbb027f9"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "16c3f32d9f5c44d4a40427e9fdb92c8b",
+                "type": "phrase",
+                "display_language_text": "That's good for the cough and will also clear (lit. free) the nose.",
+                "learn_language_text": "Das ist gut gegen den ((Husten)) und außerdem wird die ((Nase)) frei.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "3bbdf3a94d2e40aa986c28aee3e92ba3"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "862f974f858f48fc9b1f0a8644e3b91e",
+                "type": "phrase",
+                "display_language_text": "Thank you very much, doctor.",
+                "learn_language_text": "Vielen Dank, Frau Doktor.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "1e0ece5079f61f923cf775d863a1f3ed"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "802192365bac44ff8c7aba3781e88e1a",
+                "type": "phrase",
+                "display_language_text": "You have to rest and drink a lot! Get well soon and (keep your) chin up!",
+                "learn_language_text": "Sie müssen sich ausruhen und viel trinken! ((Gute Besserung)) und ((Kopf)) hoch!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "f0b82da7df824ad5b4ceb0ebe6415700"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "16e7eeaebeb04b8cbb8855729a70abc7",
+                "type": "phrase",
+                "display_language_text": "Thanks, goodbye!",
+                "learn_language_text": "Danke, auf Wiedersehen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "5f44af185d87d42597e708afe83392d3"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": true
+      },
+      {
+        "type": "dictate",
+        "translation_visibility": "full",
+        "title": "Listen and complete",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "6060ecccbd444a7aa0f3c91fd2972875",
+                "type": "phrase",
+                "display_language_text": "The parents who are always having arguments are on the playground today.",
+                "learn_language_text": "Die Eltern, ((die immer Streit haben)), sind heute auf dem Spielplatz.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "a1a7edddf234498aaf6c6867fe5e047a"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "c90db6fcf0d340cb91c73a641de5fe6d",
+                "type": "phrase",
+                "display_language_text": "His son is well mannered and very well behaved.",
+                "learn_language_text": "Sein Sohn ist ((gut erzogen und sehr brav)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "22de8ea625654e2284128116ea0a63a7"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "dddc406f8d1b469e9c752afa10eca231",
+                "type": "phrase",
+                "display_language_text": "No wonder that the children like being here!",
+                "learn_language_text": "((Kein Wunder)), dass die Kinder gerne hier sind!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "c93f7c53e9044e95b3bce5ec3f518624"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "29ba389b2d3c4c8fa34eea13e4698994",
+                "type": "phrase",
+                "display_language_text": "The children are screaming loudly on the playground.",
+                "learn_language_text": "Die Kinder auf dem ((Spielplatz schreien laut)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "bb537c753b48493c8bc89e69d13fc211"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8a2f17a790974b52b3534a7349ad74bd",
+                "type": "phrase",
+                "display_language_text": "You can be proud of your daughter.",
+                "learn_language_text": "Auf deine Tochter kannst du ((stolz sein)).",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "4b06b35e96aa49aba656e3f38cf85668"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "comprehension",
+        "translation_visibility": "partial",
+        "title": "Read and choose the correct answer",
+        "description": "The next day, Anja is writing an email to her friends to invite them to help with the move.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "64e75a1fa55d45b0948baa44d6669a34",
+                "type": "phrase",
+                "display_language_text": "Dear friends,",
+                "learn_language_text": "Liebe Freunde,",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "fb047f502b68dc6cea85f66bf5989971"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ec4a4af8db3d4fdb84c86998a540d8b4",
+                "type": "phrase",
+                "display_language_text": "We have found an apartment and are going to sign the lease tomorrow!",
+                "learn_language_text": "wir haben eine Wohnung gefunden und werden morgen den Mietvertrag unterschreiben!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "fd92fa8486f8146cc31052a46040345d"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "697adb2b189649c3862c8fe4403843c4",
+                "type": "phrase",
+                "display_language_text": "And then Saturday we can get underway with the move!",
+                "learn_language_text": "Und am Samstag soll es dann schon losgehen mit dem Umzug!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "7601fb7779588cd9011528f928816820"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "02378e8315ee422db7ae8788caf809e3",
+                "type": "phrase",
+                "display_language_text": "There are a few bulky pieces of furniture which will be moving with us (among other things, a sofa bed, a rocking chair and two wardrobes)…",
+                "learn_language_text": "Es werden ein paar sperrige Möbel mit uns umziehen (unter anderem ein Schlafsofa, ein Schaukelstuhl und zwei Kleiderschränke)…",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "889230a7294f19b6a4438adecf617210"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "8153629d63464c94bdb4fa377b65d1e6",
+                "type": "phrase",
+                "display_language_text": "Therefore we will be grateful for any helping hand!",
+                "learn_language_text": "Daher freuen wir uns über jede helfende Hand!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "376bec221b7630cbf92aae3cc8db5044"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "1f8790e881494cb0bf1addf78891adb5",
+                "type": "phrase",
+                "display_language_text": "But don't panic, no one needs to haul our new washing machine up to the third floor on Saturday.",
+                "learn_language_text": "Aber keine Angst, unsere neue Waschmaschine braucht am Samstag niemand in den dritten Stock zu schleppen.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "1ac827357e094120de5979a8d2051448"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "3536c804d6a144debf03d0ab07073785",
+                "type": "phrase",
+                "display_language_text": "It'll come the week after next via hauler.",
+                "learn_language_text": "Sie kommt übernächste Woche per Spedition.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "ede23ce8af8823011962e7919c3a640f"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "ea7535eced3345089dcd0cd2f8f073b0",
+                "type": "phrase",
+                "display_language_text": "We'll start on Saturday at 10 o'clock on Lilienstraße 6. There will be plenty of drinks and food!",
+                "learn_language_text": "Los geht's am Samstag ab 10 Uhr in der Lilienstraße 6. Getränke und Essen wird es reichlich geben!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "2f7f9e0f09b02a6e0facb101040e7bff"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "d1a7502c2fff440684cb794a56541cf5",
+                "type": "phrase",
+                "display_language_text": "So then, we're looking forward to seeing you!",
+                "learn_language_text": "Also, wir freuen uns auf euch!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "26785326f2e724d52738ec1306e36b40"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "76eff1ff5fbb4cc989340f6c9efe5338",
+                "type": "phrase",
+                "display_language_text": "Love, Anja",
+                "learn_language_text": "Liebe Grüße, eure Anja",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "20ebca2c491c89ae6c03d316bda4dd53"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f6944dc3c26343618b56a439dde6d217",
+                "type": "task",
+                "display_language_text": "When will Thomas and Anja sign the lease? ((On Saturday.|*Tomorrow.|The day after tomorrow.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "f9a6b785349b4dff843667a6686a114d",
+                "type": "task",
+                "display_language_text": "On which floor is their new apartment located? ((On the first floor.|*On the third floor.|On the top floor.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "ae02edfb77c34b8e8bd332ad64d542c1",
+                "type": "task",
+                "display_language_text": "Who is going to transport the washing machine? ((Thomas himself.|Their friends.|*A hauler they hired.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      },
+      {
+        "type": "comprehension",
+        "translation_visibility": "none",
+        "title": "Listen and choose the correct answer",
+        "description": "Anne and Michael are at the gallery. They admire the art work.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "f777ff6e5ec2409da5f58b58759df756",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Hallo, Anne! Konntest du den Weg leicht finden?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "5a775261d326206a524962667a5b1bc2"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "52b9ed24191a46d99cb16a6aa14a17dd",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Hi, Michael. Ja, es war kein Problem. Oh, der Blumenstrauß ist aber schön!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "7dfcf98d88cb30253ea3b236e6e843cd"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "f15bec3a7e7249b3829dacf5936e5d80",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Ja, er ist ein Geschenk für meinen Freund.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "964e42e474c740d8eb9e19e6572da3e8"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "2ade121d509f474c86dc3037c672da5c",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Das ist nett. Sollen wir hineingehen?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "815820852ce7cc17bc09a318cd4b4080"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "11a162c65f9c430d8e1988e5542d5972",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Ja. Wir können uns umsehen, bevor es losgeht.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "9977a22d2b8f821dcf83176bada25dc4"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "19dff2739db4489da419bbace3ad2de0",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Diese Fotos sind toll. Hast du das Porträt der alten Frau gesehen? Beeindruckend.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "621bd5d3874706a153711f37d80317c7"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "5f0faf8521974dfe9d4cc6fe8f61cf16",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Ja, das stimmt. Die Fotos von den Landschaften sind aber auch gut. Sie sind so friedlich.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "2cc482a605a0f51997a7375c92d675e6"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "c5a316d56ab044309eeee48bd35b4c1d",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Findest du? Ich finde, sie sind sehr einsam und traurig. Die Porträts mag ich lieber. Aber das ist Geschmackssache!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "7c1cb111599682382b846f8f32355900"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "2f3d36ac32e345e3a14fbe2b2e29fbb2",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Stimmt! Du, Anne, mein Freund wird gleich eine Rede halten.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "fb9f64c825d392e7f0f901c805382e3b"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "f0aebd4b2d1143da83f06748a21b09b4",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Toll! Wollen wir weiter nach vorne gehen?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "136185e61022b56a44f9c5989a068834"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "04b3747634eb4be09b7b826cb071f60c",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Ja, dann können wir ihn besser hören.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "4352e25533a12ab9443c01ed082942ed"
+                },
+                "speaker_role": "m1"
+              },
+              {
+                "id": "d2b62a38618b439490333fc87c705f76",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Diese Galerie ist übrigens sehr schön. Und so groß. Gibt es viele große Galerien in Berlin?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "9955789cbfaeaf99989ca7a26147a823"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "fe7aab75bbb84d5a86e2a86f39b36ba6",
+                "type": "phrase",
+                "display_language_text": null,
+                "learn_language_text": "Ja, sehr viele. Psst! Es geht los.",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "97753a3e269f03252512b64a29b955ec"
+                },
+                "speaker_role": "m1"
+              }
+            ]
+          },
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "74c316d83e3048ae942e03b644f8ac51",
+                "type": "task",
+                "display_language_text": "Anne found the way ((*without any problems.|with some difficulties.|with the help of a map.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "5c12233b178a44ecb54dabbbf9290f11",
+                "type": "task",
+                "display_language_text": "Michael thinks the landscape photos are ((impressive.|*peaceful.|sad.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              },
+              {
+                "id": "85a2577712ca4d53bf4079f327a995d5",
+                "type": "task",
+                "display_language_text": "Michael's friend is going to ((sing a song.|*give a speech.|listen to Michael's speech.))",
+                "learn_language_text": null,
+                "info_text": null,
+                "image": null,
+                "sound": null,
+                "speaker_role": null
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": true,
+        "puzzle_helper": false
+      },
+      {
+        "type": "matching",
+        "translation_visibility": "full",
+        "title": "Choose the correct past participle",
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "5efd5ad95e7b46bd8b5178ab12c2ae7d",
+                "type": "phrase",
+                "display_language_text": "to call - called",
+                "learn_language_text": "anrufen_angerufen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "1a258a2c2acb43d0834547dcadf74afd"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "19cc21159e94440eb69e68516bcab05c",
+                "type": "phrase",
+                "display_language_text": "to drive - driven",
+                "learn_language_text": "fahren_gefahren",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "9b0e2402fbab4ec08c1d3b2254c57030"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "a240b901c3504aca9b4353ea22db8ec8",
+                "type": "phrase",
+                "display_language_text": "to fall asleep - fallen asleep",
+                "learn_language_text": "einschlafen_eingeschlafen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "16b45e5b7d334e8a8ec52b7c77265b9d"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "132f59fe91a44a37b43d9b9130da7bd5",
+                "type": "phrase",
+                "display_language_text": "to go - gone",
+                "learn_language_text": "gehen_gegangen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "9dd722ef38564beea6bdadd2ed7a1634"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "04d33ce23edf4ff8869767deb7539e20",
+                "type": "phrase",
+                "display_language_text": "to eat - eaten",
+                "learn_language_text": "essen_gegessen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "afc3719939c94359b31916febe364a23"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "0e0ce8caf17f483e998334dc44a40967",
+                "type": "phrase",
+                "display_language_text": "to speak - spoken",
+                "learn_language_text": "sprechen_gesprochen",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "81f69dd3c5994626b64c5eec46f2e166"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }}

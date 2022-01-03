@@ -1,0 +1,398 @@
+{
+  "lesson_player": {
+    "b3": {
+      "button": {
+        "continue": "Fortsätt"
+      },
+      "page_dialog": {
+        "title_dictatefillin": "Lyssna och fyll i det som saknas",
+        "title_speak_phase1": "Ta en roll i dialogen",
+        "title_speak_phase2": "Lyssna på dig själv i dialogen",
+        "continue": "Fortsätt",
+        "complete_the_dialogue": "Fyll i det som saknas",
+        "enable_mic": "Aktivera inspelning",
+        "complete_the_dialogue_choicebuttons": "Välj rätt alternativ",
+        "title_dictatechoice": "Lyssna och välj rätt alternativ"
+      },
+      "page_dialog_speak": {
+        "hint": "Spela upp",
+        "your_turn": "Nu är det din tur! Säg meningarna nedan.",
+        "recording": "Spelar in...",
+        "hint_playing": "Ljudet spelas upp...",
+        "confirm_msg": "Nöjd med din inspelning?",
+        "start_record": "Klicka för att spela in",
+        "replay": "Lyssna på hela dialogen.",
+        "skip": "Hoppa över"
+      },
+      "page_matching": {
+        "match_up_the_correct_items": "Para ihop"
+      },
+      "vocabulary_click": {
+        "click_on_the_correct_translation": "Välj rätt översättning"
+      },
+      "text_box_puzzle_helper": {
+        "show_solution": "Visa svaret",
+        "help": "Hjälp",
+        "solve": "Lösning",
+        "done": "Klart"
+      },
+      "cyrillic_transliteration_table": {
+        "show": "Visa transliterationstabell",
+        "hide": "Dölj transliterationstabell"
+      },
+      "page_vocabulary_gap": {
+        "type_the_missing_characters": "Fyll i det som saknas",
+        "choice_title": "Välj rätt alternativ"
+      },
+      "pop_over": {
+        "odd_solution": "Ditt svar är grammatiskt riktigt och förståeligt men en person med språket som modersmål skulle inte uttrycka sig på detta sätt.",
+        "enter_reminder_content": "Skriv svaret och tryck på ⏎",
+        "infotext_continue": "OK",
+        "click_here_to_type": "Klicka här för att börja skriva"
+      },
+      "vocabulary_word_order": {
+        "click_on_the_parts_of_the_sentence_in_the_correct_order": "Placera elementen i rätt ordning"
+      },
+      "menu": {
+        "special_characters": "Specialtecken",
+        "remove_special_characters": "Dölj specialtecken"
+      },
+      "review_info": {
+        "title": "Vad var det som hände här? Här ska du få se!",
+        "description": "En glosa som repeteras när den ska repeteras kan flyttas upp eller ner en nivå efteråt.",
+        "one_mistake_title": "Om det bara blir ett fel",
+        "one_mistake_1": "stannar glosan på samma nivå",
+        "one_mistake_2": "den kommer upp igen för repetition nästa dag.",
+        "more_mistakes_title": "Om det blir fler än ett fel",
+        "more_mistakes_1": "flyttas den ner en nivå",
+        "more_mistakes_2": "den kommer upp igen för repetition med en gång.",
+        "no_mistakes_title": "Om det inte blir något fel",
+        "no_mistakes_1": "förflyttas glosan upp en nivå",
+        "no_mistakes_2": "den kommer upp för repetition igen (om allt från 4 till 180 dagar beroende på nivå)."
+      },
+      "comprehension": {
+        "text_title": "Läs och välj rätt alternativ",
+        "audio_title": "Lyssna och välj rätt alternativ"
+      },
+      "page_vocabulary": {
+        "speak_title": "Lyssna och säg efter",
+        "click_title": "Välj rätt översättning",
+        "show_title": "Lär dig orden",
+        "show_phrasebook_title": "Studera följande meningar",
+        "click_phrasebook_title": "Välj rätt översättning",
+        "fillin_title": "Skriv översättningen",
+        "skip": "Hoppa över",
+        "enable_mic": "Aktivera taligenkänning"
+      },
+      "text_dictate": {
+        "listen_again": "Spela upp en gång till"
+      },
+      "settings": {
+        "title": "Inställningar",
+        "disable_speak": "Utan taligenkänning",
+        "enable_speak": "Med taligenkänning (mikrofon nödvändig)"
+      },
+      "page_dictate": {
+        "title": "Lyssna och fyll i det som saknas",
+        "choice_title": "Lyssna och välj rätt alternativ",
+        "word_order_title": "Lyssna och placera i rätt ordning"
+      },
+      "mic_modal": {
+        "allow_title": "Tillåt oss att få tillgång till din mikrofon",
+        "chrome": "Använder du Google Chrome som webbläsare? Klicka på %{allow} längst upp i din webbläsare.",
+        "without_mic": "Börja lektionen utan mikrofon",
+        "instruction": "När du har valt vilken mikrofon du vill använda ser du en bock, klicka då på \"Fortsätt\".",
+        "no_mic": "Det verkar som du inte har någon mikrofon ansluten till din dator. Om du vill använda Babbel med taligenkänning anslut en mikrofon och klicka på \"Fortsätt\".",
+        "instruction_permission_rejected": "Kontrollera mikrofoninställningarna i webbläsaren eller starta lektionen utan mikrofon.",
+        "title_permission_granted": "Nu kan du använda mikrofonen!",
+        "title_permission_rejected": "Du har inte beviljat åtkomst till din mikrofon"
+      },
+      "speak_interface": {
+        "listen": "Lyssna",
+        "speak_now": "Tala nu",
+        "recording": "Spelar in...",
+        "processing": "Bearbetar",
+        "audio_settings": "Ljudinställningar",
+        "help": "Hjälp",
+        "help_instruction_1": "Säg efter översättningen med din vanliga röst.",
+        "help_instruction_2": "När du talar ska mikrofonsymbolen fyllas upp.",
+        "help_instruction_3": "Om volymen hela tiden befinner sig över eller under mikrofonsymbolen, försök ändra mikrofonkänsligheten under \"Ljudinställningar\"."
+      },
+      "record_flash_manager": {
+        "adjust_title": "Justera mikrofonens känslighet",
+        "volume": "Volym: ",
+        "sensitivity": "Känslighet: ",
+        "microphone": "Mikrofon: ",
+        "instructions_gain": "Säg några ord i mikrofonen (t.ex. \"Jag testar min mikrofon\"). Ljudstyrkeindikatorn ska nå in på det gröna området. Om den visar för svagt eller för starkt kan du ändra detta med reglaget nedtill."
+      },
+      "vocabulary_speak": {
+        "title": "Lyssna och säg efter",
+        "no_speak_title": "Lyssna",
+        "enable_mic": "Aktivera taligenkänning"
+      },
+      "page_card": {
+        "title_fillin": "Fyll i det som saknas",
+        "title_choicebuttons": "Välj rätt alternativ",
+        "title_puzzle_helper": "Skriv översättningen"
+      },
+      "page_spoken_review": {
+        "speak_the_translation": "Säg den rätta översättningen"
+      },
+      "learning_language": {
+        "fra": "franska",
+        "deu": "tyska",
+        "eng": "engelska",
+        "spa": "spanska",
+        "ita": "italienska",
+        "swe": "svenska",
+        "por": "portugisiska",
+        "pol": "polska",
+        "tur": "turkiska",
+        "nld": "nederländska",
+        "ind": "indonesiska",
+        "nor": "norska",
+        "dan": "danska",
+        "rus": "ryska",
+        "qms": "spanska (Latinamerika)"
+      },
+      "page_keyboard": {
+        "title": "Lär dig en ny bokstav",
+        "transliteration_instruction": "För att skriva denna bokstav på Babbel, klicka på %{transliteration} på ditt tangentbord:",
+        "and": "och"
+      }
+    },
+    "navbar": {
+      "close": "Stäng",
+      "contact": "Kontakt"
+    },
+    "review_end_screen": {
+      "purge_errors": "Rätta felen (%{mistakes})",
+      "close": "Stäng",
+      "correct": "Rätt",
+      "feedback_message": {
+        "high": "Fantastiskt, %{name}!",
+        "low": "Du kan bättre än så här!",
+        "medium": "Bra jobbat, %{name}!"
+      },
+      "incorrect": "Fel",
+      "more_info_link": "Hur fungerar Uppfriskaren?",
+      "review_more": "Repetera fler ord",
+      "subtitle_pluralized": {
+        "zero": "Du har repeterat %{count} ord.",
+        "one": "Du har repeterat %{count} ord.",
+        "other": "Du har repeterat %{count} ord."
+      }
+    },
+    "flash_card_trainer": {
+      "title": "Kommer du ihåg dessa %{italienska} ord?",
+      "button_remember": "Ja",
+      "button_forgot": "Nej"
+    },
+    "button": {
+      "see_hint": "Visa ledtråd",
+      "see_solution": "Visa svaret",
+      "see_translation": "Visa översättning",
+      "typing_tips": "Inmatningshjälp"
+    },
+    "comprehension": {
+      "press_play": "Tryck på play!",
+      "question": "Fråga"
+    },
+    "feedback_sheet": {
+      "speech_recognition": {
+        "button_next": "Nästa",
+        "button_try_again": "Försök igen"
+      }
+    },
+    "generic_error_screen": {
+      "reload": {
+        "body": "Ladda om sidan för att försöka igen.",
+        "cta": "Försök igen",
+        "title": "Det har uppstått ett problem att ladda din kurs"
+      },
+      "return": {
+        "body": "Det gick inte att starta lektionen. Gå tillbaka för att försöka igen.",
+        "cta": "Till startsidan",
+        "title": "Ojdå!"
+      }
+    },
+    "infotext": {
+      "title": "Tips ✨"
+    },
+    "infotext_notification": {
+      "cta": "Se alla tips (%{number})"
+    },
+    "internet_explorer_message": {
+      "body": "Din webbläsare, Internet Explorer, stöder inte Babbels senaste funktioner. Det är lätt (och gratis) att uppgradera till en ny webbläsare.",
+      "cta_close": "Påminn mig senare",
+      "cta_show_me": "Visa mig hur",
+      "title": "Var god uppgradera din webbläsare"
+    },
+    "landing_screen": {
+      "start_lesson": "Starta lektionen"
+    },
+    "learning_tip": {
+      "action": "Okej!",
+      "tip": "Kolla så att ljudvolymen är tillräckligt hög, eller använd hörlurar.",
+      "title": "Tips!"
+    },
+    "lesson_settings": {
+      "body": "Att prata högt hjälper dig att förbättra ditt uttal och tränar dig i ditt nya språks ljud och melodi.",
+      "show": "Ja!",
+      "speak": "Nej, inte nu",
+      "title": "Vill du använda mikrofonen och öva på ditt uttal?"
+    },
+    "listening_trainer": {
+      "button": {
+        "continue": "Fortsätt",
+        "fix_mistakes": "Rätta felen",
+        "review_more": "Repetera mer"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Ge inte upp!",
+          "2": "Snart får du kläm på det!",
+          "3": "Ingen fara – kör på!",
+          "4": "Bättre lycka nästa gång!",
+          "5": "Rom byggdes inte heller på en dag!"
+        },
+        "positive": {
+          "1": "Du hörde rätt! Snyggt jobbat! 👍",
+          "2": "Du är ju en riktig fena på det här!🏅",
+          "3": "Rätt svar! 👏",
+          "4": "Du är bra på det här! 😎",
+          "5": "Du förstår mer och mer! 👂",
+          "6": "Du är grym! 🤩"
+        }
+      },
+      "instruction": {
+        "listen": "Lyssna på frasen"
+      }
+    },
+    "page_end": {
+      "button_correct_errors": "Rätta felen (%{purgable_items_count})",
+      "button_return_home": "Fortsätt lära dig",
+      "button_start_new_lesson": "Börja nästa lektion",
+      "content_locked": {
+        "button_access_content": "Tillgång till alla kurser i %{italienska}",
+        "text_access_content": "Fortsätt lära dig %{italienska} med tillgång till alla lektioner och ämnen"
+      },
+      "correct_answers": "Rätt svar",
+      "feedback_message": {
+        "high": "Fantastiskt, %{display_name}!",
+        "low": "Du kan bättre än så här!",
+        "medium": "Bra jobbat, %{display_name}!"
+      }
+    },
+    "review": {
+      "end_screen": {
+        "body": "Du fick %{count} av %{totalCount} rätt",
+        "button": "Fortsätt",
+        "title": "Bra jobbat, %{username}!"
+      }
+    },
+    "review_menu": {
+      "review_type": {
+        "flashcards": "Med flashcards",
+        "listen": "Lyssna",
+        "speak": "Prata",
+        "write": "Skriva"
+      },
+      "title": "Hur vill du repetera?"
+    },
+    "smart_surfaces": {
+      "lesson_end": {
+        "raf_popup": {
+          "body": "*När de köper ett 3-månadersabonnemang med Babbel",
+          "button_invite": "Bjud in vänner",
+          "title": "Ge bort en månad med Babbel och få en belöning av oss!*"
+        }
+      }
+    },
+    "speech_recognition": {
+      "error_generic_lesson": {
+        "body": "Kolla så att din mikrofon är på och rätt inställd, eller fortsätt ändå och bara lyssna.",
+        "cta": "Fortsätt utan mikrofon",
+        "title": "Vi hör dig inte"
+      },
+      "error_generic_review": {
+        "body": "Vänligen kontrollera dina mikrofoninställningar, eller repetera ditt ordförråd på ett annat sätt.",
+        "cta": "Repetera på annat sätt",
+        "title": "Vi kan tyvärr inte höra dig"
+      },
+      "error_mic_muted": {
+        "body": "Var god aktivera din mikrofon i ljudinställningarna i din dator.",
+        "cta": "Nej tack, jag kan inte prata just nu.",
+        "title": "Din mikrofon är tystad!"
+      },
+      "error_mic_permission": {
+        "body": "Klicka på symbolen för inspelning [*] i webbläsarens adressfält för att tillåta åtkomst till din mikrofon.",
+        "cta": "Nej tack, jag kan inte prata just nu.",
+        "title": "Testa att slå på mikrofonen!"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Äsch då! Försök igen nästa gång! 💪"
+        },
+        "positive": {
+          "1": "Snyggt uttal! 👍",
+          "2": "Låter bra! 😎",
+          "3": "Det låter fint! 👏"
+        },
+        "recognition_error": {
+          "message": "Gör ett försök till.",
+          "title": "Förlåt, vi kunde inte uppfatta det du sa!"
+        }
+      },
+      "feeling_silly": {
+        "body": "Att säga orden högt är ett utmärkt sätt att öva på ditt uttal. Det kan kännas lite konstigt först, men du vänjer dig.",
+        "title": "Känns det löjligt? Det är ok."
+      },
+      "got_it": "Ok",
+      "interaction": {
+        "toggle_off": "Jag kan inte prata nu",
+        "toggle_on": "Jag kan prata nu"
+      },
+      "mic_button": {
+        "press_to_speak": "Tryck här och tala högt",
+        "speak": "Tala nu",
+        "tap_to_speak": "Tryck här och håll kvar när du säger orden"
+      },
+      "mic_permission": {
+        "body": "Tryck på \"Tillåt\" i din webbläsare för att kunna använda mikrofonen.",
+        "cta": "Fortsätt",
+        "title": "Redo att prata?"
+      },
+      "mic_permission_review": {
+        "body": "För att kunna öva på ditt uttal måste du klicka på Tillåt i Chrome så att du kan använda din mikrofon.",
+        "cta": "Fortsätt",
+        "title": "Slå på din mikrofon"
+      },
+      "mic_test": {
+        "body": "Är den här på?",
+        "error_feedback": {
+          "body": "Var god kontrollera mikrofonens inställningar",
+          "title": "Förlåt, vi kunde inte uppfatta det du sa!"
+        },
+        "no_transcript": "Uppfattades ej",
+        "positive_feedback": {
+          "body": "Nu börjar vi",
+          "title": "Klart!"
+        },
+        "title": "Testa din mikrofon med följande mening:"
+      },
+      "tooltip": {
+        "message": "Tryck här och säg orden högt"
+      },
+      "trainer_item": {
+        "title": "Lyssna och säg efter"
+      }
+    },
+    "writing": {
+      "feedback": {
+        "negative": "Ge det ett försök till",
+        "typos": "Ett stavfel? Ingen fara 😉"
+      }
+    }
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "lesson_player": {
+    "b3": {
+      "button": {
+        "continue": "Dalej"
+      },
+      "page_dialog": {
+        "title_dictatefillin": "Posłuchaj i uzupełnij",
+        "title_speak_phase1": "Odegraj rolę w dialogu",
+        "title_speak_phase2": "Posłuchaj siebie w dialogu",
+        "continue": "Dalej",
+        "complete_the_dialogue": "Uzupełnij dialog",
+        "enable_mic": "Nie skonfigurowano mikrofonu. Włączyć teraz?",
+        "complete_the_dialogue_choicebuttons": "Wybierz poprawną odpowiedź",
+        "title_dictatechoice": "Posłuchaj i wybierz poprawną odpowiedź"
+      },
+      "page_dialog_speak": {
+        "hint": "Odtwarzaj dźwięk",
+        "your_turn": "Teraz Twoja kolej! Przeczytaj na głos poniższe zdania.",
+        "recording": "Trwa nagrywanie...",
+        "hint_playing": "Trwa odtwarzanie dźwięku...",
+        "confirm_msg": "Podoba Ci się Twoje nagranie?",
+        "start_record": "Kliknij, aby nagrać",
+        "replay": "Posłuchaj całego dialogu",
+        "skip": "Pomiń"
+      },
+      "page_matching": {
+        "match_up_the_correct_items": "Przyporządkuj"
+      },
+      "vocabulary_click": {
+        "click_on_the_correct_translation": "Wybierz pasujące tłumaczenie"
+      },
+      "text_box_puzzle_helper": {
+        "show_solution": "Pokaż rozwiązanie",
+        "help": "Pomoc",
+        "solve": "Rozwiąż",
+        "done": "To wszystko"
+      },
+      "cyrillic_transliteration_table": {
+        "show": "Pokaż transliterację",
+        "hide": "Ukryj transliterację"
+      },
+      "page_vocabulary_gap": {
+        "type_the_missing_characters": "Uzupełnij",
+        "choice_title": "Wybierz poprawną odpowiedź"
+      },
+      "pop_over": {
+        "odd_solution": "Twoja odpowiedź jest gramatycznie poprawna i zrozumiała, jednak native speaker by tak nie powiedział.",
+        "enter_reminder_content": "Wpisz swoją odpowiedź i naciśnij ⏎.",
+        "infotext_continue": "OK",
+        "click_here_to_type": "Kliknij tutaj, aby rozpocząć wpisywanie"
+      },
+      "vocabulary_word_order": {
+        "click_on_the_parts_of_the_sentence_in_the_correct_order": "Uporządkuj"
+      },
+      "menu": {
+        "special_characters": "Znaki specjalne",
+        "remove_special_characters": "Ukryj znaki specjalne"
+      },
+      "review_info": {
+        "title": "Co się stało? Sprawdźmy to!",
+        "description": "Słowo lub fraza czekające na powtórkę mogą zmieniać poziomy w zależności od poziomu poprawności powtórki.",
+        "one_mistake_title": "Jeśli zostanie popełniony tylko jeden błąd",
+        "one_mistake_1": "słowo lub fraza pozostaje na tym samym poziomie",
+        "one_mistake_2": "i będzie gotowe/-a do powtórki następnego dnia.",
+        "more_mistakes_title": "Jeśli zostanie popełniony więcej niż jeden błąd",
+        "more_mistakes_1": "słowo lub fraza przechodzi na poziom niższy",
+        "more_mistakes_2": "i jest gotowy/-a do powtórki natychmiast.",
+        "no_mistakes_title": "Jeśli nie ma błędów",
+        "no_mistakes_1": "słowo lub fraza przechodzi na poziom wyższy",
+        "no_mistakes_2": "i otrzymuje nowy termin powtórki (między 4 a 180 dni, w zależności od nowego poziomu)."
+      },
+      "comprehension": {
+        "text_title": "Przeczytaj i wybierz poprawną odpowiedź",
+        "audio_title": "Posłuchaj i wybierz poprawną odpowiedź"
+      },
+      "page_vocabulary": {
+        "speak_title": "Posłuchaj i powtórz na głos",
+        "click_title": "Wybierz poprawne tłumaczenie",
+        "show_title": "Poznaj słowa",
+        "show_phrasebook_title": "Poznaj następujące zdania",
+        "click_phrasebook_title": "Wybierz pasujące tłumaczenie",
+        "fillin_title": "Przetłumacz",
+        "skip": "Pomiń",
+        "enable_mic": "Nie skonfigurowano mikrofonu. Włączyć teraz?"
+      },
+      "text_dictate": {
+        "listen_again": "Odtwórz ponownie"
+      },
+      "settings": {
+        "title": "Ustawienia",
+        "disable_speak": "Bez rozpoznawania mowy",
+        "enable_speak": "Z rozpoznawaniem mowy (wymagany mikrofon)"
+      },
+      "page_dictate": {
+        "title": "Posłuchaj i uzupełnij",
+        "choice_title": "Posłuchaj i wybierz poprawną odpowiedź",
+        "word_order_title": "Posłuchaj i uporządkuj"
+      },
+      "mic_modal": {
+        "allow_title": "Zezwalaj na dostęp do mikrofonu",
+        "chrome": "Korzystasz z przeglądarki Google Chrome? Kliknij „ %{allow} ” u góry okna przeglądarki.",
+        "without_mic": "Zacznij lekcję bez mikrofonu",
+        "instruction": "Po wybraniu mikrofonu, z którego chcesz korzystać i po pojawieniu się haczyka, kliknij „Dalej”.",
+        "no_mic": "Wygląda na to, że Twój komputer nie jest połączony z mikrofonem. Jeśli chcesz aktywować funkcję rozpoznawania mowy, podłącz mikrofon i kliknij „Dalej”.",
+        "instruction_permission_rejected": "Sprawdź ustawienia przeglądarki lub zacznij lekcję bez mikrofonu.",
+        "title_permission_granted": "Umożliwiono dostęp do mikrofonu!",
+        "title_permission_rejected": "Nie uzyskaliśmy od Ciebie zezwolenia na dostęp do mikrofonu"
+      },
+      "speak_interface": {
+        "listen": "Posłuchaj",
+        "speak_now": "Powiedz coś teraz",
+        "recording": "Trwa nagrywanie...",
+        "processing": "Przetwarzanie",
+        "audio_settings": "Ustawienia audio",
+        "help": "Pomoc",
+        "help_instruction_1": "Powtórz tłumaczenie swoim normalnym głosem.",
+        "help_instruction_2": "Kiedy mówisz, ikona mikrofonu powinna się zapełniać.",
+        "help_instruction_3": "Jeśli głośność jest wciąż poniżej lub powyżej ikony mikrofonu, przejdź do „Ustawienia audio” i zmień ustawienia czułości mikrofonu."
+      },
+      "record_flash_manager": {
+        "adjust_title": "Wyreguluj czułość mikrofonu",
+        "volume": "Głośność: ",
+        "sensitivity": "Czułość: ",
+        "microphone": "Mikrofon: ",
+        "instructions_gain": "Proszę powiedzieć kilka słów do mikrofonu (np: „Próba mikrofonu!”). Poziom głośności powinien wyświetlać się na zielono. Jeśli jest zbyt wysoki lub zbyt niski, należy wyregulować czułość mikrofonu za pomocą paska poniżej."
+      },
+      "vocabulary_speak": {
+        "title": "Posłuchaj i powtórz na głos",
+        "no_speak_title": "Posłuchaj",
+        "enable_mic": "Nie skonfigurowano mikrofonu. Włączyć teraz?"
+      },
+      "page_card": {
+        "title_fillin": "Uzupełnij",
+        "title_choicebuttons": "Wybierz poprawną odpowiedź",
+        "title_puzzle_helper": "Napisz słowa"
+      },
+      "page_spoken_review": {
+        "speak_the_translation": "Powiedz na głos poprawne tłumaczenie"
+      },
+      "learning_language": {
+        "fra": "Francuski",
+        "deu": "Niemiecki",
+        "eng": "Angielski",
+        "spa": "Hiszpański",
+        "ita": "Włoski",
+        "swe": "Szwedzki",
+        "por": "Portugalski",
+        "pol": "Polski",
+        "tur": "Turecki",
+        "nld": "Holenderski",
+        "ind": "Indonezyjski",
+        "nor": "Norweski",
+        "dan": "Duński",
+        "rus": "Rosyjski",
+        "qms": "Hiszpański (Ameryka Łacińska)"
+      },
+      "page_keyboard": {
+        "title": "Poznaj nową literę",
+        "transliteration_instruction": "Aby wpisać tę literę w aplikacji Babbel, wciśnij na klawiaturze następującą %{transliteration}:",
+        "and": "i"
+      }
+    },
+    "navbar": {
+      "close": "Zamknij",
+      "contact": "Kontakt"
+    },
+    "review_end_screen": {
+      "purge_errors": "Popraw swoje błędy ( %{mistakes} )",
+      "close": "Zamknij",
+      "correct": "Poprawne",
+      "feedback_message": {
+        "high": "Świetnie, %{name}!",
+        "low": "Jesteś na dobrej drodze!",
+        "medium": "Dobra robota, %{name}!"
+      },
+      "incorrect": "Niepoprawne",
+      "more_info_link": "Jak działa funkcja powtarzania?",
+      "review_more": "Powtórz więcej",
+      "subtitle_pluralized": {
+        "zero": "Udało Ci się powtórzyć %{count} słówek.",
+        "one": "Udało Ci się powtórzyć %{count} słówko.",
+        "few": "Udało Ci się powtórzyć %{count} słówka.",
+        "many": "Udało Ci się powtórzyć %{count} słówek.",
+        "other": "Udało Ci się powtórzyć %{count} słówek."
+      }
+    },
+    "flash_card_trainer": {
+      "title": "Pamiętasz te słówka po %{włosku}?",
+      "button_remember": "Tak",
+      "button_forgot": "Nie"
+    },
+    "button": {
+      "see_hint": "Zobacz podpowiedź",
+      "see_solution": "Zobacz rozwiązanie",
+      "see_translation": "Zobacz tłumaczenie",
+      "typing_tips": "Wskazówki dotyczące klawiatury"
+    },
+    "comprehension": {
+      "press_play": "Naciśnij Play!",
+      "question": "Pytanie"
+    },
+    "feedback_sheet": {
+      "speech_recognition": {
+        "button_next": "Dalej",
+        "button_try_again": "Jeszcze raz"
+      }
+    },
+    "generic_error_screen": {
+      "reload": {
+        "body": "Spróbuj odświeżyć stronę.",
+        "cta": "Spróbuj ponownie",
+        "title": "Wystąpił problem podczas ładowania Twojego kursu"
+      },
+      "return": {
+        "body": "Wróć do poprzedniej strony i spróbuj jeszcze raz.",
+        "cta": "Powrót",
+        "title": "O nie! Nie udało się załadować Twojej lekcji"
+      }
+    },
+    "infotext": {
+      "title": "Wskazówka ✨"
+    },
+    "infotext_notification": {
+      "cta": "Zobacz wszystkie wskazówki (%{number})"
+    },
+    "internet_explorer_message": {
+      "body": "Używana przez Ciebie przeglądarka Internet Explorer nie jest kompatybilna z najnowszymi funkcjami Babbel. Aktualizacja do najnowszej wersji przeglądarki jest łatwa i bezpłatna.",
+      "cta_close": "Przypomnij mi później",
+      "cta_show_me": "Pokaż mi jak",
+      "title": "Proszę zaktualizuj swoją przeglądarkę"
+    },
+    "landing_screen": {
+      "start_lesson": "Zacznij lekcję"
+    },
+    "learning_tip": {
+      "action": "OK",
+      "tip": "Zwiększ głośność lub użyj słuchawek, aby nagrania słychać było głośno i wyraźnie.",
+      "title": "Pamiętaj!"
+    },
+    "lesson_settings": {
+      "body": "Ćwicząc mówienie, uczysz się poprawnej wymowy.",
+      "show": "Chcę ćwiczyć mówienie",
+      "speak": "Bez mówienia",
+      "title": "Czy chcesz ćwiczyć mówienie?"
+    },
+    "listening_trainer": {
+      "button": {
+        "continue": "Przejdź dalej",
+        "fix_mistakes": "Popraw błędy",
+        "review_more": "Powtórz więcej"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Nie poddawaj się!",
+          "2": "Nie od razu Rzym zbudowano!",
+          "3": "Nie poddawaj się!",
+          "4": "Ćwiczenie czyni mistrza!",
+          "5": "Praktyka czyni mistrza!"
+        },
+        "positive": {
+          "1": "Brawo! 👏🏻",
+          "2": "Doskonale!",
+          "3": "Dobra robota! 💪🏻",
+          "4": "Oby tak dalej!",
+          "5": "Idziesz jak burza! Gratulacje!",
+          "6": "Poszło Ci doskonale! Gratulacje!"
+        }
+      },
+      "instruction": {
+        "listen": "Posłuchaj zwrotu"
+      }
+    },
+    "page_end": {
+      "button_correct_errors": "Popraw swoje błędy (%{purgable_items_count})",
+      "button_return_home": "Kontynuuj naukę",
+      "button_start_new_lesson": "Zacznij następną lekcję",
+      "content_locked": {
+        "button_access_content": "Uzyskaj dostęp do wszystkich kursów",
+        "text_access_content": "Kontynuuj naukę %{włoskiego} z dostępem do wszystkich lekcji i kursów."
+      },
+      "correct_answers": "Odpowiedzi poprawne:",
+      "feedback_message": {
+        "high": "Świetnie, %{display_name}!",
+        "low": "Jesteś na dobrej drodze!",
+        "medium": "Dobra robota, %{display_name}!"
+      }
+    },
+    "review": {
+      "end_screen": {
+        "body": "Udało się poprawnie wymówić %{count} z %{totalCount} elementów.",
+        "button": "Dalej",
+        "title": "Dobra robota, %{username}!"
+      }
+    },
+    "review_menu": {
+      "review_type": {
+        "flashcards": "Z fiszkami",
+        "listen": "Ze słuchu",
+        "speak": "Ustnie",
+        "write": "Pisemnie"
+      },
+      "title": "Jak chcesz powtarzać?"
+    },
+    "smart_surfaces": {
+      "lesson_end": {
+        "raf_popup": {
+          "body": "*Jeślli zdecydują się na zakup 3-miesięccznej subskrypcji",
+          "button_invite": "Zaproś znajomych",
+          "title": "Podaruj znajomym darmowy miesiąc nauki w Babbel i otrzymaj nagrodę!*"
+        }
+      }
+    },
+    "speech_recognition": {
+      "error_generic_lesson": {
+        "body": "Sprawdź ustawienia mikrofonu lub kontynuuj bez mikrofonu, tylko słuchając.",
+        "cta": "Kontynuuj bez mikrofonu",
+        "title": "Nie słyszymy Ciebie"
+      },
+      "error_generic_review": {
+        "body": "Sprawdź ustawienia mikrofonu lub wybierz inną metodę powtórki.",
+        "cta": "Wybierz inną metodę powtórki",
+        "title": "Nie słychać Cię!"
+      },
+      "error_mic_muted": {
+        "body": "Włącz mikrofon w ustawieniach dźwięku komputera.",
+        "cta": "Nie chcę teraz mówić",
+        "title": "Masz wyłączony mikrofon!"
+      },
+      "error_mic_permission": {
+        "body": "Aby zezwolić na dostęp do mikrofonu, kliknij w ikonkę nagrywania [*] w pasku adresu przeglądarki Chrome.",
+        "cta": "Nie chcę teraz mówić",
+        "title": "Włącz mikrofon!"
+      },
+      "feedback": {
+        "negative": {
+          "1": "Nie poddawaj się, jeśli teraz Ci się nie udało!"
+        },
+        "positive": {
+          "1": "Znakomita wymowa!",
+          "2": "Fantastyczna robota! 💪",
+          "3": "Poszło Ci doskonale! Gratulacje!"
+        },
+        "recognition_error": {
+          "message": "Spróbuj jeszcze raz.",
+          "title": "Przepraszamy, nagranie się nie powiodło!"
+        }
+      },
+      "feeling_silly": {
+        "body": "Powtarzanie na głos to doskonały sposób na to, aby poprawić swoją wymowę – nawet jeśli mówienie do urządzenia na początku może wydawać się dziwne.",
+        "title": "To dziwne uczucie? Znamy je."
+      },
+      "got_it": "OK",
+      "interaction": {
+        "toggle_off": "Nie mogę teraz mówić",
+        "toggle_on": "Teraz mogę mówić"
+      },
+      "mic_button": {
+        "press_to_speak": "Naciśnij i zacznij mówić",
+        "speak": "Powiedz coś teraz",
+        "tap_to_speak": "Przytrzymaj tutaj i zacznij mówić!"
+      },
+      "mic_permission": {
+        "body": "Zezwól na dostęp do mikrofonu w ustawieniach przeglądarki.",
+        "cta": "Dalej",
+        "title": "Przygotuj się do mówienia"
+      },
+      "mic_permission_review": {
+        "body": "Aby ćwiczyć swoją wymowę, zezwól na dostęp do mikrofonu, w komunikacie przeglądarki klikając w „Zezwalaj”.",
+        "cta": "Dalej",
+        "title": "Raz, dwa, raz!"
+      },
+      "mic_test": {
+        "body": "To test mikrofonu.",
+        "error_feedback": {
+          "body": "Zmień ustawienia mikrofonu",
+          "title": "Przepraszamy, nagranie się nie powiodło!"
+        },
+        "no_transcript": "Nagranie jest niezrozumiałe",
+        "positive_feedback": {
+          "body": "Możesz rozpocząć naukę mówienia.",
+          "title": "Gotowe!"
+        },
+        "title": "Przetestuj mikrofon, mówiąc:"
+      },
+      "tooltip": {
+        "message": "Kliknij tutaj, przytrzymaj i zacznij mówić"
+      },
+      "trainer_item": {
+        "title": "Posłuchaj, a następnie potwórz na głos"
+      }
+    },
+    "writing": {
+      "feedback": {
+        "negative": "Spróbuj ponownie",
+        "typos": "Literówka? Nie ma problemu 😉"
+      }
+    }
+  }
+}

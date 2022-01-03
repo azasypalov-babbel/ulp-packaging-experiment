@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controlled Gap renders html when active 1`] = `
+<styled.span
+  active={true}
+  onClick={[Function]}
+>
+  <TextGap
+    alternativeText="alternative answer"
+    data-focus-on-key="Shift+Escape"
+    data-selector="active-gap"
+    tabIndex={0}
+    targetText="answer"
+    text="abc"
+  />
+</styled.span>
+`;
+
+exports[`Controlled Gap renders html when not active 1`] = `
+<styled.span
+  active={false}
+>
+  <TextGap
+    alternativeText="alternative answer"
+    targetText="answer"
+    text="answer"
+  />
+</styled.span>
+`;

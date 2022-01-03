@@ -1,0 +1,12 @@
+{
+  "profile": {
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "displayname": "Jane",
+    "country_alpha3": "DEU",
+    "email_confirmed": true,
+    "email": "janedoe@babbel.com",
+    "b2b_user": false,
+    "show_country_selector": true
+  }
+}

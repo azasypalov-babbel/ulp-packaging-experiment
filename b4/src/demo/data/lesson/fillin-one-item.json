@@ -1,0 +1,37 @@
+{
+  "lesson": {
+    "id": "fillin-one-item",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": "This is a \"one item\" dialog fillin trainer and lesson. the solutions are **'spielen'** and {as alternative} **'herumtollen'**",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740b30ba82dbf45cd402321cb5a2e722",
+                "type": "phrase",
+                "learn_language_text": "Weißt **du** wie viel \"Mücklein\" ((*spielen|*herumtollen)) in der heißen Sonnenglut?",
+                "display_language_text": "Do **you** know how many \"mosquitos\" are playing in the blazing heat of the sun?",
+                "info_text": "And here comes **another line** from the \"classic German childrens' sleep song\"",
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

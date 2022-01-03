@@ -1,0 +1,49 @@
+{
+  "lesson": {
+    "id": "dialog-fillin-short",
+    "trainers": [
+      {
+        "type": "dialog",
+        "translation_visibility": "none",
+        "title": null,
+        "description": "Foo und Bar unterhalten sich auf der Straße.",
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "9109a2f3f1ed419d03e2f7cdf5c667af",
+                "type": "phrase",
+                "display_language_text": "Hi Foo! How are you this morning? Did you sleep well?",
+                "learn_language_text": "Hallo Foo! ((Wie)) geht es dir heute morgen? ((Hast du)) gut geschlafen?",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              },
+              {
+                "id": "e1f54f0bcc0c82839f835b796faaaf24",
+                "type": "phrase",
+                "display_language_text": "Yes, thanks, all good!",
+                "learn_language_text": "Ja, danke, ((*alles|*right)) prima!",
+                "info_text": null,
+                "image": null,
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "None"
+              }
+            ]
+          }
+        ],
+        "interaction": "write",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

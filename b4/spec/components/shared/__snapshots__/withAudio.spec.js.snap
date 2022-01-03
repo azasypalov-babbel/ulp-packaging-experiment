@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withAudio HOC #playSound calls soundService#play method with supplied options 1`] = `
+Array [
+  "doesnt_matter.mp3",
+  Object {
+    "onPlay": [MockFunction],
+    "playbackRate": 1,
+  },
+]
+`;
+
+exports[`withAudio HOC #playSoundWithState calls soundService#play method with extended options 1`] = `
+Array [
+  Object {
+    "playbackRate": 1,
+  },
+]
+`;

@@ -1,0 +1,133 @@
+{
+  "characterSubstitutionCosts": [
+    {
+      "character": "a",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "a",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "é",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "e",
+      "replacement": "è",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "e",
+      "cost": 0
+    },
+    {
+      "character": "è",
+      "replacement": "é",
+      "cost": 0
+    },
+    {
+      "character": "i",
+      "replacement": "ì",
+      "cost": 0
+    },
+    {
+      "character": "ì",
+      "replacement": "i",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ò",
+      "cost": 0
+    },
+    {
+      "character": "ò",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "ò",
+      "replacement": "ó",
+      "cost": 0
+    },
+    {
+      "character": "o",
+      "replacement": "ó",
+      "cost": 0
+    },
+    {
+      "character": "ó",
+      "replacement": "o",
+      "cost": 0
+    },
+    {
+      "character": "ó",
+      "replacement": "ò",
+      "cost": 0
+    },
+    {
+      "character": "u",
+      "replacement": "ù",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "u",
+      "cost": 0
+    },
+    {
+      "character": "à",
+      "replacement": "á",
+      "cost": 0
+    },
+    {
+      "character": "á",
+      "replacement": "à",
+      "cost": 0
+    },
+    {
+      "character": "ì",
+      "replacement": "í",
+      "cost": 0
+    },
+    {
+      "character": "í",
+      "replacement": "ì",
+      "cost": 0
+    },
+    {
+      "character": "ù",
+      "replacement": "ú",
+      "cost": 0
+    },
+    {
+      "character": "ú",
+      "replacement": "ù",
+      "cost": 0
+    }
+  ],
+  "specialCharacters": [
+    "à",
+    "é",
+    "è",
+    "ì",
+    "ò",
+    "ó",
+    "ù"
+  ]
+}

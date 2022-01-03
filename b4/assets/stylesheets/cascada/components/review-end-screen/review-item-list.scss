@@ -1,0 +1,14 @@
+$review-item-list-height: rem(180px);
+
+.review-item-list {
+  font-family: $font-milliard-book;
+  flex: 1 1 auto;
+  height: $review-item-list-height;
+  overflow-y: scroll;
+  text-align: left;
+
+  li {
+    display: inline-flex;
+    margin: 0 rem(12px) rem(12px) 0;
+  }
+}

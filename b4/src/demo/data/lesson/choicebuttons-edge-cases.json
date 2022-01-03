@@ -1,0 +1,81 @@
+{
+  "lesson": {
+    "id": "choicebuttons-edge-cases",
+    "trainers": [
+      {
+        "type": "vocabulary",
+        "translation_visibility": "full",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "740b30ba71dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "Will you take the red or blue pill?",
+                "learn_language_text": "Nimmst du die rote ((*oder)) blaue Pille?",
+                "info_text": null,
+                "image": {
+                  "id": "c4c6e675b1544344a90e0be682e0d5d0"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              },
+              {
+                "id": "740b30ba82dbf45cd402321cb5a2e742",
+                "type": "phrase",
+                "display_language_text": "How much time do you have today?",
+                "learn_language_text": "((\"Wie viel\" Zweit **hast** du heute?|\"Wo viel\" Zeit **hast** du heute?|\"Wie viel\" Zeit **hast** du gestern|*\"Wie viel\" Zeit **hast** du heute?))",
+                "info_text": "This is a tricky one, isn't it :D",
+                "image": {
+                  "id": "0e583f946c164e8681396b4e5e63e7db"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              },
+              {
+                "id": "740b30ba82dbf45cd402321cb2a3e743",
+                "type": "phrase",
+                "display_language_text": "I am sleeping.",
+                "learn_language_text": "Ben uy((-ıyor|*-uyor|*-ûyor))um.",
+                "info_text": null,
+                "image": {
+                  "id": "83104c01a67a4e1d8348520975c470ec"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              },
+              {
+                "id": "a24d30ba82dbf45cd402321cb2a3e743",
+                "type": "phrase",
+                "display_language_text": "Vowel fun! The correct answers are all vowels belonging to the 'u' group",
+                "learn_language_text": "((a|e|i|o|*u|ö|ä|*ü|*û))",
+                "info_text": null,
+                "image": {
+                  "id": "100508443efc75c33dc7fc57adabf03f"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "n1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser Item maps the data in to correct format 1`] = `
+Object {
+  "id": "2ab20c1ade5806ddfe215322dac25261",
+  "image_id": "892nf89nf9283n91823dn2983dn",
+  "info_text": "",
+  "l1_text": "thank you",
+  "l2_text": "merci",
+  "sound_id": "8192he2n398fdn2948fdn298fn984",
+  "speaker_role": "F1",
+  "type": "Phrase",
+}
+`;

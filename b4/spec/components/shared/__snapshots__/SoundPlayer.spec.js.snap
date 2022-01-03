@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SoundPlayer /> it renders 1`] = `
+<PlayButton
+  disabled={false}
+  duration={0}
+  isSlowPlayback={false}
+  onClick={[Function]}
+  playSound={[MockFunction]}
+  playSoundWithState={[MockFunction]}
+  preload={[MockFunction]}
+  reset={[MockFunction]}
+  stop={[MockFunction]}
+/>
+`;
+
+exports[`<SoundPlayer /> with render prop calls render prop 1`] = `
+Object {
+  "isSlowPlayback": false,
+  "playSound": [MockFunction],
+  "playSoundWithState": [MockFunction],
+  "preload": [MockFunction],
+  "reset": [MockFunction],
+  "stop": [MockFunction],
+  "triggerSound": [Function],
+}
+`;

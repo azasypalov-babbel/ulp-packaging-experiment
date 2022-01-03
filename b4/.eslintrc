@@ -1,0 +1,48 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:jest/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "react-hooks",
+    "jest",
+    "no-only-tests"
+  ],
+  "rules": {
+    // General rules
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "camelcase": [1, {"properties": "always", "allow": ["^UNSAFE_"]}],
+
+    // TS Rules
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+
+    // React Rules
+    "react/display-name": ["warn"],
+    "react/jsx-fragments": ["warn", "syntax"]
+  }
+}

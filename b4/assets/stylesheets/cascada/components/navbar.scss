@@ -1,0 +1,83 @@
+$close-icon-width: em(60px);
+
+.cascada-navbar {
+  display: block; // This is for IE since we are using position: fixed
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Safari */
+
+  &__gate {
+    width: 100%;
+
+    @include media(medium) {
+      flex-direction: row;
+      width: calc(100% - 2rem); /* cascada default */
+    }
+  }
+
+  &__item {
+    align-items: center;
+    min-height: auto;
+
+    a {
+      // fixes cascada links being width 100%
+      width: auto;
+    }
+
+    .cascada-navbar__close-icon {
+      padding: em(14px);
+      line-height: 0;
+      box-sizing: border-box;
+      width: $close-icon-width;
+
+      color: $space-gray-w15;
+    }
+
+    // Modifiers
+
+    &--medium-only {
+      display: none;
+
+      @include media(medium) {
+        display: flex;
+        flex: 1 1 auto;
+      }
+    }
+
+    &--small-only {
+      display: flex;
+    
+      @include media(medium) {
+        display: none;
+      }
+    }
+
+    &--align-left {
+      order: -1;
+    }
+
+    &--align-right {
+      justify-content: flex-end;
+    }
+
+    &--progress {
+      flex: 1 1 auto;
+      justify-content: center;
+
+      margin-right: $close-icon-width;
+
+      @include media(medium) {
+        flex: 2 2 auto;
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__brand {
+    margin-right: em(16px);
+  }
+
+  &__feedback {
+    margin-right: em(16px);
+  }
+}

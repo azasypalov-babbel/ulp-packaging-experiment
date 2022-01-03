@@ -1,0 +1,64 @@
+version: '3.7'
+
+services:
+  selenium-hub:
+    image: selenium/hub:3.141.59-20200525
+    environment:
+      - GRID_DEBUG=true
+    ports:
+      - 4444:4444
+
+  chrome:
+    image: selenium/node-chrome-debug:3.141.59-20200525
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - 5900:5900
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+
+  web.test:
+    privileged: true
+    build:
+      context: web.test
+    depends_on:
+      - lesson-player.spa
+      - chrome
+    volumes:
+      - ./web.test/docker-entrypoint.sh:/web.test/docker-entrypoint.sh
+      - ./web.test/features:/web.test/features
+      - ./tmp/reports:/web.test/reports
+      - ./tmp/screenshots:/web.test/screenshots
+    environment:
+      # enable only for initial generation of knapsack report
+      # KNAPSACK_GENERATE_REPORT: 'true'
+      # KNAPSACK_REPORT_PATH: /tmp/shared/reports/knapsack_cucumber_report.json
+      CUCUMBER_ARGUMENTS: ${CUCUMBER_ARGUMENTS:-"features/**/*.feature"}
+      DEFAULT_TIMEOUT: 10
+      DRIVER: ${DRIVER:-chrome-docker}
+      REPORT_DIR: /tmp/shared/reports
+      TEST_ENV: https://lesson-player.spa:3005
+      WEBDRIVER_URL: http://selenium-hub:4444/wd/hub
+    entrypoint: /web.test/docker-entrypoint.sh
+
+  lesson-player.spa:
+    build:
+      context: b4
+      args:
+        NODE_AUTH_TOKEN: ${PACKAGES_TOKEN}
+    depends_on:
+      - selenium-hub
+    environment:
+      HOST: lesson-player.spa
+      PORT: 3005
+    ports:
+      - 3005:3005
+    volumes:
+      - ./lang:/lesson-player.spa/lang
+      - ./b3:/lesson-player.spa/b3
+    command: |
+      npm run start --
+        --https

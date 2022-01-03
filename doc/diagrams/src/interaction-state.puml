@@ -1,0 +1,17 @@
+@startuml interaction-states-actions
+
+[*] --> INACTIVE
+INACTIVE: Interaction is not interactive
+INACTIVE --> INPUT : Start
+
+INPUT: Waiting for user input
+INPUT --> FEEDBACK : Attempt
+INPUT --> INACTIVE : Cancel
+
+FEEDBACK: Presenting feedback for latest attempt
+FEEDBACK --> INACTIVE : Cancel
+FEEDBACK --> INPUT : Try again
+
+FEEDBACK --> [*] : Proceed
+
+@enduml

@@ -1,0 +1,39 @@
+{
+  "lesson": {
+    "id": "wordorder-one-item",
+    "trainers": [
+      {
+        "type": "wordorder",
+        "translation_visibility": "partial",
+        "title": null,
+        "description": null,
+        "image": null,
+        "item_groups": [
+          {
+            "title": null,
+            "image": null,
+            "items": [
+              {
+                "id": "d76ecd533868fdf97b03e2e0447250d5",
+                "type": "phrase",
+                "display_language_text": "And **how many** \"little fish\" are cooling off in the lightblue flood",
+                "learn_language_text": "((**Wie viel**)) ((\"Fischlein\" auch)) ((sich kühlen)) ((in der hellen Wasserflut))?",
+                "info_text": "Well.. a LOT of them! They are \"really\" cooling off today. And **showing off**, too!",
+                "image": {
+                  "id": "02ce653b35531425fc2e84966aa65e61"
+                },
+                "sound": {
+                  "id": "d3572193477785b1bc030cdf61ec777c"
+                },
+                "speaker_role": "f1"
+              }
+            ]
+          }
+        ],
+        "interaction": "choose",
+        "dictate": false,
+        "puzzle_helper": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser Dictate maps the data onto a different format 1`] = `
+Object {
+  "component": "dictate",
+  "interaction": "ChoiceButtons",
+  "mode": "Speak",
+  "traineritems": Array [
+    Object {
+      "id": 0,
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "Écoutez et choisissez la bonne lettre",
+      "l2_text": "",
+      "sound_id": null,
+      "speaker_role": null,
+      "type": "title",
+    },
+    Object {
+      "id": "89290b8f9583d1c5c092dd3c4794580a",
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "f",
+      "l2_text": "((*f|w))",
+      "sound_id": "da96f13f2758241448cd8c4fbc543ef4",
+      "speaker_role": "M1",
+      "type": "Phrase",
+    },
+    Object {
+      "id": "8e9741ed258b2fad8d7371d199ad986b",
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "h",
+      "l2_text": "((a|*h))",
+      "sound_id": "63eb1bac7dda623f4ba49976676ed0c6",
+      "speaker_role": "F1",
+      "type": "Phrase",
+    },
+  ],
+  "translation": "Show",
+}
+`;

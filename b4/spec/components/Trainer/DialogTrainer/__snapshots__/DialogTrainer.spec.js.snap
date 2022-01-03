@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogTrainer /> renders with full props a list of items 1`] = `
+<Fragment>
+  <TranslationVisibilityToggle
+    onClick={[MockFunction]}
+    translationVisibility="full"
+  />
+  <styled.div>
+    <TrainerTitle
+      text="Dialog Fillin Title"
+    />
+    <styled.div
+      data-selector="dialog-fillin"
+    >
+      <MessageBlock
+        active={true}
+        avatarIsSpeaking={false}
+        dataItemType="phrase"
+        hasAvatar={true}
+        isSpeaking={false}
+        key="a"
+        onClick={[Function]}
+        position="left"
+        secondaryText="I also signed up and I'm going on my first date \\"already today\\"! **(the solution is: 'mich' or 'totally')**"
+        speakerRole="m1"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={true}
+            item={
+              Object {
+                "displayLanguageText": "I also signed up and I'm going on my first date \\"already today\\"! **(the solution is: 'mich' or 'totally')**",
+                "id": "a",
+                "infoText": "Testing 123",
+                "learnLanguageText": "Ich habe ((*mich|*totally)) auch angemeldet und gehe \\"noch heute\\" zu meinem ersten Treffen!",
+                "sound": Object {
+                  "id": "aa",
+                },
+                "speakerRole": "m1",
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </MessageBlock>
+      <styled.div
+        key="b"
+      >
+        <ContextualInfo
+          active={false}
+          dataItemType="task"
+          markupString="Seine Freundin Aerdane ist erstaunt!"
+        />
+      </styled.div>
+      <MessageBlock
+        active={false}
+        avatarIsSpeaking={false}
+        dataItemType="phrase"
+        hasAvatar={true}
+        isSpeaking={false}
+        key="c"
+        onClick={[Function]}
+        position="right"
+        secondaryText="Argentina \\"salio\\" **campeon**"
+        speakerRole="f1"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Argentina <i>became</i> <b>world champion</b>!",
+            }
+          }
+          data-selector="non-interactive"
+        />
+      </MessageBlock>
+      <styled.div
+        key="d"
+      >
+        <ContextualInfo
+          active={false}
+          dataItemType="task"
+          markupString="\\"Y sho era\\" el **mejor**"
+        />
+      </styled.div>
+      <MessageBlock
+        active={false}
+        avatarIsSpeaking={false}
+        dataItemType="phrase"
+        hasAvatar={true}
+        isSpeaking={false}
+        key="e"
+        onClick={[Function]}
+        position="right"
+        secondaryText="Pero en realidad no \\"me\\" **gusta** el fútbol"
+        speakerRole="f1"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "But <i>I</i> actually don't <b>like</b> football",
+            }
+          }
+          data-selector="non-interactive"
+        />
+      </MessageBlock>
+      <MessageBlock
+        active={false}
+        avatarIsSpeaking={false}
+        dataItemType="phrase"
+        hasAvatar={true}
+        isSpeaking={false}
+        key="f"
+        onClick={[Function]}
+        position="left"
+        secondaryText="\\"One\\" week consists of seven days, **or not?**"
+        speakerRole="m1"
+      >
+        <div
+          data-selector="interactive"
+        >
+          <MockInteraction
+            active={false}
+            item={
+              Object {
+                "displayLanguageText": "\\"One\\" week consists of seven days, **or not?**",
+                "id": "f",
+                "learnLanguageText": "\\"Eine\\" ((Woche)) besteht aus ((sieben Tagen)), **oder?**",
+                "sound": Object {
+                  "id": "ff",
+                },
+                "speakerRole": "m1",
+                "type": "phrase",
+              }
+            }
+            learnLanguageAlpha3="DEU"
+            onAttempt={[MockFunction]}
+            onFinish={[MockFunction]}
+          />
+        </div>
+      </MessageBlock>
+      <MessageBlock
+        active={false}
+        avatarIsSpeaking={false}
+        dataItemType="phrase"
+        hasAvatar={true}
+        isSpeaking={false}
+        key="h"
+        onClick={[Function]}
+        position="right"
+        secondaryText={null}
+        speakerRole="f1"
+      >
+        <styled.span
+          color="spaceGray"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "",
+            }
+          }
+          data-selector="non-interactive"
+        />
+      </MessageBlock>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

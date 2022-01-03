@@ -1,0 +1,10 @@
+{
+  "account": {
+    "uuid":"62a40efb02f1d754757fe45",
+    "email":"user@babbel.com",
+    "displayname":"User",
+    "neo":false,
+    "confirmed_at":"2017-08-31T07:22:12Z",
+    "created_at":"2017-08-31T07:21:49Z"
+  }
+}

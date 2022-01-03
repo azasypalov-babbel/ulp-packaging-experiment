@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser Matching maps the data onto a different format 1`] = `
+Object {
+  "component": "matching",
+  "traineritems": Array [
+    Object {
+      "id": 0,
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "i am the title",
+      "l2_text": "",
+      "sound_id": null,
+      "speaker_role": null,
+      "type": "title",
+    },
+    Object {
+      "id": "6dd169daf1226ead633434a339c2cfc5",
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "je",
+      "l2_text": "((Allah'a))((ısmarladık.))",
+      "sound_id": "b346df6f24ca51b2feb9a8c571105ac4",
+      "speaker_role": "M1",
+      "type": "Phrase",
+    },
+    Object {
+      "id": "6dd169daf2526ead633434a339c2cfc5",
+      "image_id": null,
+      "info_text": "",
+      "l1_text": "fooe",
+      "l2_text": "bar",
+      "sound_id": "1206df6f24ca51b2feb9a8c571105ac4",
+      "speaker_role": "M1",
+      "type": "Phrase",
+    },
+  ],
+}
+`;

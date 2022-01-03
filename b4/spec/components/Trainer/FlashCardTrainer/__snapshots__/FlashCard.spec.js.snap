@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FlashCard /> it renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: rem(4px);
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 rem(2px) rem(20px) 0 transparentize(0.9,#565d64);
+  outline: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1 1 45%;
+  -ms-flex: 1 1 45%;
+  flex: 1 1 45%;
+  min-height: 14.5rem;
+  background-image: url(someUrl);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 55%;
+  -ms-flex: 1 1 55%;
+  flex: 1 1 55%;
+  padding: 1rem;
+}
+
+<FlashCard
+  imageUrl="someUrl"
+>
+  <Styled(styled.div)>
+    <div
+      className="c0 c1"
+    >
+      <styled.div
+        src="someUrl"
+      >
+        <div
+          className="c2"
+          src="someUrl"
+        />
+      </styled.div>
+      <styled.div>
+        <div
+          className="c3"
+        />
+      </styled.div>
+    </div>
+  </Styled(styled.div)>
+</FlashCard>
+`;
+
+exports[`<FlashCard /> with keyboardHintComponent it renders 1`] = `
+.c0 {
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: rem(4px);
+  -webkit-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 rem(2px) rem(20px) 0 transparentize(0.9,#565d64);
+  outline: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c2 {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #284b7c;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1 1 45%;
+  -ms-flex: 1 1 45%;
+  flex: 1 1 45%;
+  min-height: 14.5rem;
+  background-image: url(someUrl);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 55%;
+  -ms-flex: 1 1 55%;
+  flex: 1 1 55%;
+  padding: 1rem;
+}
+
+<FlashCard
+  imageUrl="someUrl"
+  keyboardHintComponent={
+    <span>
+      hint
+    </span>
+  }
+>
+  <Styled(styled.div)>
+    <div
+      className="c0 c1"
+    >
+      <styled.div>
+        <div
+          className="c2"
+        >
+          <span>
+            hint
+          </span>
+        </div>
+      </styled.div>
+      <styled.div
+        src="someUrl"
+      >
+        <div
+          className="c3"
+          src="someUrl"
+        />
+      </styled.div>
+      <styled.div>
+        <div
+          className="c4"
+        />
+      </styled.div>
+    </div>
+  </Styled(styled.div)>
+</FlashCard>
+`;
