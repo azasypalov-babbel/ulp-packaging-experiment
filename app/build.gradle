@@ -56,7 +56,7 @@ publishing {
 }
 
 task downloadZipFile(type: Download) {
-    src 'https://github.com/azasypalov-babbel/ulp-packaging-experiment/raw/main/ulp_0.0.2.zip'
+    src 'https://github.com/azasypalov-babbel/ulp-packaging-experiment/raw/master/ulp_0.0.2.zip'
     dest new File(buildDir, '1.0.zip')
 }
 
