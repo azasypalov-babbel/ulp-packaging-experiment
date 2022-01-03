@@ -13,20 +13,6 @@ buildscript {
     }
 }
 
-plugins {
-    id 'de.undercouch.download' version '4.0.0'
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-task downloadZipFile(type: Download) {
-    src 'https://github.com/azasypalov-babbel/ulp-packaging-experiment/raw/main/ulp_0.0.2.zip'
-    dest new File(buildDir, '1.0.zip')
-}
-
-task downloadAndUnzipFile(dependsOn: downloadZipFile, type: Copy) {
-    from zipTree(downloadZipFile.dest)
-    into 'app/src/main/assets/universal-lesson-player'
 }

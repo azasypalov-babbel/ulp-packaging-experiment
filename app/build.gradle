@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'maven-publish'
+    id 'de.undercouch.download'
 }
 
 android {
@@ -10,7 +12,7 @@ android {
         minSdk 23
         targetSdk 31
         versionCode 1
-        versionName "1.0"
+        versionName "0.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -28,6 +30,50 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+}
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId 'de.babbel'
+            //You can either define these here or get them from project conf elsewhere
+            artifactId 'ulp'
+            version "${android.defaultConfig.versionName}"
+            // stage or dev
+            artifact "$projectDir/aar/ulp_lib_${android.defaultConfig.versionName}.aar"
+        }
+    }
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url "https://maven.pkg.github.com/azasypalov-babbel/ulp-packaging-experiment/"
+            credentials {
+                username = ""
+                password = ""
+            }
+        }
+    }
+}
+
+task downloadZipFile(type: Download) {
+    src 'https://github.com/azasypalov-babbel/ulp-packaging-experiment/raw/main/ulp_0.0.2.zip'
+    dest new File(buildDir, '1.0.zip')
+}
+
+task downloadAndUnzipFile(dependsOn: downloadZipFile, type: Copy) {
+    from zipTree(downloadZipFile.dest)
+    into 'src/main/assets/universal-lesson-player'
+}
+
+task copyAAR(type: Copy) {
+    from "$projectDir/build/outputs/aar/"
+    include 'app-debug.aar'
+    into "$projectDir/AAR/"
+    rename 'app-debug.aar', "ulp_lib_${android.defaultConfig.versionName}.aar"
+}
+
+task prepareUniversalLessonPlayerAar(type: GradleBuild) {
+    tasks = ['downloadAndUnzipFile', 'assemble', 'copyAAR', 'publish']
 }
 
 dependencies {
