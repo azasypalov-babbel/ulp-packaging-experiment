@@ -42,8 +42,9 @@ jobs:
         uses: montudor/action-zip@v1
         with:
           working-directory: ${{ github.workspace }}/public
-          run: zip -qq -r ulp.zip
+          args: zip -qq -r ulp.zip
 
       - name: Publish ULP .aar Library
         uses: Raul6469/android-gradle-action@2.0.0
-        run: ./gradlew test
+        with:
+          script: prepareUniversalLessonPlayerAar
