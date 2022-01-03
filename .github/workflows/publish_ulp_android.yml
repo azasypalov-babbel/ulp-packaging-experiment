@@ -26,11 +26,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
-        run: npm ci
-        working-directory: ${{ github.workspace }}/b4
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+#      - name: Install dependencies
+#        run: npm ci
+#        working-directory: ${{ github.workspace }}/b4
+#        env:
+#          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
       - name: 👩‍🎓 Build Lesson Player
         working-directory: ${{ github.workspace }}/b4
